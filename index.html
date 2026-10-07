@@ -105,29 +105,30 @@
 
     /* Ultra Luxury Dark Obsidian Glassmorphism */
     .dark-obsidian-panel {
-      background: rgba(11, 18, 34, 0.88);
+      background: rgba(10, 16, 30, 0.88);
       backdrop-filter: blur(28px);
       -webkit-backdrop-filter: blur(28px);
       border: 1px solid rgba(255, 255, 255, 0.12);
-      box-shadow: 0 30px 80px -15px rgba(0, 0, 0, 0.8), 0 0 40px -10px rgba(34, 197, 94, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      box-shadow: 0 30px 80px -15px rgba(0, 0, 0, 0.85), 0 0 40px -10px rgba(34, 197, 94, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
 
-    /* Cinematic Dark Interactive Card */
-    .dark-card {
-      background: linear-gradient(145deg, rgba(17, 27, 49, 0.75) 0%, rgba(10, 16, 31, 0.9) 100%);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      box-shadow: 0 8px 24px -6px rgba(0, 0, 0, 0.6);
+    /* Gleaming Pure White Interactive Block (Bich Ke Chamakte White Blocks) */
+    .gleaming-white-block {
+      background: #ffffff !important;
+      color: #0f172a !important;
+      border: 1.5px solid #e2e8f0;
+      box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.35), 0 2px 6px -1px rgba(0, 0, 0, 0.2);
       transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
-    .dark-card:hover {
-      border-color: rgba(74, 222, 128, 0.6);
-      transform: translateY(-3px) scale(1.01);
-      box-shadow: 0 16px 36px -8px rgba(34, 197, 94, 0.3), 0 0 20px -2px rgba(34, 197, 94, 0.2);
+    .gleaming-white-block:hover {
+      border-color: #10b981;
+      transform: translateY(-3px) scale(1.015);
+      box-shadow: 0 18px 36px -6px rgba(16, 185, 129, 0.35), 0 0 20px -2px rgba(16, 185, 129, 0.3);
     }
-    .dark-card.is-active {
-      border-color: #22c55e !important;
-      background: linear-gradient(145deg, rgba(34, 197, 94, 0.2) 0%, rgba(12, 22, 42, 0.98) 100%) !important;
-      box-shadow: 0 0 30px -4px rgba(34, 197, 94, 0.5), inset 0 0 15px rgba(34, 197, 94, 0.15) !important;
+    .gleaming-white-block.is-active {
+      border-color: #059669 !important;
+      background: #ffffff !important;
+      box-shadow: 0 14px 32px -6px rgba(5, 150, 105, 0.4), 0 0 0 2.5px #059669 !important;
       transform: translateY(-2px);
     }
 
@@ -260,22 +261,22 @@
             </p>
           </div>
 
-          <!-- The 2 Quick Fields (Minimal Effort) -->
+          <!-- The 2 Quick Fields (Gleaming Pure White Blocks) -->
           <div class="space-y-4 pt-1">
-            <div class="p-4 rounded-2xl bg-black/50 border border-white/10 shadow-lg">
-              <label class="block text-xs font-bold text-gray-200 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                <i data-lucide="user" class="w-3.5 h-3.5 text-green-400"></i>
+            <div class="p-4 rounded-2xl gleaming-white-block shadow-xl">
+              <label class="block text-xs font-bold text-slate-900 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                <i data-lucide="user" class="w-3.5 h-3.5 text-emerald-600"></i>
                 आपका शुभ नाम (Your Name)
               </label>
-              <input type="text" id="inputClientName" placeholder="उदा. Mohit Sharma" class="w-full px-4 py-3 rounded-xl bg-slate-900 border-2 border-slate-700 text-white placeholder-gray-500 font-semibold focus:border-green-400 focus:outline-none transition text-sm">
+              <input type="text" id="inputClientName" placeholder="उदा. Mohit Sharma" class="w-full px-4 py-3 rounded-xl bg-slate-50 border-2 border-slate-200 text-slate-900 placeholder-slate-400 font-semibold focus:border-green-500 focus:bg-white focus:outline-none transition text-sm">
             </div>
 
-            <div class="p-4 rounded-2xl bg-black/50 border border-white/10 shadow-lg">
-              <label class="block text-xs font-bold text-gray-200 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                <i data-lucide="phone" class="w-3.5 h-3.5 text-green-400"></i>
+            <div class="p-4 rounded-2xl gleaming-white-block shadow-xl">
+              <label class="block text-xs font-bold text-slate-900 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-600"></i>
                 WhatsApp नंबर (Proposal प्राप्त करने के लिए)
               </label>
-              <input type="tel" id="inputClientPhone" placeholder="उदा. 9876543210" class="w-full px-4 py-3 rounded-xl bg-slate-900 border-2 border-slate-700 text-white placeholder-gray-500 font-semibold focus:border-green-400 focus:outline-none transition text-sm">
+              <input type="tel" id="inputClientPhone" placeholder="उदा. 9876543210" class="w-full px-4 py-3 rounded-xl bg-slate-50 border-2 border-slate-200 text-slate-900 placeholder-slate-400 font-semibold focus:border-green-500 focus:bg-white focus:outline-none transition text-sm">
             </div>
           </div>
 
@@ -305,82 +306,82 @@
 
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="industryGrid">
             
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Industrial / Manufacturing B2B', this, 2)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Industrial / Manufacturing B2B', this, 2)">
               <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-blue-500/15 text-blue-400 flex items-center justify-center shrink-0 border border-blue-500/30">
+                <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0 border border-blue-100">
                   <i data-lucide="factory" class="w-5 h-5"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">Industrial / B2B</h4>
-                  <p class="text-xs text-gray-400">पार्ट्स, मशीनरी, रॉ-मटेरियल</p>
+                  <h4 class="font-bold text-slate-900 text-sm">Industrial / B2B</h4>
+                  <p class="text-xs text-slate-600">पार्ट्स, मशीनरी, रॉ-मटेरियल</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Trading & Wholesale', this, 2)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Trading & Wholesale', this, 2)">
               <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-amber-500/15 text-amber-400 flex items-center justify-center shrink-0 border border-amber-500/30">
+                <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0 border border-amber-100">
                   <i data-lucide="boxes" class="w-5 h-5"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">Trading & Wholesale</h4>
-                  <p class="text-xs text-gray-400">डीलर, डिस्ट्रीब्यूटर, थोक</p>
+                  <h4 class="font-bold text-slate-900 text-sm">Trading & Wholesale</h4>
+                  <p class="text-xs text-slate-600">डीलर, डिस्ट्रीब्यूटर, थोक</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Local Retail & Services', this, 2)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Local Retail & Services', this, 2)">
               <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-emerald-500/15 text-emerald-400 flex items-center justify-center shrink-0 border border-emerald-500/30">
+                <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0 border border-emerald-100">
                   <i data-lucide="store" class="w-5 h-5"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">Local Retail / Clinic</h4>
-                  <p class="text-xs text-gray-400">दुकान, डॉक्टर, सैलून, जिम, CA</p>
+                  <h4 class="font-bold text-slate-900 text-sm">Local Retail / Clinic</h4>
+                  <p class="text-xs text-slate-600">दुकान, डॉक्टर, सैलून, जिम, CA</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'E-commerce & D2C Brand', this, 2)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'E-commerce & D2C Brand', this, 2)">
               <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-purple-500/15 text-purple-400 flex items-center justify-center shrink-0 border border-purple-500/30">
+                <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center shrink-0 border border-purple-100">
                   <i data-lucide="shopping-bag" class="w-5 h-5"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">E-commerce / D2C</h4>
-                  <p class="text-xs text-gray-400">कपड़े, इलेक्ट्रॉनिक्स, ऑनलाइन ब्रांड</p>
+                  <h4 class="font-bold text-slate-900 text-sm">E-commerce / D2C</h4>
+                  <p class="text-xs text-slate-600">कपड़े, इलेक्ट्रॉनिक्स, ऑनलाइन ब्रांड</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Coach / Consultant / Agency', this, 2)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Coach / Consultant / Agency', this, 2)">
               <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-cyan-500/15 text-cyan-400 flex items-center justify-center shrink-0 border border-cyan-500/30">
+                <div class="w-10 h-10 rounded-xl bg-cyan-50 text-cyan-600 flex items-center justify-center shrink-0 border border-cyan-100">
                   <i data-lucide="graduation-cap" class="w-5 h-5"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">Coach / Consultant / Agency</h4>
-                  <p class="text-xs text-gray-400">ट्रेनर, रियल एस्टेट, सर्विसेज</p>
+                  <h4 class="font-bold text-slate-900 text-sm">Coach / Consultant / Agency</h4>
+                  <p class="text-xs text-slate-600">ट्रेनर, रियल एस्टेट, सर्विसेज</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'General Business / Other', this, 2)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'General Business / Other', this, 2)">
               <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-gray-500/15 text-gray-400 flex items-center justify-center shrink-0 border border-gray-500/30">
+                <div class="w-10 h-10 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center shrink-0 border border-slate-200">
                   <i data-lucide="layers" class="w-5 h-5"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">अन्य / General Business</h4>
-                  <p class="text-xs text-gray-400">अन्य कोई भी व्यापार</p>
+                  <h4 class="font-bold text-slate-900 text-sm">अन्य / General Business</h4>
+                  <p class="text-xs text-slate-600">अन्य कोई भी व्यापार</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
           </div>
@@ -405,43 +406,43 @@
           </div>
 
           <div class="space-y-2.5">
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'पुराने ग्राहकों के रेफरल / वर्ड ऑफ माउथ', this, 3)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'पुराने ग्राहकों के रेफरल / वर्ड ऑफ माउथ', this, 3)">
               <div class="flex items-center gap-3.5">
-                <div class="w-9 h-9 rounded-xl bg-blue-500/15 text-blue-400 flex items-center justify-center border border-blue-500/30">
+                <div class="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center border border-blue-100">
                   <i data-lucide="users" class="w-4 h-4"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">पुराने ग्राहकों के रेफरल (Word of Mouth)</h4>
-                  <p class="text-xs text-gray-400">काम अच्छा है पर नए अनजान ग्राहक बहुत कम आ रहे हैं</p>
+                  <h4 class="font-bold text-slate-900 text-sm">पुराने ग्राहकों के रेफरल (Word of Mouth)</h4>
+                  <p class="text-xs text-slate-600">काम अच्छा है पर नए अनजान ग्राहक बहुत कम आ रहे हैं</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'WhatsApp और कॉल्स पर मैनुअल बातचीत', this, 3)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'WhatsApp और कॉल्स पर मैनुअल बातचीत', this, 3)">
               <div class="flex items-center gap-3.5">
-                <div class="w-9 h-9 rounded-xl bg-green-500/15 text-green-400 flex items-center justify-center border border-green-500/30">
+                <div class="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center border border-emerald-100">
                   <i data-lucide="phone-forwarded" class="w-4 h-4"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">WhatsApp / फोन कॉल्स पर</h4>
-                  <p class="text-xs text-gray-400">हर बार मैनुअल PDF कैटलॉग या रेट लिस्ट भेजनी पड़ती है</p>
+                  <h4 class="font-bold text-slate-900 text-sm">WhatsApp / फोन कॉल्स पर</h4>
+                  <p class="text-xs text-slate-600">हर बार मैनुअल PDF कैटलॉग या रेट लिस्ट भेजनी पड़ती है</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'Instagram / Ads या ऑफलाइन मार्केट', this, 3)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'Instagram / Ads या ऑफलाइन मार्केट', this, 3)">
               <div class="flex items-center gap-3.5">
-                <div class="w-9 h-9 rounded-xl bg-purple-500/15 text-purple-400 flex items-center justify-center border border-purple-500/30">
+                <div class="w-9 h-9 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center border border-purple-100">
                   <i data-lucide="share-2" class="w-4 h-4"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">Instagram / Facebook Ads / ऑफलाइन दुकान</h4>
-                  <p class="text-xs text-gray-400">लोग आते हैं पर वेबसाइट न होने से भरोसा कम करते हैं</p>
+                  <h4 class="font-bold text-slate-900 text-sm">Instagram / Facebook Ads / ऑफलाइन दुकान</h4>
+                  <p class="text-xs text-slate-600">लोग आते हैं पर वेबसाइट न होने से भरोसा कम करते हैं</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
           </div>
 
@@ -465,43 +466,43 @@
           </div>
 
           <div class="space-y-2.5">
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Digital Credibility & Trust: नया ग्राहक बिना बहस के बड़ा ब्रांड समझे', this, 4)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Digital Credibility & Trust: नया ग्राहक बिना बहस के बड़ा ब्रांड समझे', this, 4)">
               <div class="flex items-center gap-3.5">
-                <div class="w-9 h-9 rounded-xl bg-green-500/15 text-green-400 flex items-center justify-center border border-green-500/30 shrink-0">
+                <div class="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center border border-emerald-100 shrink-0">
                   <i data-lucide="shield-check" class="w-4 h-4"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">मजबूत भरोसा (Credibility & High-Ticket Trust)</h4>
-                  <p class="text-xs text-gray-400">नया ग्राहक देखते ही प्रोफाइल और क्वालिटी देखकर रेट फाइनल करे</p>
+                  <h4 class="font-bold text-slate-900 text-sm">मजबूत भरोसा (Credibility & High-Ticket Trust)</h4>
+                  <p class="text-xs text-slate-600">नया ग्राहक देखते ही प्रोफाइल और क्वालिटी देखकर रेट फाइनल करे</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Instant Product Discovery: 1-क्लिक में पूरा कैटलॉग दिखाना', this, 4)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Instant Product Discovery: 1-क्लिक में पूरा कैटलॉग दिखाना', this, 4)">
               <div class="flex items-center gap-3.5">
-                <div class="w-9 h-9 rounded-xl bg-blue-500/15 text-blue-400 flex items-center justify-center border border-blue-500/30 shrink-0">
+                <div class="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center border border-blue-100 shrink-0">
                   <i data-lucide="book-open" class="w-4 h-4"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">स्मार्ट कैटलॉग व सर्विसेज का डिस्प्ले</h4>
-                  <p class="text-xs text-gray-400">बार-बार फोटो और रेट भेजने की झंझट खत्म, ग्राहक खुद देखे</p>
+                  <h4 class="font-bold text-slate-900 text-sm">स्मार्ट कैटलॉग व सर्विसेज का डिस्प्ले</h4>
+                  <p class="text-xs text-slate-600">बार-बार फोटो और रेट भेजने की झंझट खत्म, ग्राहक खुद देखे</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Google Search Visibility & Auto Leads Capture', this, 4)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Google Search Visibility & Auto Leads Capture', this, 4)">
               <div class="flex items-center gap-3.5">
-                <div class="w-9 h-9 rounded-xl bg-purple-500/15 text-purple-400 flex items-center justify-center border border-purple-500/30 shrink-0">
+                <div class="w-9 h-9 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center border border-purple-100 shrink-0">
                   <i data-lucide="search" class="w-4 h-4"></i>
                 </div>
                 <div>
-                  <h4 class="font-bold text-white text-sm">Google सर्च से सीधे कॉल और लीड्स पाना</h4>
-                  <p class="text-xs text-gray-400">जब कोई हमारे शहर या देश में सर्च करे तो हम पहले दिखें</p>
+                  <h4 class="font-bold text-slate-900 text-sm">Google सर्च से सीधे कॉल और लीड्स पाना</h4>
+                  <p class="text-xs text-slate-600">जब कोई हमारे शहर या देश में सर्च करे तो हम पहले दिखें</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
           </div>
 
@@ -525,36 +526,36 @@
           </div>
 
           <div class="space-y-2.5">
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('maintPref', 'One-Time Ownership (₹0 Monthly Mandate)', this, 5)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('maintPref', 'One-Time Ownership (₹0 Monthly Mandate)', this, 5)">
               <div class="flex items-center gap-3.5">
-                <div class="w-9 h-9 rounded-xl bg-blue-500/15 text-blue-400 flex items-center justify-center border border-blue-500/30 shrink-0">
+                <div class="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center border border-blue-100 shrink-0">
                   <i data-lucide="unlock" class="w-4 h-4"></i>
                 </div>
                 <div>
                   <div class="flex items-center gap-2">
-                    <h4 class="font-bold text-white text-sm">One-Time Project (₹0 Monthly)</h4>
-                    <span class="text-[10px] bg-blue-500/20 text-blue-300 px-2 py-0.5 rounded-full font-bold">100% Ownership</span>
+                    <h4 class="font-bold text-slate-900 text-sm">One-Time Project (₹0 Monthly)</h4>
+                    <span class="text-[10px] bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full font-bold">100% Ownership</span>
                   </div>
-                  <p class="text-xs text-gray-400">वेबसाइट आपकी। बाद में कभी काम होने पर ही चार्ज लगेगा।</p>
+                  <p class="text-xs text-slate-600">वेबसाइट आपकी। बाद में कभी काम होने पर ही चार्ज लगेगा।</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="dark-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('maintPref', 'VIP Care & Security (₹1,499/mo)', this, 5)">
+            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('maintPref', 'VIP Care & Security (₹1,499/mo)', this, 5)">
               <div class="flex items-center gap-3.5">
-                <div class="w-9 h-9 rounded-xl bg-green-500/15 text-green-400 flex items-center justify-center border border-green-500/30 shrink-0">
+                <div class="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center border border-emerald-100 shrink-0">
                   <i data-lucide="shield-check" class="w-4 h-4"></i>
                 </div>
                 <div>
                   <div class="flex items-center gap-2">
-                    <h4 class="font-bold text-white text-sm">VIP Peace-of-Mind Care</h4>
-                    <span class="text-[10px] bg-green-500/20 text-green-300 px-2 py-0.5 rounded-full font-bold">Recommended</span>
+                    <h4 class="font-bold text-slate-900 text-sm">VIP Peace-of-Mind Care</h4>
+                    <span class="text-[10px] bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full font-bold">Recommended</span>
                   </div>
-                  <p class="text-xs text-gray-400">सर्वर स्पीड, छोटे बदलाव और 24/7 क्रैश प्रोटेक्शन हमारी जिम्मेदारी।</p>
+                  <p class="text-xs text-slate-600">सर्वर स्पीड, छोटे बदलाव और 24/7 क्रैश प्रोटेक्शन हमारी जिम्मेदारी।</p>
                 </div>
               </div>
-              <div class="w-5 h-5 rounded-full border-2 border-gray-600 radio-dot shrink-0"></div>
+              <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
           </div>
 
@@ -584,52 +585,52 @@
             </p>
           </div>
 
-          <!-- THE PSYCHOLOGICAL AWAKENING CARDS (Lost Market vs Dream State) -->
+          <!-- THE PSYCHOLOGICAL AWAKENING CARDS (Gleaming Pure White Blocks) -->
           <div class="space-y-3.5">
             
             <!-- Box 1: The Bleeding Gap (Market Jo Aaj Tak Chhoot Gaya) -->
-            <div class="p-4 sm:p-5 rounded-2xl bg-amber-950/30 border border-amber-500/40 space-y-2 relative overflow-hidden">
-              <div class="flex items-center gap-2 text-amber-400 font-bold text-xs uppercase tracking-wider">
-                <i data-lucide="alert-circle" class="w-4 h-4 text-amber-400 shrink-0"></i>
+            <div class="p-4 sm:p-5 rounded-2xl gleaming-white-block border-l-4 border-l-amber-500 space-y-2 relative overflow-hidden shadow-xl">
+              <div class="flex items-center gap-2 text-amber-700 font-bold text-xs uppercase tracking-wider">
+                <i data-lucide="alert-circle" class="w-4 h-4 text-amber-600 shrink-0"></i>
                 <span>01 — कहाँ आपका मार्केट छूट रहा है (The Hidden Gap)</span>
               </div>
-              <p class="text-xs text-amber-200/90 leading-relaxed" id="aiBleedingGapText">
+              <p class="text-xs text-slate-700 leading-relaxed font-medium" id="aiBleedingGapText">
                 बिना क्रेडिबल डिजिटल फनल के, हर महीने लगभग <strong>20–40 हाई-टिकट खरीदार</strong> आपके प्रतिस्पर्धियों की वेबसाइट देखकर सीधे उनके पास चले जाते हैं, और जो आपके पास आते हैं वो भी रेट पर घंटों बहस करते हैं।
               </p>
             </div>
 
             <!-- Box 2: The Dream Possibility (Next 6 Months Vision) -->
-            <div class="p-4 sm:p-5 rounded-2xl bg-green-950/35 border border-green-500/40 space-y-2 relative overflow-hidden">
-              <div class="flex items-center gap-2 text-green-400 font-bold text-xs uppercase tracking-wider">
-                <i data-lucide="trending-up" class="w-4 h-4 text-green-400 shrink-0"></i>
+            <div class="p-4 sm:p-5 rounded-2xl gleaming-white-block border-l-4 border-l-emerald-600 space-y-2 relative overflow-hidden shadow-xl">
+              <div class="flex items-center gap-2 text-emerald-800 font-bold text-xs uppercase tracking-wider">
+                <i data-lucide="trending-up" class="w-4 h-4 text-emerald-600 shrink-0"></i>
                 <span>02 — आपकी नई डिजिटल अथॉरिटी (The Dream Growth)</span>
               </div>
-              <p class="text-xs text-green-100 leading-relaxed font-medium" id="aiDreamVisionText">
+              <p class="text-xs text-slate-800 leading-relaxed font-semibold" id="aiDreamVisionText">
                 सोचिए, जब कोई बड़ा खरीदार या नया ग्राहक Google पर आपके ब्रांड को देखेगा—उसे 1-क्लिक में आपकी प्रीमियम प्रोफाइल, कैटलॉग और काम दिखेगा। <strong>वह आपको सीधा मार्केट लीडर मानकर बिना डिस्काउंट मांगे काम देगा!</strong>
               </p>
             </div>
 
             <!-- Box 3: Why Mohit Jain Digital (Rock-Solid Trust & Hybrid Engine) -->
-            <div class="p-4 sm:p-5 rounded-2xl bg-slate-900 border border-white/10 text-white space-y-2 relative overflow-hidden shadow-xl">
-              <div class="flex items-center gap-2 text-cyan-400 font-bold text-xs uppercase tracking-wider">
-                <i data-lucide="shield-check" class="w-4 h-4 text-cyan-400 shrink-0"></i>
+            <div class="p-4 sm:p-5 rounded-2xl gleaming-white-block border-l-4 border-l-blue-600 space-y-2 relative overflow-hidden shadow-xl">
+              <div class="flex items-center gap-2 text-blue-800 font-bold text-xs uppercase tracking-wider">
+                <i data-lucide="shield-check" class="w-4 h-4 text-blue-600 shrink-0"></i>
                 <span>03 — Mohit Jain Digital का 'Zero-Revision' वादा</span>
               </div>
-              <p class="text-xs text-slate-300 leading-relaxed">
+              <p class="text-xs text-slate-700 leading-relaxed font-medium">
                 हम ₹2,000 की बेकार टेम्पलेट नहीं बनाते जो कुछ दिन में बंद हो जाए। हम <strong>Sales Psychology + Google Sheets Auto-Sync + WhatsApp Bot</strong> के साथ पूरा ग्रोथ इंजन हैंडओवर करते हैं।
               </p>
             </div>
 
           </div>
 
-          <!-- Serious Client Qualification Tag -->
-          <div class="p-3 rounded-xl bg-black/60 border border-green-500/30 shadow-lg flex items-center justify-between">
+          <!-- Serious Client Qualification Tag (Gleaming Pure White Block) -->
+          <div class="p-3 rounded-xl gleaming-white-block shadow-lg flex items-center justify-between">
             <div class="flex items-center gap-2">
-              <span class="w-2.5 h-2.5 rounded-full bg-green-400 animate-pulse"></span>
-              <span class="text-xs font-bold text-white">AI Qualification Status:</span>
-              <span class="text-xs font-extrabold text-green-400 bg-green-500/20 border border-green-500/40 px-2.5 py-0.5 rounded-full">High-Intent Priority Client (Score: 92/100)</span>
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-600 animate-pulse"></span>
+              <span class="text-xs font-bold text-slate-900">AI Qualification Status:</span>
+              <span class="text-xs font-extrabold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-full border border-emerald-300">High-Intent Priority Client (Score: 92/100)</span>
             </div>
-            <span class="text-[11px] text-green-300 font-semibold hidden sm:inline">Special Token Discount Unlocked</span>
+            <span class="text-[11px] text-emerald-700 font-bold hidden sm:inline">Special Token Discount Unlocked</span>
           </div>
 
           <div class="pt-3 flex justify-between items-center border-t border-white/10">
@@ -660,82 +661,82 @@
             </p>
           </div>
 
-          <!-- 3 Plans Grid (Dark Luxury Cards) -->
+          <!-- 3 Plans Grid (Gleaming Pure White Blocks) -->
           <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5" id="plansDisplay">
             
             <!-- Plan 1: Starter -->
-            <div id="plan-card-starter" class="dark-card rounded-2xl p-4 flex flex-col justify-between relative">
+            <div id="plan-card-starter" class="gleaming-white-block rounded-2xl p-4 flex flex-col justify-between relative shadow-xl">
               <div class="space-y-2">
-                <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Level 1: Presence</span>
-                <h3 class="font-extrabold text-white text-sm">Starter Launch</h3>
+                <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Level 1: Presence</span>
+                <h3 class="font-extrabold text-slate-900 text-sm">Starter Launch</h3>
                 <div class="pt-1">
-                  <span class="text-gray-500 line-through text-xs">₹5,000</span>
-                  <span class="text-xl font-black text-white font-display block">₹1,999</span>
+                  <span class="text-slate-400 line-through text-xs">₹5,000</span>
+                  <span class="text-xl font-black text-slate-900 font-display block">₹1,999</span>
                 </div>
-                <ul class="text-[11px] text-gray-300 space-y-1 pt-2 border-t border-white/5">
-                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-green-400"></i> 1-Page Fast Landing</li>
-                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-green-400"></i> Direct WhatsApp Call</li>
-                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-green-400"></i> 100% Mobile Auto-Fit</li>
+                <ul class="text-[11px] text-slate-600 space-y-1 pt-2 border-t border-slate-100">
+                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-emerald-600"></i> 1-Page Fast Landing</li>
+                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-emerald-600"></i> Direct WhatsApp Call</li>
+                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-emerald-600"></i> 100% Mobile Auto-Fit</li>
                 </ul>
               </div>
-              <button onclick="selectAndLock('Starter Launch', 1999)" class="mt-4 w-full py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs transition">
+              <button onclick="selectAndLock('Starter Launch', 1999)" class="mt-4 w-full py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-900 font-bold text-xs transition">
                 यह चुनें
               </button>
             </div>
 
             <!-- Plan 2: Pro Growth (Hero Highlight) -->
-            <div id="plan-card-growth" class="dark-card rounded-2xl p-4 flex flex-col justify-between relative border-2 border-green-500 bg-gradient-to-b from-green-950/40 to-slate-900 shadow-xl shadow-green-500/20">
-              <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-green-400 to-emerald-500 text-black text-[9px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full shadow-md">
+            <div id="plan-card-growth" class="gleaming-white-block rounded-2xl p-4 flex flex-col justify-between relative border-2 border-emerald-600 bg-emerald-50/20 shadow-2xl shadow-emerald-500/20">
+              <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-600 text-white text-[9px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full shadow-md">
                 AI RECOMMENDED FIT
               </div>
               <div class="space-y-2 pt-1">
-                <span class="text-[10px] font-bold text-green-400 uppercase tracking-wider">Level 3: Sales Engine</span>
-                <h3 class="font-extrabold text-white text-sm">Professional B2B Growth</h3>
+                <span class="text-[10px] font-bold text-emerald-700 uppercase tracking-wider">Level 3: Sales Engine</span>
+                <h3 class="font-extrabold text-slate-900 text-sm">Professional B2B Growth</h3>
                 <div class="pt-1">
-                  <span class="text-gray-400 line-through text-xs">₹24,999</span>
-                  <span class="text-xl font-black text-green-400 font-display block">₹8,999</span>
+                  <span class="text-slate-400 line-through text-xs">₹24,999</span>
+                  <span class="text-xl font-black text-emerald-700 font-display block">₹8,999</span>
                 </div>
-                <ul class="text-[11px] text-gray-200 space-y-1 pt-2 border-t border-white/5 font-medium">
-                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-green-400"></i> 5-7 Custom Pages</li>
-                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-green-400"></i> <strong>Google Sheets Auto-Sync</strong></li>
-                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-green-400"></i> High-Converting Copywriting</li>
-                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-green-400"></i> SEO Ready + SSL + Domain</li>
+                <ul class="text-[11px] text-slate-700 space-y-1 pt-2 border-t border-emerald-100 font-medium">
+                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-emerald-600"></i> 5-7 Custom Pages</li>
+                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-emerald-600"></i> <strong>Google Sheets Auto-Sync</strong></li>
+                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-emerald-600"></i> High-Converting Copywriting</li>
+                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-emerald-600"></i> SEO Ready + SSL + Domain</li>
                 </ul>
               </div>
-              <button onclick="selectAndLock('Professional B2B Growth', 8999)" class="mt-4 w-full py-2.5 rounded-xl bg-gradient-to-r from-green-400 to-emerald-500 text-black font-black text-xs shadow-lg shadow-green-500/30 transition">
+              <button onclick="selectAndLock('Professional B2B Growth', 8999)" class="mt-4 w-full py-2.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-extrabold text-xs shadow-md shadow-emerald-600/30 transition">
                 यह प्लान लॉक करें (₹8,999)
               </button>
             </div>
 
             <!-- Plan 3: Enterprise -->
-            <div id="plan-card-enterprise" class="dark-card rounded-2xl p-4 flex flex-col justify-between relative">
+            <div id="plan-card-enterprise" class="gleaming-white-block rounded-2xl p-4 flex flex-col justify-between relative shadow-xl">
               <div class="space-y-2">
-                <span class="text-[10px] font-bold text-purple-400 uppercase tracking-wider">Level 4: Custom System</span>
-                <h3 class="font-extrabold text-white text-sm">Enterprise & Automation</h3>
+                <span class="text-[10px] font-bold text-purple-600 uppercase tracking-wider">Level 4: Custom System</span>
+                <h3 class="font-extrabold text-slate-900 text-sm">Enterprise & Automation</h3>
                 <div class="pt-1">
-                  <span class="text-gray-500 line-through text-xs">₹55,000</span>
-                  <span class="text-xl font-black text-purple-300 font-display block">₹24,999</span>
+                  <span class="text-slate-400 line-through text-xs">₹55,000</span>
+                  <span class="text-xl font-black text-purple-700 font-display block">₹24,999</span>
                 </div>
-                <ul class="text-[11px] text-gray-300 space-y-1 pt-2 border-t border-white/5">
-                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-purple-400"></i> E-com / Custom Platform</li>
-                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-purple-400"></i> Razorpay / Payment Gateway</li>
-                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-purple-400"></i> WhatsApp Automated AI Bot</li>
+                <ul class="text-[11px] text-slate-600 space-y-1 pt-2 border-t border-slate-100">
+                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-purple-600"></i> E-com / Custom Platform</li>
+                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-purple-600"></i> Razorpay / Payment Gateway</li>
+                  <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3 h-3 text-purple-600"></i> WhatsApp Automated AI Bot</li>
                 </ul>
               </div>
-              <button onclick="selectAndLock('Enterprise & Automation', 24999)" class="mt-4 w-full py-2 rounded-xl bg-purple-600/20 hover:bg-purple-600/30 text-purple-200 font-bold text-xs transition border border-purple-500/30">
+              <button onclick="selectAndLock('Enterprise & Automation', 24999)" class="mt-4 w-full py-2 rounded-xl bg-purple-50 hover:bg-purple-100 text-purple-800 font-bold text-xs transition border border-purple-200">
                 यह चुनें
               </button>
             </div>
 
           </div>
 
-          <!-- Bottom 1-Click WhatsApp Trigger -->
-          <div class="p-4 rounded-2xl bg-green-950/30 border border-green-500/40 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-lg">
-            <span class="text-xs text-green-200 font-medium flex items-center gap-1.5">
-              <i data-lucide="check-circle" class="w-4 h-4 text-green-400"></i>
+          <!-- Bottom 1-Click WhatsApp Trigger (Gleaming Pure White Block) -->
+          <div class="p-4 rounded-2xl gleaming-white-block border-2 border-emerald-500/40 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-xl">
+            <span class="text-xs text-slate-800 font-bold flex items-center gap-1.5">
+              <i data-lucide="check-circle" class="w-4 h-4 text-emerald-600"></i>
               आपका नाम और नंबर सुरक्षित है। 1-क्लिक में WhatsApp पर प्रपोजल प्राप्त करें।
             </span>
-            <button onclick="triggerWhatsAppProposal()" class="spring-btn w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-400 hover:to-emerald-400 text-black font-black text-xs shadow-xl shadow-green-500/30 flex items-center justify-center gap-2">
+            <button onclick="triggerWhatsAppProposal()" class="spring-btn w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-black text-xs shadow-xl shadow-emerald-600/30 flex items-center justify-center gap-2">
               <span>WhatsApp पर बात शुरू करें</span>
               <i data-lucide="send" class="w-3.5 h-3.5"></i>
             </button>
