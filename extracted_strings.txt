@@ -1,0 +1,3313 @@
+routes/share.$shareId.($action)
+---
+sharedConversationId
+---
+6ac60a3e-3d14-83ee-a3dc-1fbf5984cd18
+---
+shareReceivePerformance
+---
+loaderDurationMs
+---
+Founder Idea Brainstorming
+---
+Check out this chat
+---
+Here's a chat someone thought you'd want to see.
+---
+isBetterMetatagsEnabled
+---
+hasConversationShareOgImageTemplate
+---
+hasImagegenConversationOgImageVariant
+---
+ogImageQueryParam
+---
+complete_x_card_v1
+---
+https://ogimg.chatgpt.com/conversation/6ac60a3e-3d14-83ee-a3dc-1fbf5984cd18/response_multicolor_v1.png
+---
+Preview of shared ChatGPT conversation
+---
+moderation_results
+---
+default_model_slug
+---
+disabled_tool_ids
+---
+is_temporary_chat
+---
+is_do_not_remember
+---
+sugar_item_visible
+---
+f352d0a9-825a-47c7-8876-23ca99bdaf6c
+---
+linear_conversation
+---
+has_user_editable_context
+---
+highlighted_message_id
+---
+continue_conversation_url
+---
+https://chatgpt.com/share/6ac60a3e-3d14-83ee-a3dc-1fbf5984cd18/continue
+---
+moderation_state
+---
+is_better_metatags_enabled
+---
+backing_conversation_id
+---
+6ac60038-df68-83ee-b8d2-229cb2937b1f
+---
+og_image_variant
+---
+response_multicolor_v1
+---
+x_metadata_policy
+---
+has_been_moderated
+---
+has_been_blocked
+---
+has_been_accepted
+---
+has_been_auto_blocked
+---
+has_been_auto_moderated
+---
+Our latest and most advanced model
+---
+history_off_approved
+---
+fb2fca1f-40a5-4b41-9b5b-a493ab6d1937
+---
+finished_successfully
+---
+content_references
+---
+search_result_groups
+---
+resolved_model_slug
+---
+conversation_followup_suggestions_eligible
+---
+90209589-6885-4cf0-b37d-6e20ffc385dd
+---
+turn_exchange_id
+---
+b17c6157-9322-4485-bcd9-7dea5b8c1327
+---
+shared_conversation_id
+---
+preview_language
+---
+https://docs.anthropic.com/en/docs/claude-code/cli-usage
+---
+https://docs.anthropic.com/en/docs/claude-code/cli-usage?utm_source=chatgpt.com
+---
+https://docs.dify.ai/en/guides/application-orchestrate/creating-an-application
+---
+https://docs.dify.ai/en/guides/application-orchestrate/creating-an-application?utm_source=chatgpt.com
+---
+https://docs.dify.ai/guides/knowledge-base/retrieval
+---
+https://docs.dify.ai/guides/knowledge-base/retrieval?utm_source=chatgpt.com
+---
+https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server
+---
+https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server?utm_source=chatgpt.com
+---
+https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server?tool=vscode
+---
+https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server?tool=vscode&utm_source=chatgpt.com
+---
+https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-with-mcp
+---
+https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-with-mcp?utm_source=chatgpt.com
+---
+https://docs.n8n.io/
+---
+https://docs.n8n.io/?utm_source=chatgpt.com
+---
+https://docs.paperclip.ing/guides/org/agents/
+---
+https://docs.paperclip.ing/guides/org/agents/?utm_source=chatgpt.com
+---
+https://docs.paperclip.ing/how-to/set-monthly-budget/
+---
+https://docs.paperclip.ing/how-to/set-monthly-budget/?utm_source=chatgpt.com
+---
+https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md
+---
+https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md?utm_source=chatgpt.com
+---
+https://github.com/anthropics/claude-code
+---
+https://github.com/anthropics/claude-code?utm_source=chatgpt.com
+---
+https://github.com/hermes-agent-org/hermes/blob/main/website/docs/user-guide/features/tools.md
+---
+https://github.com/hermes-agent-org/hermes/blob/main/website/docs/user-guide/features/tools.md?utm_source=chatgpt.com
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/build/build-and-manage-agents.md
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/build/build-and-manage-agents.md?utm_source=chatgpt.com
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/connect/connect-to-n8n-mcp-server.md
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/connect/connect-to-n8n-mcp-server.md?utm_source=chatgpt.com
+---
+https://github.com/paperclipai/paperclip/blob/master/docs/start/core-concepts.md
+---
+https://github.com/paperclipai/paperclip/blob/master/docs/start/core-concepts.md?utm_source=chatgpt.com
+---
+https://github.com/paperclipai/paperclip/blob/master/docs/start/what-is-paperclip.md
+---
+https://github.com/paperclipai/paperclip/blob/master/docs/start/what-is-paperclip.md?utm_source=chatgpt.com
+---
+https://help.openai.com/en/articles/11096431
+---
+https://help.openai.com/en/articles/11096431?utm_source=chatgpt.com
+---
+https://hermes-agent.nousrsearch.com/docs/user-guide/security
+---
+https://hermes-agent.nousrsearch.com/docs/user-guide/security?utm_source=chatgpt.com
+---
+https://n8n.io/ai-agents/
+---
+https://n8n.io/ai-agents/?utm_source=chatgpt.com
+---
+https://vercel-docs.vercel.sh/ai-sdk
+---
+https://vercel-docs.vercel.sh/ai-sdk?utm_source=chatgpt.com
+---
+https://vercel-docs.vercel.sh/kb/ai-sdk
+---
+https://vercel-docs.vercel.sh/kb/ai-sdk?utm_source=chatgpt.com
+---
+https://vercel.com/docs
+---
+https://vercel.com/docs/agent-resources/vercel-mcp
+---
+https://vercel.com/docs/agent-resources/vercel-mcp?utm_source=chatgpt.com
+---
+https://vercel.com/docs?utm_source=chatgpt.com
+---
+https://vercel.com/kb/guide/ai-gateway-and-ai-sdk
+---
+https://vercel.com/kb/guide/ai-gateway-and-ai-sdk?utm_source=chatgpt.com
+---
+search_result_group
+---
+https://github.blog/ai-and-ml/github-copilot/github-copilot-coding-agent-101-getting-started-with-agentic-workflows-on-github/?trk=article-ssr-frontend-pulse_little-text-block&utm_source=chatgpt.com
+---
+GitHub Copilot coding agent 101: Getting started with agentic workflows on GitHub - The GitHub Blog
+---
+GITHUB COPILOT CODING AGENT 101: GETTING STARTED WITH AGENTIC WORKFLOWS ON GITHUB  Delegate it a task, and coding agent can independently write, run, and test code. Here’s how you can make the most o...
+---
+docker.github.io
+---
+https://docker.github.io/docker-agent/concepts/agents/?utm_source=chatgpt.com
+---
+Agents – Docker Agent Docs
+---
+AGENTS  Agents are the core building blocks of Docker Agent. Each agent is an AI-powered entity with a model, instructions, tools, and optional sub-agents.  WHAT IS AN AGENT?  An agent in Docker Agen...
+---
+https://docker.github.io/docker-agent/getting-started/introduction/?utm_source=chatgpt.com
+---
+Introduction – Docker Agent Docs
+---
+INTRODUCTION  Docker Agent is a multi-agent runtime that lets you build, run, and share AI agents with a YAML or HCL config — no glue code required.  WHAT IS DOCKER AGENT?  Docker Agent is an open-so...
+---
+meapri.github.io
+---
+https://meapri.github.io/hermes-agent-plus/docs/user-guide/docker/?utm_source=chatgpt.com
+---
+Docker | Hermes Agent
+---
+HERMES AGENT — DOCKER  There are two distinct ways Docker intersects with Hermes Agent:  1. Running Hermes IN Docker — the agent itself runs inside a container (this page's primary focus) 2. Docker a...
+---
+https://hermes-agent.ai/how-to/deploy-hermes-on-vps?utm_source=chatgpt.com
+---
+How to Deploy Hermes Agent on a VPS
+---
+How-To Guide  DEPLOY HERMES AGENT ON ANY VPS — COMPLETE GUIDE  Deploy Hermes Agent on a VPS, understand the hidden maintenance cost, and decide when FlyHermes is easier for gateways, memory, and agen...
+---
+microsoft.github.io
+---
+https://microsoft.github.io/apm/guides/mcp-servers/?utm_source=chatgpt.com
+---
+Install MCP servers | Agent Package Manager
+---
+Harness  | File  | Scope  | Format --- | --- | --- | --- GitHub Copilot CLI  | `.github/mcp.json`  | project  | JSON `mcpServers` GitHub Copilot CLI  | `$COPILOT_HOME/mcp-config.json` (`-g`, unset/bl...
+---
+https://sitelet.easiiodev.ai/sitelet?url=https%3A%2F%2Fgithub.com%2Fgithub%2Fgithub-mcp-server&utm_source=chatgpt.com
+---
+GitHub - github/github-mcp-server: GitHub's official MCP Server · GitHub
+---
+GITHUB MCP SERVER  The GitHub MCP Server connects AI tools directly to GitHub's platform. This gives AI agents, assistants, and chatbots the ability to read repositories and code files, manage issues...
+---
+https://huggingface.co/docs/hub/agents-overview?utm_source=chatgpt.com
+---
+Agents · Hugging Face
+---
+AGENTS  Hugging Face provides tools and protocols that connect AI agents directly to the Hub. Whether you’re chatting with Claude, building with Codex, or developing custom agents, you can access mod...
+---
+https://gh.nn.ci/openai/codex?utm_source=chatgpt.com
+---
+GitHub - openai/codex: Lightweight coding agent that runs in your terminal
+---
+Lightweight coding agent that runs in your terminal   OPENAI/CODEX  main  OPENAI CODEX CLI  `npm i -g @openai/codex` or `brew install codex`  Codex CLI is a coding agent from OpenAI that runs locally...
+---
+https://doc.jarvisuni.com/openai/codex/cli/reference?utm_source=chatgpt.com
+---
+Command line options – Codex CLI | OpenAI Developers
+---
+COMMAND LINE OPTIONS  Options and flags for the Codex terminal client  Copy Page  HOW TO READ THIS REFERENCE  This page catalogs every documented Codex CLI command and flag. Use the interactive table...
+---
+https://learn.chatgpt.com/docs/build-skills?utm_source=chatgpt.com
+---
+Build skills | ChatGPT Learn
+---
+BUILD SKILLS  Give ChatGPT and Codex new capabilities and expertise  Copy Page  Use agent skills to extend ChatGPT and Codex with task-specific capabilities. A skill packages instructions, resources,...
+---
+https://learn.chatgpt.com/docs/codex/cli?site_variant=chatgpt&translationFallback=pt-BR&utm_source=chatgpt.com
+---
+Codex CLI | ChatGPT Learn
+---
+Codex CLI  INSPECT, EDIT, AND RUN CODE FROM YOUR TERMINAL  Inspect code, make changes, run commands, and automate repeatable work without leaving your terminal.  Install Codex  CLI reference  $ codex...
+---
+noozresearch.com
+---
+https://hermes-agent.noozresearch.com/docs.html?utm_source=chatgpt.com
+---
+Hermes Agent Documentation | Hermes Agent
+---
+HERMES AGENT  The self-improving AI agent built by Nous Research. The only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist...
+---
+https://hermes-agent.lzw.me/docs/en/?utm_source=chatgpt.com
+---
+Hermes Agent Documentation | Hermes Agent中文文档
+---
+https://docs.docker.com/ai/docker-agent/guides/tips/?utm_source=chatgpt.com
+---
+Tips & Best Practices | Docker Docs
+---
+*     *   *   *   *   *   * # Tips & Best Practices   Expert guidance for building effective, efficient, and secure agents.  CONFIGURATION TIPS  AUTO MODE FOR QUICK START  Don't have a config file? Do...
+---
+https://docs.docker.com/ai/docker-agent/reference/config/?utm_source=chatgpt.com
+---
+Configuration Overview | Docker Docs
+---
+MINIMAL CONFIG  The simplest possible configuration — a single agent with an inline model:  `agents: root: model: openai/gpt-5 description: A helpful assistant instruction: You are a helpful assistant...
+---
+https://docs.docker.com/ai/docker-agent/configuration/overview/?utm_source=chatgpt.com
+---
+*     *   *   *   *   *   * # Configuration Overview  Table of contents  * File Structure * Minimal Config * Inline vs Named Models * Config Sections * Advanced Configuration * Environment Variables *...
+---
+https://docs.docker.com/ai-overview/?utm_source=chatgpt.com
+---
+Docker AI overview | Docker Docs
+---
+*     *   *   *   *   *   * # Docker AI overview  Table of contents  * Which tool do I need? * How these tools relate  Docker provides tools for working with AI across your development workflow. Each...
+---
+https://docs.docker.com/ai/docker-agent/?utm_source=chatgpt.com
+---
+Docker Agent | Docker Docs
+---
+*     *   *   *   *   *   * # Docker Agent  Table of contents  * Why agent teams * Installation * Get started * How it works * Configuration options * Share agent teams * What's next  * * *  Docker Ag...
+---
+https://docs.docker.com/ai/docker-agent/getting-started/set-up-a-model/?utm_source=chatgpt.com
+---
+Set Up a Model | Docker Docs
+---
+*     *   *   *   *   *   * # Set Up a Model   Most agents need a model to think with: connect a built-in cloud provider, run a model locally with Docker Model Runner, or register a custom OpenAI-comp...
+---
+https://docs.docker.com/guides/agentic-ai/?utm_source=chatgpt.com
+---
+Build and run agentic AI applications with Docker | Docker Docs
+---
+BUILD AND RUN AGENTIC AI APPLICATIONS WITH DOCKER  Learn how to create AI agent applications using Docker Model Runner, and MCP Toolkit.  > Tip > > This guide uses the familiar Docker Compose workflo...
+---
+https://claude.com/product/claude-code?f80ce999_page=1&utm_source=chatgpt.com
+---
+Claude Code by Anthropic | AI Coding Agent, Terminal, IDE
+---
+CONNECTS WITH YOUR FAVORITE COMMAND LINE TOOLS  Your terminal is where real work happens. Claude Code connects with the tools that power development—deployment, databases, monitoring, version control....
+---
+https://docs.claude.com/en/home?hsLang=en&utm_source=chatgpt.com
+---
+Home - Claude Docs
+---
+Search...  Navigation  Build with Claude  Learn how to get started with the Claude Developer Platform and Claude Code.  Ask Claude about docs…  CLAUDE DEVELOPER PLATFORM  Get startedMake your first A...
+---
+https://support.claude.com/en/articles/14552382-your-first-day-in-claude-code?utm_source=chatgpt.com
+---
+Your first day in Claude Code | Claude Help Center
+---
+YOUR FIRST DAY IN CLAUDE CODE  April 15, 2026  Copy for LLM  Goal: In about 15 minutes, you will install Claude Code, sign in, and complete your first AI-assisted change. This guide covers only what...
+---
+https://support.claude.com/en/articles/14554922-claude-code-user-faq?utm_source=chatgpt.com
+---
+Claude Code user FAQ | Claude Help Center
+---
+CLAUDE CODE USER FAQ  August 7, 2026  Copy for LLM  Short answers to the questions that come up most at office hours, with a link to go deeper. Organized by where you are in your first few weeks.  HO...
+---
+noazresearch.com
+---
+https://hermes-agent.noazresearch.com/docs.html?utm_source=chatgpt.com
+---
+https://docs.anthropic.com/en/docs/claude-code/getting-started?utm_source=chatgpt.com
+---
+Set up Claude Code - Anthropic
+---
+SET UP CLAUDE CODE  Copy page  Install, authenticate, and start using Claude Code on your development machine.    ​  System requirements  * Operating Systems: macOS 10.15+, Ubuntu 20.04+/Debian 10+,...
+---
+https://hermes-agent.nousrsearch.com/docs/getting-started/quickstart?utm_source=chatgpt.com
+---
+Quickstart | Hermes Agent
+---
+QUICKSTART  This guide gets you from zero to a working Hermes setup that survives real use. Install, choose a provider, verify a working chat, and know exactly what to do when something breaks.  PREF...
+---
+vercel-mcp-reference.vercel.app
+---
+https://vercel-mcp-reference.vercel.app/audience/architect/?utm_source=chatgpt.com
+---
+Docs for Architects | vercel-mcp-reference
+---
+DOCS FOR ARCHITECTS  Designing systems and choosing patterns. 34 pages tagged architect. See all audiences.  OVERVIEW 1  * Overview Map of the vercel-mcp-reference documentation: sections, reading pa...
+---
+https://vercel-mcp-reference.vercel.app/examples/prompts/sandbox-isolation-server/?utm_source=chatgpt.com
+---
+Prompt: sandbox-isolation-server | vercel-mcp-reference
+---
+Community-maintained FDE reference. Not an official Vercel or Anthropic project. About this project  PROMPT: SANDBOX-ISOLATION-SERVER  Audience:engineernon-technicalMCP spec 2026-07-28  You get a one...
+---
+https://vercel-mcp-reference.vercel.app/getting-started?utm_source=chatgpt.com
+---
+Getting started with MCP on Vercel | vercel-mcp-reference
+---
+Community-maintained FDE reference. Not an official Vercel or Anthropic project. About this project  GETTING STARTED WITH MCP ON VERCEL  Audience:engineerarchitectsecuritynon-technicalMCP spec 2026-0...
+---
+https://dify-docs.docs7.io/en/cloud/use-dify/nodes/agent?utm_source=chatgpt.com
+---
+Agent - Dify Docs
+---
+AGENT  Run an agent as a step in your workflow, reasoning and using tools to complete a task  6 min read Copy as Markdown  The classic Agent node gives your LLM autonomous control over tools, enablin...
+---
+https://dify-docs.docs7.io/en/learn/key-concepts?utm_source=chatgpt.com
+---
+Key Concepts - Dify Docs
+---
+KEY CONCEPTS  Quick overview of essential Dify concepts  5 min read Copy as Markdown  DIFY APP#  Dify is made for agentic app building. In Studio, you can quickly build agentic workflows via a drag &...
+---
+https://dify-docs.docs7.io/en/self-host/use-dify/build/new-agent/build?utm_source=chatgpt.com
+---
+Build an Agent - Dify Docs
+---
+BUILD AN AGENT  Create an agent and shape what it can do, by hand or by describing what you want  10 min read Copy as Markdown  Note  The new Agent is in beta. It’s on by default on Docker Compose, w...
+---
+https://dify-docs.docs7.io/en/self-host/use-dify/nodes/agent?utm_source=chatgpt.com
+---
+AGENT  Run an agent as a step in your workflow, reasoning and using tools to complete a task  6 min read Copy as Markdown  [Button: Classic Agent][Button: New Agent]  The classic Agent node gives you...
+---
+https://dify-docs.docs7.io/en/self-host/use-dify/build/new-agent/overview?utm_source=chatgpt.com
+---
+AGENT  Build an agent once, then put it to work as a standalone app or inside a workflow  3 min read Copy as Markdown  Warning  Data Security Notice  Community Edition uses file-access controls to li...
+---
+sitemirror.store
+---
+https://difydocs.sitemirror.store/en/use-dify/knowledge/readme?utm_source=chatgpt.com
+---
+Knowledge - Dify Docs
+---
+KNOWLEDGE  Copy page    ​  Introduction  Knowledge in Dify is a collection of your own data that can be integrated into your AI apps. It allows you to provide LLMs with domain-specific information as...
+---
+https://difydocs.sitemirror.store/en/use-dify/nodes/agent?utm_source=chatgpt.com
+---
+AGENT  Give LLMs autonomous control over tools for complex task execution  Copy page  The Agent node gives your LLM autonomous control over tools, enabling it to iteratively decide which tools to use...
+---
+https://developers.openai.com/cookbook/examples/codex/codex_mcp_agents_sdk/building_consistent_workflows_codex_cli_agents_sdk?utm_source=chatgpt.com
+---
+Building Consistent Workflows with Codex CLI & Agents SDK
+---
+ENVIRONMENT SETUP  1. create a `.env` folder in your directory and add your `OPENAI_API_KEY` Key 2. Install dependencies  `%pip install openai-agents openai ## install dependencies`  INITIALIZING CODE...
+---
+https://developers.openai.com/api/docs/guides/agents-api/tools/plugins?utm_source=chatgpt.com
+---
+Plugins | OpenAI API
+---
+PLUGINS  Package skills and MCP configuration for use across sessions.  Copy Page  A plugin packages skills, MCP configuration, or both. Load its files into your own environment or upload a ZIP to an...
+---
+https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan?utm_source=chatgpt.com
+---
+Using Codex with your ChatGPT plan | OpenAI Help Center
+---
+USING CODEX WITH YOUR CHATGPT PLAN  Learn how to access and get started with Codex.  Updated: 22 hours ago  OVERVIEW  AVAILABILITY  Codex is included across ChatGPT plans, including Free and Go. Code...
+---
+https://developers.openai.com/learn/developers-codex-plugin?utm_source=chatgpt.com
+---
+OpenAI Developers plugin
+---
+OPENAI DEVELOPERS PLUGIN  Install the OpenAI Developers plugin in ChatGPT, Codex, Claude Code, or Cursor to build, troubleshoot, and ship experiences with the OpenAI API.  Copy Page  The OpenAI Devel...
+---
+https://developers.openai.com/resources/docs-mcp?utm_source=chatgpt.com
+---
+Docs MCP | OpenAI Developers
+---
+DOCS MCP  Search and read OpenAI developer docs from your editor using MCP.  OpenAI hosts a public Model Context Protocol (MCP) server for documentation on `developers.openai.com`, `platform.openai.c...
+---
+hermesagent.org.cn
+---
+https://hermesagent.org.cn/en/docs/reference/skills-catalog?utm_source=chatgpt.com
+---
+Bundled Skills Catalog | Hermes Agent CN
+---
+HERMES DOCUMENTATION DOCS / CURRENT  BUNDLED SKILLS CATALOG  Hermes ships with a large built-in skill library copied into `~/.hermes/skills/` on install. Each skill below links to a dedicated page wi...
+---
+https://hermesagent.org.cn/en/docs/user-guide/features/overview?utm_source=chatgpt.com
+---
+Features Overview | Hermes Agent CN
+---
+HERMES DOCUMENTATION DOCS / CURRENT  FEATURES OVERVIEW  Hermes Agent includes a rich set of capabilities that extend far beyond basic chat. From persistent memory and file-aware context to browser au...
+---
+https://hermesagent.org.cn/en/docs/user-guide/features/tools?utm_source=chatgpt.com
+---
+Tools & Toolsets | Hermes Agent CN
+---
+HERMES DOCUMENTATION DOCS / CURRENT  TOOLS & TOOLSETS  Tools are functions that extend the agent's capabilities. They're organized into logical toolsets that can be enabled or disabled per platform....
+---
+nousresearch.com
+---
+https://hermes-agent.nousresearch.com/docs/user-guide/configuration/?utm_source=chatgpt.com
+---
+Hermes Agent Configuration | Hermes Agent
+---
+SKILL SETTINGS​  Skills can declare their own configuration settings via their SKILL.md frontmatter. These are non-secret values (paths, preferences, domain settings) stored under the `skills.config`...
+---
+https://hermes-agent.nousresearch.com/docs/user-guide/features/memory/?utm_source=chatgpt.com
+---
+Persistent Memory | Hermes Agent
+---
+PERSISTENT MEMORY  Hermes Agent has bounded, curated memory that persists across sessions. This lets it remember your preferences, your projects, your environment, and things it has learned.  HOW IT...
+---
+https://hermes-agent.nousresearch.com/docs/user-guide/features/skills?trk=article-ssr-frontend-pulse_little-text-block&utm_source=chatgpt.com
+---
+Skills System | Hermes Agent
+---
+SKILLS SYSTEM  Skills are on-demand knowledge documents the agent can load when needed. They follow a progressive disclosure pattern to minimize token usage and are compatible with the agentskills.io...
+---
+https://hermes-agent.nousresearch.com/docs/user-guide/features/skills/?utm_source=chatgpt.com
+---
+AGENT-MANAGED SKILLS (SKILL_MANAGE TOOL)​  The agent can create, update, and delete its own skills via the `skill_manage` tool. This is the agent's procedural memory — when it figures out a non-trivia...
+---
+https://hermes-agent.nousresearch.com/docs/user-guide/cli?utm_source=chatgpt.com
+---
+CLI Interface | Hermes Agent
+---
+CLI INTERFACE  Hermes Agent's CLI is a full terminal user interface (TUI) — not a web UI. It features multiline editing, slash-command autocomplete, conversation history, interrupt-and-redirect, and...
+---
+https://hermes-agent.nousresearch.com/docs?trk=public_post_comment-text&utm_source=chatgpt.com
+---
+paperclip.community
+---
+https://paperclip.community/docs/quickstart/your-first-agent?utm_source=chatgpt.com
+---
+Hire Your First Agent — Docs — Paperclip Community
+---
+HIRE YOUR FIRST AGENT  Quickstart  On this page 2  An agent isn't just "an AI". It's a configuration — a specific role, with a specific AI system powering it, operating under a specific budget, with...
+---
+https://vercel-docs.vercel.sh/ai?utm_source=chatgpt.com
+---
+AI apps and agents - Vercel
+---
+POWERED BY OUR AGENTIC INFRASTRUCTURE  Our industry-leading primitives deliver frontier capabilities with peak performance.  * Image: 3 sequentially growing orbit rings with icons of various AI vendo...
+---
+https://vercel-docs.vercel.sh/academy/ai-sdk/tool-use?utm_source=chatgpt.com
+---
+Tool Use | Vercel Academy
+---
+TOOL CALLING TO CONNECT TO EXTERNAL DATA SOURCES  Your chatbot has personality (system prompts) and a beautiful UI (Elements), but it lacks real-time knowledge. It doesn't know today's weather, can't...
+---
+AI SDK | Vercel Knowledge Base
+---
+Knowledge Base / AI SDK  AI SDK  The unified TypeScript SDK for building AI apps with modern streaming, fallbacks, and multi-model support.  BUILD WITH AI SDK 7  How to classify, route, and score wit...
+---
+https://docs.paperclip.ing/reference/skills/?utm_source=chatgpt.com
+---
+Skills Reference | Paperclip Docs
+---
+Skills/Skills Reference  SKILLS REFERENCE  Skills  Copy Link  On this page 46  On this page  1. Skill file shapeFrontmatter fieldsBodySupporting filesExample skills you can readArtifact upload in the...
+---
+https://docs.paperclip.ing/guides/welcome/what-is-paperclip/?utm_source=chatgpt.com
+---
+What is Paperclip? | Paperclip Docs
+---
+Quickstart/What is Paperclip?  WHAT IS PAPERCLIP?  Paperclip is the operating system for your AI company. You set the goals, hire AI agents as employees, and watch them plan and execute work — while...
+---
+Agents: Your AI Employees | Paperclip Docs
+---
+Your Org & Agents/Agents  AGENTS  Agents are the AI employees that make up your Paperclip company. They're where the work actually happens: the CEO setting strategy, the engineer shipping code, the m...
+---
+https://docs.paperclip.ing/sitemap.xml?utm_source=chatgpt.com
+---
+Documentation  All docs  Learn  Quickstart 8  Quickstart PathWhat is Paperclip?Key ConceptsInstallationCreate Your First CompanyHire Your First AgentWatching Agents WorkGlossary  Working Day-to-day 8...
+---
+https://docs.paperclip.ing/reference/cli/agent/?utm_source=chatgpt.com
+---
+CLI Agent Commands | Paperclip Docs
+---
+CLI/Agent  AGENT COMMANDS  The `agent` command group is how you create, inspect, configure, and steer the AI workers that do a company's work. Reach for these commands when you need to hire an agent,...
+---
+https://docs.paperclip.ing/?utm_source=chatgpt.com
+---
+Documentation  EVERYTHING YOU NEED TO RUN PAPERCLIP.  Guides, references, and walkthroughs for the people running AI agents at work. Start at the quickstart, or jump anywhere below.  LEARN  Quickstar...
+---
+https://paperclip.homes/docs?utm_source=chatgpt.com
+---
+INTRODUCTION  WHAT IS PAPERCLIP?  Paperclip is the app people use to manage AI agents for work. It orchestrates your existing agents into a team — with org charts, budgets, goals, governance, and acc...
+---
+https://n8n.io/integrations/mcp-client-tool/?utm_source=chatgpt.com
+---
+MCP Client Tool integrations | Workflow automation with n8n
+---
+DOCUMENTATION  MCP Client Tool Node Docs + Examples  ABOUT MCP CLIENT TOOL  RELATED CATEGORIES  * AI  SIMILAR INTEGRATIONS  * AI Agent * OpenAI * Google Gemini * Anthropic * Summarization Chain * Basi...
+---
+https://blog.n8n.io/n8n-mcp-server/?utm_source=chatgpt.com
+---
+n8n's MCP server can now build workflows! – n8n Blog
+---
+* Works in whatever AI client you already use. Claude, ChatGPT, Cursor, Windsurf - if it “speaks” MCP, you can point it at n8n. No new tool to learn, no context-switching. * First-party, native, and a...
+---
+https://community.n8n.io/t/n8n-docs-have-been-refreshed-with-new-ways-to-use-them/300828?utm_source=chatgpt.com
+---
+🎉 n8n Docs have been refreshed (with new ways to use them) - Announcements - n8n Community
+---
+🎉 N8N DOCS HAVE BEEN REFRESHED (WITH NEW WAYS TO USE THEM)  Announcements  kartikb June 24, 2026, 11:36am 1  Hey community! We’ve refreshed n8n Docs with a new information architecture that makes it...
+---
+https://n8n.io/integrations/mcp-client/?utm_source=chatgpt.com
+---
+MCP Client integrations | Workflow automation with n8n
+---
+INTEGRATE MCP CLIENT IN YOUR LLM APPS AND 422+ APPS AND SERVICES  Use MCP Client to easily build AI-powered applications and integrate them with 422+ apps and services. n8n lets you seamlessly import...
+---
+https://n8n.io/mcp/?utm_source=chatgpt.com
+---
+n8n MCP Server: Build AI Agent Workflows From Your AI App
+---
+N8N MCP SERVER BUILD + UPDATE N8N WORKFLOWS FROM INSIDE YOUR AI APP  No more copy-paste. Simply tell Claude, ChatGPT, or your IDE what you want to build, and get a ready-to-run workflow in minutes —...
+---
+https://learn.n8n.io/courses/course-v1%3An8n%2BN8N103%2B2026H2/about?utm_source=chatgpt.com
+---
+In Practice: AI, Testing & Best Practices | n8n
+---
+n8n: N8N103 In Practice: AI, Testing & Best Practices  n8n  IN PRACTICE: AI, TESTING & BEST PRACTICES  Get introduced to AI in n8n: explore AI nodes, agents, testing, debugging, workflow organization...
+---
+https://support.n8n.io/article/can-i-use-your-license-for-my-use-case?utm_source=chatgpt.com
+---
+FAQs - General FAQ - Which license do I need for my use case? | n8n Help Center
+---
+WHICH LICENSE DO I NEED FOR MY USE CASE?  SELF-HOSTED N8N: THE SUSTAINABLE USE LICENSE  The free self-hosted Community edition of n8n runs under the Sustainable Use License (SUL). It doesn't apply to...
+---
+https://n8n.io/integrations/ai-agent-tool/?utm_source=chatgpt.com
+---
+AI Agent Tool integrations | Workflow automation with n8n
+---
+INTEGRATE AI AGENT TOOL IN YOUR LLM APPS AND 422+ APPS AND SERVICES  Use AI Agent Tool to easily build AI-powered applications and integrate them with 422+ apps and services. n8n lets you seamlessly...
+---
+https://n8n.io/ai/?utm_source=chatgpt.com
+---
+Advanced AI Workflow Automation Software & Tools - n8n
+---
+THE POTENTIAL OF AI WITH THE POWER OF AUTOMATION THE PRACTICAL WAY TO MAKE A BUSINESS IMPACT WITH AI  n8n is about help, not hype. Build modular AI systems that are easy to debug, explainable by desi...
+---
+Build Custom AI Agents With Logic & Control | n8n Automation Platform
+---
+N8N AI AGENT BUILDER BUILD AI AGENTS THAT WORK PREDICTABLY IN PROD  Source availability, 500+ integrations, and support for code give you the flexibility to connect AI models to your business systems...
+---
+https://paperclip.inc/docs/guides/board-operator/costs-and-budgets?utm_source=chatgpt.com
+---
+Costs and Budget Controls | Paperclip
+---
+COSTS AND BUDGET CONTROLS  Paperclip tracks every token spent by every agent and enforces budget limits to prevent runaway costs.  HOW COST TRACKING WORKS  Section titled “How Cost Tracking Works”  E...
+---
+https://paperclip.inc/docs/guides/board-operator/managing-agents?utm_source=chatgpt.com
+---
+Managing AI Agents | Paperclip
+---
+On this page  * Overview * Agent States * Creating Agents * Agent Hiring via Governance * Configuring Agents * Pausing and Resuming * Terminating Agents  ON THIS PAGE  * Overview * Agent States * Cre...
+---
+https://paperclip.inc/docs/start/quickstart?utm_source=chatgpt.com
+---
+Paperclip Quickstart Guide | Paperclip
+---
+PAPERCLIP QUICKSTART GUIDE  Get Paperclip running locally in under 5 minutes.  QUICK START (RECOMMENDED)  Section titled “Quick Start (Recommended)”  Terminal window  `  npx paperclipai onboard --yes...
+---
+https://docs.dify.ai/ja-jp/guides/monitoring/integrate-external-ops-tools/integrate-langsmith?utm_source=chatgpt.com
+---
+LangSmithの統合 - Dify Docs
+---
+LANGSMITHの統合  ページをコピー    ​  1 LangSmithとは  LangSmithはLLMアプリケーションの開発、コラボレーション、テスト、デプロイ、監視などのツールを提供するプラットフォームです。  LangSmithの公式サイト：https://www.langchain.com/langsmith  2 LangSmithの使い方    ​  1. LangSmith...
+---
+https://docs.dify.ai/versions/3-0-x/zh/user-guide/knowledge-base/knowledge-request-rate-limit?utm_source=chatgpt.com
+---
+知识库请求频率限制 - Dify Docs
+---
+知识库请求频率限制  Copy page  什么是知识库请求频率限制？  知识库请求频率限制，指一个工作区在知识库中每分钟可执行的最大操作数。这些操作包括数据集创建、文档管理，以及在应用或工作流中的知识库查询。    ​  不同订阅版本的限制  * Sandbox：10 次/分钟 * Professional：100 次/分钟 * Team：1,000 次/分钟 例如，对于 Sandbox 用户...
+---
+https://docs.dify.ai/api-reference/%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E7%AE%A1%E7%90%86/%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E5%8F%96%E5%BE%97?utm_source=chatgpt.com
+---
+アノテーションリストを取得 - Dify Docs
+---
+Search...  Navigation  アノテーション管理  アノテーションリストを取得  アノテーション管理  アノテーションリストを取得  アプリケーションのアノテーションをページネーションリストで取得します。キーワード検索によるフィルタリングをサポートしています。  Copy page  GET  /  apps  /  annotations  Try it  Error  `A...
+---
+https://docs.dify.ai/ja-jp/guides/knowledge-base/knowledge-pipeline/publish-knowledge-pipeline?utm_source=chatgpt.com
+---
+ステップ3：ナレッジパイプラインの公開 - Dify Docs
+---
+ナレッジパイプラインから作成  ステップ3：ナレッジパイプラインの公開  ナレッジパイプラインから作成  ステップ3：ナレッジパイプラインの公開  ページをコピー  ⚠️ このドキュメントはAIによって自動翻訳されています。不正確な部分がある場合は、英語版を参照してください。  オーケストレーション・デバッグが完了したら公開をクリックし、確認ダイアログで確定を押します。  Image: 公開確認...
+---
+https://docs.dify.ai/versions/legacy/en/user-guide/debug-app/chatflow-and-workflow/checklist?utm_source=chatgpt.com
+---
+Checklist - Dify Docs
+---
+ Checklist  CHECKLIST  Copy page  Before publishing the App, you can check the checklist to see if there are any nodes with incomplete configurations or that have not been connected. Image
+---
+https://docs.dify.ai/ja/use-dify/tutorials/workflow-101/lesson-05?utm_source=chatgpt.com
+---
+レッスン 5：ワークフローの分岐点（分類と実行） - Dify Docs
+---
+レッスン 5：ワークフローの分岐点（分類と実行）   ⚠️ このドキュメントは AI によって自動翻訳されています。不正確な部分がある場合は、英語版 を参照してください。  現在、メールアシスタントはすべてのメールを同じワークフローで処理しています。これでは十分にスマートとは言えません。Dify の価格に関するメールと、バグ報告に関するメールでは、異なる対応が必要です。 アシスタントを本当にイン...
+---
+https://docs.dify.ai/api-reference/%E6%96%87%E6%A1%A3/%E8%8E%B7%E5%8F%96%E7%9F%A5%E8%AF%86%E5%BA%93%E7%9A%84%E6%96%87%E6%A1%A3%E5%88%97%E8%A1%A8?utm_source=chatgpt.com
+---
+获取知识库的文档列表 - Dify Docs
+---
+获取知识库的文档列表  文档  获取知识库的文档列表  返回知识库中的文档分页列表。支持按关键词和索引状态进行筛选。  复制页面  GET  /  datasets  /  {dataset_id}  /  documents  试一试  获取知识库的文档列表  cURL  `curl --request GET \ --url 'https://api.dify.ai/v1/datasets/...
+---
+https://docs.dify.ai/versions/3-3-x/zh/user-guide/introduction?utm_source=chatgpt.com
+---
+ 介绍  复制页面  Dify 是一个用于构建 AI 工作流的开源平台。通过在可视化画布上编排 AI 模型、连接数据源、定义处理流程，直接将你的领域知识转化为可运行的软件。 Image: 853427c8123decb5ea3d163ae3bb8ab635d95e92f7ee14a2e51e54df06e94fd8.png  Dify 这个名字来自 Do It For You。
+---
+https://docs.dify.ai/versions/3-5-x/zh/user-guide/introduction?utm_source=chatgpt.com
+---
+ 介绍  介绍  Copy page  Dify 是一个用于构建 AI 工作流的开源平台。通过在可视化画布上编排 AI 模型、连接数据源、定义处理流程，直接将你的领域知识转化为可运行的软件。 Image: 853427c8123decb5ea3d163ae3bb8ab635d95e92f7ee14a2e51e54df06e94fd8.png  Dify 这个名字来自 Do It For You。
+---
+https://docs.dify.ai/versions/3-4-x/ja/user-guide/introduction?utm_source=chatgpt.com
+---
+はじめに - Dify Docs
+---
+はじめに  ページをコピー  Difyは、AIワークフローを構築するためのオープンソースプラットフォームです。ビジュアルキャンバス上でAIモデルを編成し、データソースを接続し、処理フローを定義することで、ドメイン知識を直接動作するソフトウェアに変換できます。 Image: 853427c8123decb5ea3d163ae3bb8ab635d95e92f7ee14a2e51e54df06e94f...
+---
+https://marketplace.dify.ai/template/langgenius/Multi-Question%20RAG%20Workflow?creationType=templates&language=en-US&templateId=d2d2ae92-d95b-4d55-b343-be411c3147d3&theme=undefined&utm_source=chatgpt.com
+---
+Multi-Question RAG Workflow - Dify Marketplace
+---
+MULTI-QUESTION RAG WORKFLOW  No ratings yet  0 2.9kL langgenius  Open in Dify  This instructional workflow demonstrates how to build a multi‑step pipeline in Dify. It accepts a body of text, extracts...
+---
+https://www.dify.ai/rag?utm_source=chatgpt.com
+---
+Dify Knowledge Pipeline - Engineer Context for Production AI
+---
+Knowledge Pipeline  CRAFT RELIABLE KNOWLEDGE PIPELINES FOR AI.  Knowledge Pipeline turns files, drives, online docs, and web content into a knowledge base that AI apps use with structure, metadata, a...
+---
+https://www.dify.ai/?utm_source=chatgpt.com
+---
+Dify - The Platform for Production-Ready Agentic Workflows
+---
+THE PLATFORM FOR PRODUCTION-READY AGENTIC WORKFLOWS.  Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted,...
+---
+https://enterprise-docs.dify.ai/en/3.0.x/use/knowledge-base/knowledge-base-creation/introduction?utm_source=chatgpt.com
+---
+Create Knowledge Base - Dify Enterprise Docs
+---
+CREATE KNOWLEDGE BASE  Steps to upload documents to create a knowledge base:  1. Create a knowledge base and import either local document file or online data.  IMPORT TEXT DATA  Create a knowledge ba...
+---
+https://www.dify.ai/workflows?utm_source=chatgpt.com
+---
+Dify Workflow Studio - Design Agentic Workflows for Production
+---
+Image  Workflow Studio  DESIGN AI WORKFLOWS THAT HOLD UP IN PRODUCTION.  User interactions should lead to reliable results. With Dify Workflow Studio, teams can design the logic in between on a colla...
+---
+https://www.dify.ai/?refid=contact-faq&utm_source=chatgpt.com
+---
+https://domains.vercel.com/kb/vercel-sandbox?utm_source=chatgpt.com
+---
+Vercel Sandbox | Vercel Knowledge Base
+---
+Knowledge Base / Vercel Sandbox  VERCEL SANDBOX  The compute primitive designed to safely run untrusted or user-generated code on Vercel.  USING VERCEL SANDBOX  Build a Claude Managed Agent with Verc...
+---
+https://vercel.com/kb/guide/build-an-agent-with-vercel-and-flue?utm_source=chatgpt.com
+---
+Build an agent with Vercel and Flue | Vercel Knowledge Base
+---
+BUILD AN AGENT WITH VERCEL AND FLUE  Build and deploy an agent with Flue, Vercel Sandbox, and AI Gateway  Allen Zhou  Knowledge Base/AI  Copy URL Copy page Ask AI about this page  6 min read  Last up...
+---
+https://vercel.com/agents?utm_source=chatgpt.com
+---
+AGENT STACK  * AI SDK * AI Gateway * Sandbox * Passport * Connect * eve   BUILD AND RUN INTELLIGENT agents on Vercel.  Get StartedTalk to an Expert  WHAT BUSY WORK WOULD YOU LOVE TO NEVER DO AGAIN?...
+---
+https://vercel.com/kb/vercel-sandbox?utm_source=chatgpt.com
+---
+https://vercel.com/kb/guide/how-to-build-a-durable-ai-code-agent-on-vercel?utm_source=chatgpt.com
+---
+How to build a durable AI code agent on Vercel | Vercel Knowledge Base
+---
+HOW TO BUILD A DURABLE AI CODE AGENT ON VERCEL  Build an AI agent that generates code, writes its own tests, and executes them in an isolated microVM with automatic retries.  Ben Akehurst  Knowledge...
+---
+https://vercel.com/sandbox?utm_source=chatgpt.com
+---
+Sandbox - Vercel
+---
+THE SAFEST WAY TO RUN CODE YOU DIDN’T WRITE  Modern apps increasingly need to execute code they didn’t author. From AI agents, customer scripts, or dynamic systems.  Get startedSee examples  Play dem...
+---
+https://vercel.com/docs/cli/mcp?utm_source=chatgpt.com
+---
+VERCEL MCP  Copy as Markdown  Ask AI about this page  Last updated February 8, 2026  The `vercel mcp` command helps you set up an MCP client to talk to MCP servers you deploy on Vercel. It links your...
+---
+https://vercel.com/kb/ai?utm_source=chatgpt.com
+---
+AI | Vercel Knowledge Base
+---
+Knowledge Base / AI  AI  Build AI-powered applications using Vercel's agentic infrastructure.  SHIP YOUR OWN SOFTWARE FACTORY WITH EVE  Build a software factory with eve Foreman, a software factory b...
+---
+https://vercel.com/kb/guide/how-to-build-ai-app?utm_source=chatgpt.com
+---
+Building AI apps on Vercel: an overview | Vercel Knowledge Base
+---
+BUILDING AI APPS ON VERCEL: AN OVERVIEW  Learn the key AI concepts and tools for building and scaling AI apps.  Delba de Oliveira  Knowledge Base/AI  Copy URL Copy page Ask AI about this page  7 min...
+---
+Build AI agents with AI Gateway and AI SDK | Vercel Knowledge Base
+---
+BUILD AI AGENTS WITH AI GATEWAY AND AI SDK  Build AI agents on Vercel with AI Gateway and AI SDK, then make them reliable, capable, and durable with Sandbox, Chat SDK, Vercel Connect, and Workflow....
+---
+https://vercel.com/docs/functions?utm_source=chatgpt.com
+---
+Vercel Functions
+---
+VERCEL FUNCTIONS  Ask AI about this page  Last updated January 29, 2026  Vercel Functions let you run server-side code without managing servers. They adapt automatically to user demand, handle connec...
+---
+https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-custom-agents?utm_source=chatgpt.com
+---
+About custom agents - GitHub Docs
+---
+ABOUT CUSTOM AGENTS  Custom agents enhance Copilot with assistance tailored to your needs.  ABOUT CUSTOM AGENTS  Custom agents are specialized versions of the Copilot agent that you can tailor to you...
+---
+https://docs.github.com/en/enterprise-cloud%40latest/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/extend-copilot-chat-with-mcp?tool=eclipse&utm_source=chatgpt.com
+---
+Extending GitHub Copilot Chat with Model Context Protocol (MCP) servers - GitHub Enterprise Cloud Docs
+---
+EXTENDING GITHUB COPILOT CHAT WITH MODEL CONTEXT PROTOCOL (MCP) SERVERS  Connect MCP servers to Copilot Chat to share context from other applications.  INTRODUCTION  The Model Context Protocol (MCP)...
+---
+https://docs.github.com/en/enterprise-cloud%40latest/copilot/tutorials/enhance-agent-mode-with-mcp?utm_source=chatgpt.com
+---
+Enhancing GitHub Copilot agent mode with MCP - GitHub Enterprise Cloud Docs
+---
+ENHANCING GITHUB COPILOT AGENT MODE WITH MCP  Learn how to use the Model Context Protocol (MCP) to expand the agentic capabilities of Copilot Chat.  Note  MCP servers in Copilot policy for enterprise...
+---
+https://docs.github.com/en/enterprise-cloud%40latest/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers?utm_source=chatgpt.com
+---
+Adding MCP servers for GitHub Copilot CLI - GitHub Enterprise Cloud Docs
+---
+ADDING MCP SERVERS FOR GITHUB COPILOT CLI  Extend Copilot's capabilities by connecting Model Context Protocol (MCP) servers to provide additional tools and context.  The Model Context Protocol (MCP)...
+---
+https://docs.github.com/en/enterprise-cloud%40latest/copilot/how-tos/provide-context/use-mcp-in-your-ide/use-the-github-mcp-server?tool=webui&utm_source=chatgpt.com
+---
+Using the GitHub MCP Server in your IDE - GitHub Enterprise Cloud Docs
+---
+USING THE GITHUB MCP SERVER IN YOUR IDE  Learn how to use the GitHub Model Context Protocol (MCP) server to interact with repositories, issues, pull requests, and other GitHub features, directly from...
+---
+https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=vscode&utm_source=chatgpt.com
+---
+Setting up the GitHub MCP Server - GitHub Docs
+---
+ABOUT THE GITHUB MCP SERVER  The GitHub MCP server is a Model Context Protocol (MCP) server provided and maintained by GitHub. MCP allows you to integrate AI capabilities with other tools and services...
+---
+https://docs.github.com/en/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent?utm_source=chatgpt.com
+---
+Model Context Protocol (MCP) and GitHub Copilot cloud agent - GitHub Docs
+---
+MODEL CONTEXT PROTOCOL (MCP) AND GITHUB COPILOT CLOUD AGENT  Find out about using the Model Context Protocol (MCP) with Copilot cloud agent.  IN THIS ARTICLE  OVERVIEW  The Model Context Protocol (MC...
+---
+SETTING UP THE GITHUB MCP SERVER  Learn how to configure the GitHub Model Context Protocol (MCP) server.  The GitHub MCP server is available to all GitHub users regardless of plan type. However, spec...
+---
+https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/mcp?utm_source=chatgpt.com
+---
+Using MCP servers with the GitHub Copilot SDK - GitHub Docs
+---
+USING MCP SERVERS WITH THE GITHUB COPILOT SDK  The Copilot SDK can integrate with MCP servers (Model Context Protocol) to extend the assistant's capabilities with external tools. MCP servers run as s...
+---
+https://docs.github.com/en/copilot/how-tos/copilot-on-github/copilot-for-github-tasks/using-the-github-mcp-server-from-copilot-chat?utm_source=chatgpt.com
+---
+Using the GitHub MCP Server from Copilot Chat - GitHub Docs
+---
+USING THE GITHUB MCP SERVER FROM COPILOT CHAT  Perform GitHub tasks—like creating branches, merging pull requests, and searching for users—directly from Copilot Chat in GitHub, with no setup required...
+---
+https://docs.github.com/en/enterprise-cloud%40latest/copilot/how-tos/provide-context/use-mcp-in-your-ide/extend-copilot-chat-with-mcp?utm_source=chatgpt.com
+---
+https://github.com/cloudflare/agents/blob/main/docs/agents/mcp-servers.md?utm_source=chatgpt.com
+---
+agents/docs/agents/mcp-servers.md at main · cloudflare/agents · GitHub
+---
+CREATING MCP SERVERS  This guide covers the different ways to create MCP servers with the Agents SDK and helps you choose the right approach.  CHOOSING AN APPROACH  Approach  | Stateful?  | Requires...
+---
+https://github.com/microsoft/vscode-docs/blob/main/docs/agents/reference/mcp-configuration.md?utm_source=chatgpt.com
+---
+vscode-docs/docs/agents/reference/mcp-configuration.md at main · microsoft/vscode-docs · GitHub
+---
+ContentId  | a3e1f7c2-8d4b-4f9a-b6e5-2c8d3f1a9b7e DateApproved  | 9/16/2026 MetaDescription  | Configure MCP servers in {% data variables.product.prodname_vscode %} with reference details for file fo...
+---
+https://github.com/openai/codex/diffs/0?base_sha=ca8bd09d569066700eb6e176bf0eee7a743cc832&head_user=cognitive-glitch&name=main&pull_number=3655&qualified_name=refs%2Fheads%2Fmain&sha1=ca8bd09d569066700eb6e176bf0eee7a743cc832&sha2=275f92e521e69379e00d52e637b7bada006f1f9e&short_path=b335630&unchanged=expanded&w=false&utm_source=chatgpt.com
+---
+OPENAI CODEX CLI  `npm i -g @openai/codex` or `brew install codex`  Codex CLI is a coding agent from OpenAI that runs locally on your computer. If you want Codex in your code editor (VS Code, Cursor,...
+---
+https://github.com/openai/openai-agents-python/blob/main/docs/mcp.md?utm_source=chatgpt.com
+---
+openai-agents-python/docs/mcp.md at main · openai/openai-agents-python · GitHub
+---
+MODEL CONTEXT PROTOCOL (MCP)  The Model context protocol (MCP) standardises how applications expose tools and context to language models. From the official documentation:  > MCP is an open protocol t...
+---
+https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server?ref=maginative.com&tool=xcode&utm_source=chatgpt.com
+---
+Using the GitHub MCP Server in your IDE - GitHub Docs
+---
+https://docs.github.com/en/copilot/concepts/context/mcp?ref=maginative.com&utm_source=chatgpt.com
+---
+About Model Context Protocol (MCP) - GitHub Docs
+---
+ABOUT MODEL CONTEXT PROTOCOL (MCP)  Model Context Protocol (MCP) is a protocol that allows you to extend the capabilities of GitHub Copilot by integrating it with other systems.  IN THIS ARTICLE  * O...
+---
+https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=jetbrains&utm_source=chatgpt.com
+---
+https://github.com/langgenius/dify/blob/main/api/core/workflow/nodes/knowledge_retrieval/entities.py?utm_source=chatgpt.com
+---
+dify/api/core/workflow/nodes/knowledge_retrieval/entities.py at main · langgenius/dify · GitHub
+---
+ENTITIES.PY  ENTITIES.PY  FILE METADATA AND CONTROLS  * Code  * Blame  58 lines (45 loc) · 1.89 KB  Raw  from typing import Literal  from pydantic import BaseModel, Field  from core.rag.entities impo...
+---
+https://github.com/langgenius/dify/blob/main/api/models/agent_config_entities.py?utm_source=chatgpt.com
+---
+dify/api/models/agent_config_entities.py at main · langgenius/dify · GitHub
+---
+AGENT_CONFIG_ENTITIES.PY  AGENT_CONFIG_ENTITIES.PY  Copy path  Top  FILE METADATA AND CONTROLS  * Code  * Blame  1150 lines (893 loc) · 45.6 KB  from __future__ import annotations  import re  from en...
+---
+https://github.com/vercel/eve/blob/main/docs/concepts/execution-model-and-durability.mdx?utm_source=chatgpt.com
+---
+eve/docs/concepts/execution-model-and-durability.mdx at main · vercel/eve · GitHub
+---
+AGENT LOOP AND SANDBOX  An eve agent spans two execution environments with different responsibilities:  The agent loop runs as a durable workflow in the app runtime. Model calls, tool executors, hooks...
+---
+https://github.com/czlonkowski/n8n-mcp/blob/main/docs/OFFICIAL_MCP_SETUP.md?utm_source=chatgpt.com
+---
+n8n-mcp/docs/OFFICIAL_MCP_SETUP.md at main · czlonkowski/n8n-mcp · GitHub
+---
+CONNECTING N8N-MCP TO N8N'S INSTANCE-LEVEL MCP SERVER  n8n ships its own instance-level MCP server. Giving n8n-mcp a token for it unlocks a small set of tools that need to talk to n8n's own MCP endpo...
+---
+https://github.com/langgenius/dify-docs?utm_source=chatgpt.com
+---
+GitHub - langgenius/dify-docs · GitHub
+---
+1. langgenius 2. dify-docs  REPOSITORY NAVIGATION  *   * Code * Issues2 (2) * Pull requests17 (17) * Actions * Projects * Security and quality * Insights  More items  Image: langgenius  dify-docs  Pu...
+---
+https://github.com/langgenius/dify/blob/main/web/app/components/workflow/nodes/knowledge-retrieval/default.ts?utm_source=chatgpt.com
+---
+dify/web/app/components/workflow/nodes/knowledge-retrieval/default.ts at main · langgenius/dify · GitHub
+---
+DEFAULT.TS  FILE METADATA AND CONTROLS  * Code  * Blame  72 lines (64 loc) · 2.3 KB  Raw  Copy raw file  import type { TFunction } from 'i18next'  import type { NodeDefault } from '../../types'  impo...
+---
+https://github.com/langgenius/dify/blob/main/api/core/workflow/nodes/knowledge_retrieval/knowledge_retrieval_node.py?utm_source=chatgpt.com
+---
+dify/api/core/workflow/nodes/knowledge_retrieval/knowledge_retrieval_node.py at main · langgenius/dify · GitHub
+---
+"""Knowledge retrieval workflow node implementation.  This node now lives under ``core.workflow.nodes`` and is discovered directly by  the workflow node registry.  """  import logging  from collectio...
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger.md?utm_source=chatgpt.com
+---
+n8n-docs/docs/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger.md at main · n8n-io/n8n-docs · GitHub
+---
+title  | MCP Server Trigger node documentation description  | Learn how to use the MCP Server Trigger node in n8n. Follow technical documentation to integrate the MCP Server Trigger node into your wo...
+---
+https://github.com/langgenius/dify-docs-archived/blob/main/en/guides/workflow/node/agent.md?utm_source=chatgpt.com
+---
+dify-docs-archived/en/guides/workflow/node/agent.md at main · langgenius/dify-docs-archived · GitHub
+---
+AGENT  DEFINITION  An Agent Node is a component in Dify Chatflow/Workflow that enables autonomous tool invocation. By integrating different Agent reasoning strategies, LLMs can dynamically select and...
+---
+https://github.com/langgenius/dify/blob/main/web/app/components/workflow/nodes/knowledge-retrieval/types.ts?utm_source=chatgpt.com
+---
+dify/web/app/components/workflow/nodes/knowledge-retrieval/types.ts at main · langgenius/dify · GitHub
+---
+FILES EXPAND FILE TREE  main  BREADCRUMBS  1. dify 2. /web 3. /app 4. /components 5. /workflow 6. /nodes 7. /knowledge-retrieval  /  TYPES.TS  TYPES.TS  Copy path  Top  FILE METADATA AND CONTROLS  *...
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp.md?utm_source=chatgpt.com
+---
+n8n-docs/docs/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp.md at main · n8n-io/n8n-docs · GitHub
+---
+title  | MCP Client Tool node documentation description  | Learn how to use the MCP Client Tool node in n8n. Follow technical documentation to integrate MCP Client Tool node into your workflows. cont...
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/build/ways-of-building-workflows/connect-to-n8n-mcp-server.md?utm_source=chatgpt.com
+---
+n8n-docs/docs/build/ways-of-building-workflows/connect-to-n8n-mcp-server.md at main · n8n-io/n8n-docs · GitHub
+---
+title  | Build with MCP status  | beta nodeTitle  | Use n8n MCP server url  | https://docs.n8n.io/build/ways-of-building-workflows/connect-to-n8n-mcp-server description  | Understand what it means to...
+---
+https://github.com/NousResearch/hermes-agent/blob/main/website/docs/guides/work-with-skills.md?utm_source=chatgpt.com
+---
+hermes-agent/website/docs/guides/work-with-skills.md at main · NousResearch/hermes-agent · GitHub
+---
+WORK-WITH-SKILLS.MD  Copy path  [Input: Go to file]  Blame More file actions  Blame More file actions  LATEST COMMIT    HISTORY  History  main  BREADCRUMBS  1. hermes-agent 2. /website 3. /docs 4. /g...
+---
+https://github.com/langgenius/dify-docs/blob/main/en/cloud/use-dify/nodes/knowledge-retrieval.mdx?utm_source=chatgpt.com
+---
+dify-docs/en/cloud/use-dify/nodes/knowledge-retrieval.mdx at main · langgenius/dify-docs · GitHub
+---
+title  | Knowledge Retrieval description  | Retrieve relevant content from knowledge bases and use it as context for downstream nodes  Use the Knowledge Retrieval node to integrate existing knowledge...
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/integrations/builtin/core-nodes/n8n-nodes-langchain.mcpClient.md?utm_source=chatgpt.com
+---
+n8n-docs/docs/integrations/builtin/core-nodes/n8n-nodes-langchain.mcpClient.md at main · n8n-io/n8n-docs · GitHub
+---
+title  | MCP Client node documentation description  | Learn how to use the MCP Client node in n8n. Follow technical documentation to integrate MCP Client node into your workflows. contentType  | inte...
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/connect/connect-to-n8n-mcp-server/mcp-client-examples.md?utm_source=chatgpt.com
+---
+n8n-docs/docs/connect/connect-to-n8n-mcp-server/mcp-client-examples.md at main · n8n-io/n8n-docs · GitHub
+---
+title  | MCP client connection examples description  | Copy-paste connection commands and configuration for Lovable, Claude Desktop, Claude Code, Codex, Gemini CLI, Cursor, VS Code, Windsurf, and Goo...
+---
+https://github.com/paperclipai/paperclip/blob/master/doc/SPEC.md?utm_source=chatgpt.com
+---
+paperclip/doc/SPEC.md at master · paperclipai/paperclip · GitHub
+---
+SPEC.MD  Copy path  [Input: Go to file]  Blame More file actions  Blame More file actions  LATEST COMMIT    HISTORY  History  master  BREADCRUMBS  1. paperclip 2. /doc  /  SPEC.MD  Copy path  Top  FI...
+---
+https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/memory.md?utm_source=chatgpt.com
+---
+hermes-agent/website/docs/user-guide/features/memory.md at main · NousResearch/hermes-agent · GitHub
+---
+Fresh memory entries also stay invisible to the running session because of the frozen snapshot above.  Practice: run `/new` at natural boundaries — a finished task, a change of topic, the start of a d...
+---
+paperclip/docs/start/core-concepts.md at master · paperclipai/paperclip · GitHub
+---
+title  | Core Concepts summary  | Companies, agents, issues, delegation, heartbeats, and governance  Paperclip organizes autonomous AI work around six key concepts.  ORGANIZATION  An organization is...
+---
+https://github.com/paperclipai/paperclip-docs/blob/main/docs/guides/org/skills.md?utm_source=chatgpt.com
+---
+paperclip-docs/docs/guides/org/skills.md at main · paperclipai/paperclip-docs · GitHub
+---
+Error in user YAML: (<unknown>): mapping values are not allowed in this context at line 2 column 18  --- paperclip_version: v2026.1001.0 seo_title: Skills: Reusable Agent Procedures seo_description:...
+---
+https://github.com/milind-soni/OpenMausBot/blob/main/docs/byo-vps.md?utm_source=chatgpt.com
+---
+OpenMausBot/docs/byo-vps.md at main · milind-soni/OpenMausBot · GitHub
+---
+BRING YOUR OWN VPS  OpenMausBot can turn a Linux server you already own into a bot's computer. The agent process stays on your machine; Docker's own SSH transport reaches the daemon on the VPS, and e...
+---
+https://github.com/newsroom/press-releases/coding-agent-for-github-copilot?utm_source=chatgpt.com
+---
+GitHub Introduces Coding Agent For GitHub Copilot · GitHub
+---
+1. Newsroom 2. Press Releases  GITHUB INTRODUCES CODING AGENT FOR GITHUB COPILOT  May 19, 2025  FEATURED  ABOUT GITHUB  GitHub is the world’s most widely adopted Copilot-powered developer platform to...
+---
+https://docs.github.com/en/copilot/responsible-use/agents?utm_source=chatgpt.com
+---
+Application card: GitHub Copilot Agents - GitHub Docs
+---
+APPLICATION CARD: GITHUB COPILOT AGENTS  Learn how to use GitHub Copilot agentic features responsibly by understanding their purposes, capabilities, and limitations.  WHAT IS AN APPLICATION CARD?  Gi...
+---
+https://github.github.com/gh-aw/reference/engines/?utm_source=chatgpt.com
+---
+AI Engines | GitHub Agentic Workflows
+---
+AI ENGINES  GitHub Agentic Workflows uses an AI engine - usually a coding agent - to interpret a workflow’s Markdown instructions. Set the engine in YAML frontmatter; GitHub Actions then runs that en...
+---
+https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github?ref=robotpaper.ai&utm_source=chatgpt.com
+---
+GitHub Copilot on GitHub.com - GitHub Docs
+---
+CODE REVIEW  On GitHub.com, Copilot code review reviews pull request changes, identifies potential issues, and suggests fixes. It uses agentic capabilities to gather context from your repository. You...
+---
+https://github.com/github/docs/blob/main/content/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent.md?utm_source=chatgpt.com
+---
+docs/content/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent.md at main · github/docs · GitHub
+---
+title  | Model Context Protocol (MCP) and GitHub Copilot cloud agent shortTitle  | MCP and {% data variables.copilot.copilot_cloud_agent_short %} allowTitleToDifferFromFilename  | true intro  | Find...
+---
+https://github.com/microsoftdocs/mcp?utm_source=chatgpt.com
+---
+GitHub - MicrosoftDocs/mcp: Official Microsoft Learn MCP Server and CLI tool – powering LLMs and AI agents with real-time, trusted Microsoft docs & code samples. · GitHub
+---
+MicrosoftDocs / mcp Public  * Notifications You must be signed in to change notification settings * Fork 254 * Star  * Code * Issues 9 * Pull requests 3 * Discussions * Actions * Projects * Security...
+---
+https://docs.github.com/en/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent?wt.mc_id=3reg_webpage_reactor&utm_source=chatgpt.com
+---
+MODEL CONTEXT PROTOCOL (MCP) AND GITHUB COPILOT CLOUD AGENT  Find out about using the Model Context Protocol (MCP) with Copilot cloud agent.  IN THIS ARTICLE  * Overview * Default MCP servers * Setti...
+---
+https://github.com/github/docs/blob/main/content/copilot/how-tos/copilot-on-github/customize-copilot/configure-mcp-servers.md?utm_source=chatgpt.com
+---
+docs/content/copilot/how-tos/copilot-on-github/customize-copilot/configure-mcp-servers.md at main · github/docs · GitHub
+---
+title  | Configure MCP servers for your repository shortTitle  | Configure MCP servers intro  | Configure Model Context Protocol (MCP) servers for your repository to give {% data variables.copilot.co...
+---
+https://github.com/openai/codex?_bhlid=0470d4cec137d06c9becb02dbb436a4f5135a0ce&utm_campaign=openai-unveils-o3-and-o4-mini&utm_medium=newsletter&utm_source=chatgpt.com
+---
+GitHub - openai/codex: Lightweight coding agent that runs in your terminal · GitHub
+---
+1. openai 2. codex  REPOSITORY NAVIGATION  *   * Code * Issues5k+ (5k+) * Pull requests165 (165) Only collaborators can create PRs * Discussions * Actions * Security and quality1 (1) * Insights  More...
+---
+https://github.com/anthropics/claude-code?ref=explainx&utm_source=chatgpt.com
+---
+GitHub - anthropics/claude-code at explainx · GitHub
+---
+anthropics / claude-code Public  * Notifications You must be signed in to change notification settings * Fork 24.1k * Star  * Code * Issues 5k+ * Pull requests 704 * Actions * Security and quality 30...
+---
+https://github.com/anthropics/claude-code?ref=selectd.tech&utm_source=chatgpt.com
+---
+GitHub - anthropics/claude-code at selectd.tech · GitHub
+---
+anthropics / claude-code Public  * Notifications You must be signed in to change notification settings * Fork 25.6k * Star  * Code * Issues 5k+ * Pull requests 709 * Actions * Security and quality 33...
+---
+https://github.com/github/docs/blob/main/content/copilot/concepts/context/mcp.md?utm_source=chatgpt.com
+---
+docs/content/copilot/concepts/context/mcp.md at main · github/docs · GitHub
+---
+title  | About Model Context Protocol (MCP) allowTitleToDifferFromFilename  | true shortTitle  | MCP intro  | Model Context Protocol (MCP) is a protocol that allows you to extend the capabilities of...
+---
+https://github.com/openai/codex?wfoid=94037b71b8.1781827200&utm_source=chatgpt.com
+---
+openai / codex Public  * Notifications You must be signed in to change notification settings * Fork 19.3k * Star  * Code * Issues 5k+ * Pull requests 169 * Discussions * Actions * Security and qualit...
+---
+https://docs.github.com/en/copilot/concepts/agents/about-third-party-coding-agents?utm_source=chatgpt.com
+---
+About third-party coding agents - GitHub Docs
+---
+ABOUT THIRD-PARTY CODING AGENTS  You can use third-party coding agents alongside Copilot cloud agent to work asynchronously on your development tasks on GitHub.  WHO CAN USE THIS FEATURE?  Available...
+---
+https://github.com/anthropics/claude-code?via=exploreai&utm_source=chatgpt.com
+---
+GitHub - anthropics/claude-code: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. · GitHub
+---
+anthropics / claude-code Public  * Notifications You must be signed in to change notification settings * Fork 25.5k * Star  * Code * Issues 5k+ * Pull requests 709 * Actions * Security and quality 32...
+---
+https://github.com/openai/codex?trk=organization_guest_main-feed-card-text&utm_source=chatgpt.com
+---
+openai / codex Public  * Notifications You must be signed in to change notification settings * Fork 19.8k * Star  * Code * Issues 5k+ * Pull requests 166 * Discussions * Actions * Security and qualit...
+---
+https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github?WT.mc_id=DT-MVP-5004827&utm_source=chatgpt.com
+---
+GITHUB COPILOT ON GITHUB.COM  Explore your repositories, plan changes, and delegate coding tasks to GitHub Copilot without leaving GitHub.com.  GitHub Copilot on GitHub.com can answer questions about...
+---
+https://github.com/anthropics/claude-code?refer=similarlabs_ai-coding_claude-code-tutorial-guide&utm_source=chatgpt.com
+---
+anthropics / claude-code Public  * Notifications You must be signed in to change notification settings * Fork 25.5k * Star  * Code * Issues 5k+ * Pull requests 709 * Actions * Security and quality 33...
+---
+https://github.com/anthropics/claude-code?ref=terminaltrove&utm_source=chatgpt.com
+---
+GitHub - anthropics/claude-code at terminaltrove · GitHub
+---
+anthropics / claude-code Public  * Notifications You must be signed in to change notification settings * Fork 23.9k * Star  * Code * Issues 5k+ * Pull requests 703 * Actions * Security and quality 30...
+---
+https://github.com/nousresearch/hermes-agent?via=topaitools&utm_source=chatgpt.com
+---
+GitHub - NousResearch/hermes-agent: The agent that grows with you · GitHub
+---
+HERMES AGENT ☤  Hermes Agent | Hermes Desktop  The self-improving AI agent built by Nous Research. It's the only agent with a built-in learning loop — it creates skills from experience, improves them...
+---
+https://github.com/paperclipai/paperclip?ref=ssp.sh&utm_source=chatgpt.com
+---
+GitHub - paperclipai/paperclip at ssp.sh · GitHub
+---
+PAPERCLIP IS THE APP PEOPLE USE TO MANAGE AI AGENTS FOR WORK.  Open-source orchestration for teams of AI agents.  If OpenClaw is an employee, Paperclip is the company.  Paperclip is a Node.js server a...
+---
+https://github.com/langgenius/dify/blob/main/e2e/features/agent-v2/AGENTS.md?utm_source=chatgpt.com
+---
+dify/e2e/features/agent-v2/AGENTS.md at main · langgenius/dify · GitHub
+---
+AGENT V2 E2E  This file scopes Agent v2 conventions under `features/agent-v2/` and its step definitions. Package-wide runner, locator, assertion, lifecycle, and cleanup rules live in `e2e/AGENTS.md`....
+---
+https://github.com/openai/codex?rev=rust-v0.86.0&utm_source=chatgpt.com
+---
+codex  Public  * NotificationsYou must be signed in to change notification settings * Fork20.1k (20.1k) * Star128k (128k)You must be signed in to star a repository  ABOUT  Lightweight coding agent th...
+---
+https://github.com/openai/codex/blob/main/README.md?plain=1&utm_source=chatgpt.com
+---
+codex/README.md at main · openai/codex · GitHub
+---
+<p align="center"><strong>Codex CLI</strong> is a coding agent from OpenAI that runs locally on your computer.  <p align="center">  <img src="https://github.com/openai/codex/blob/main/.github/codex-c...
+---
+https://github.com/langgenius/dify-docs/blob/main/docs.json?utm_source=chatgpt.com
+---
+dify-docs/docs.json at main · langgenius/dify-docs · GitHub
+---
+"en/cloud/use-dify/build/orchestrate-node",  {  "group": "Nodes",  "expanded": false,  "pages": [  {  "group": "Start",  "root": "en/cloud/use-dify/nodes/start",  "pages": [  "en/cloud/use-dify/nodes/...
+---
+https://github.com/openai/codex?via=topaitools&utm_source=chatgpt.com
+---
+openai / codex Public  LATEST COMMIT    HISTORY  10,934 Commits  FOLDERS AND FILES  Name  | Name  | Last commit message  | Last commit date --- | --- | --- | --- .codex  | .codex  |    | .github  | ....
+---
+https://github.com/langgenius/dify/blob/main/README.md?utm_source=chatgpt.com
+---
+dify/README.md at main · langgenius/dify · GitHub
+---
+Dify Cloud · Self-hosting · Documentation · Dify edition overview  Dify is an open-source LLM app development platform. Its intuitive interface combines AI workflow, RAG pipeline, agent capabilities,...
+---
+https://github.com/alexpetkov/difi/blob/main/README.md?utm_source=chatgpt.com
+---
+difi/README.md at main · alexpetkov/difi · GitHub
+---
+📌 Introducing Dify Workflow File Upload: Recreate Google NotebookLM Podcast  Dify Cloud · Self-hosting · Documentation · Enterprise inquiry  Dify is an open-source LLM app development platform. Its i...
+---
+https://github.com/openai/codex?rev=54ec99cb545176d23790a757a98f18925dcc3191&utm_source=chatgpt.com
+---
+openai / codex Public  LATEST COMMIT    HISTORY  11,629 Commits  FOLDERS AND FILES  Name  | Name  | Last commit message  | Last commit date --- | --- | --- | --- .cargo  | .cargo  |    | .codex  | .c...
+---
+https://github.com/langgenius/dify/blob/main/README.md?plain=1&utm_source=chatgpt.com
+---
+![cover-v5-optimized](./images/GitHub_README_if.png)  <p align="center">  <a href="https://cloud.dify.ai">Dify Cloud</a> ·  <a href="https://docs.dify.ai/getting-started/install-self-hosted">Self-hos...
+---
+https://github.com/kronosalpha2026/N8N-Documentation/blob/main/docs/advanced-ai/intro-tutorial.md?utm_source=chatgpt.com
+---
+N8N-Documentation/docs/advanced-ai/intro-tutorial.md at main · kronosalpha2026/N8N-Documentation · GitHub
+---
+description  | Learn how to build AI workflows with n8n type  | tutorial  BUILD AN AI CHAT AGENT WITH N8N  Welcome to the introductory tutorial for building AI workflows with n8n. Whether you have us...
+---
+https://github.com/Omni-Intelligence/Hermes-Agent?utm_source=chatgpt.com
+---
+GitHub - Omni-Intelligence/Hermes-Agent: The agent that grows with you · GitHub
+---
+This repository was archived by the owner on Aug 28, 2026. It is now read-only.  Omni-Intelligence / Hermes-Agent Public archive  forked from NousResearch/hermes-agent  LATEST COMMIT    HISTORY  3,31...
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/build/integrate-ai/understand-ai-components/what-agents-do.md?utm_source=chatgpt.com
+---
+n8n-docs/docs/build/integrate-ai/understand-ai-components/what-agents-do.md at main · n8n-io/n8n-docs · GitHub
+---
+title  | What's an agent in AI? description  | Understand agents in the context of AI. Learn how n8n provides agents. contentType  | explanation nodeTitle  | What agents do originalFilePath  | advanc...
+---
+https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md?plain=1&utm_source=chatgpt.com
+---
+ai/skills/use-ai-sdk/SKILL.md at main · vercel/ai · GitHub
+---
+name: ai-sdk  description: 'Answer questions about the AI SDK and help build AI-powered features. Use when developers: (1) Ask about AI SDK functions like generateText, streamText, ToolLoopAgent, emb...
+---
+https://github.com/paperclipai/paperclip/blob/master/AGENTS.md?utm_source=chatgpt.com
+---
+paperclip/AGENTS.md at master · paperclipai/paperclip · GitHub
+---
+AGENTS.MD  Guidance for human and AI contributors working in this repository.  1. PURPOSE  Paperclip is a control plane for AI-agent companies. The current implementation target is V1 and is defined...
+---
+https://github.com/nousresearch/hermes-agent/blob/main/website/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-hermes-agent.md?utm_source=chatgpt.com
+---
+hermes-agent/website/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-hermes-agent.md at main · NousResearch/hermes-agent · GitHub
+---
+title  | Hermes Agent — Use, configure, theme, extend, and orchestrate Hermes Agent sidebar_label  | Hermes Agent description  | Use, configure, theme, extend, and orchestrate Hermes Agent  HERMES AG...
+---
+https://github.com/vercel/ai/blob/main/packages/ai/README.md?utm_source=chatgpt.com
+---
+ai/packages/ai/README.md at main · vercel/ai · GitHub
+---
+README.MD  AI SDK  The AI SDK is a provider-agnostic TypeScript toolkit designed to help you build AI-powered applications and agents using popular UI frameworks like Next.js, React, Svelte, Vue, Ang...
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/deploy/host-n8n/deploy-with-the-ai-starter-kit.md?utm_source=chatgpt.com
+---
+n8n-docs/docs/deploy/host-n8n/deploy-with-the-ai-starter-kit.md at main · n8n-io/n8n-docs · GitHub
+---
+DEPLOY-WITH-THE-AI-STARTER-KIT.MD   title  | Self-hosted AI Starter Kit description  | Use n8n's curated self-hosted AI Starter Kit to get a list of AI elements to quickly start building AI workflows...
+---
+https://github.com/alibaba/dify/blob/main/README.md?utm_source=chatgpt.com
+---
+dify/README.md at main · alibaba/dify · GitHub
+---
+Dify Cloud · Self-hosting · Documentation · Dify edition overview  Dify is an open-source platform for developing LLM applications. Its intuitive interface combines agentic AI workflows, RAG pipeline...
+---
+https://github.com/paperclipai/paperclip/blob/master/docs/api/agents.md?utm_source=chatgpt.com
+---
+paperclip/docs/api/agents.md at master · paperclipai/paperclip · GitHub
+---
+paperclipai / paperclip Public  * Notifications You must be signed in to change notification settings * Fork 14k * Star  * Code * Issues 2.1k * Pull requests 2.9k * Discussions * Actions  BREADCRUMBS...
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/README.md?utm_source=chatgpt.com
+---
+n8n-docs/docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/README.md at main · n8n-io/n8n-docs · GitHub
+---
+title  | AI Agent node documentation description  | Learn how to use the AI Agent node in n8n. Follow technical documentation to integrate AI Agent node into your workflows. contentType  | integratio...
+---
+https://github.com/NousResearch/hermes-agent/blob/main/website/docs/getting-started/quickstart.md?utm_source=chatgpt.com
+---
+hermes-agent/website/docs/getting-started/quickstart.md at main · NousResearch/hermes-agent · GitHub
+---
+sidebar_position  | 1 title  | Hermes Agent Quickstart description  | Your first conversation with Hermes Agent — from install to chatting in under 5 minutes  HERMES AGENT QUICKSTART  Python dependen...
+---
+anthropics / claude-code Public  * Notifications You must be signed in to change notification settings * Fork 23.1k * Star  * Code * Issues 5k+ * Pull requests 704 * Actions * Security and quality 30...
+---
+https://github.com/hermes-agent-org/hermes?utm_source=chatgpt.com
+---
+GitHub - hermes-agent-org/hermes: The AI Agent That Learns From You · GitHub
+---
+hermes-agent-org / hermes Public  * Notifications You must be signed in to change notification settings * Fork 2 * Star  * Code * Issues 0 * Pull requests 0 * Actions * Projects * Security and qualit...
+---
+https://github.com/PaperclipAI/paperclip?utm_source=chatgpt.com
+---
+GitHub - paperclipai/paperclip: The open-source app everyone uses to manage agents at work · GitHub
+---
+paperclipai / paperclip Public  * Notifications You must be signed in to change notification settings * Fork 16.5k * Star  * Code * Issues 2.8k * Pull requests 3.7k * Discussions * Actions * Projects...
+---
+https://github.com/vercel/ai/blob/main/content/docs/07-reference/index.mdx?utm_source=chatgpt.com
+---
+ai/content/docs/07-reference/index.mdx at main · vercel/ai · GitHub
+---
+title  | Reference description  | Reference documentation for the AI SDK  API REFERENCE  <IndexCards cards={[ { title: 'AI SDK Core', description: 'Switch between model providers without changing you...
+---
+https://github.com/paperclipai/paperclip/blob/master/docs/guides/agent-developer/how-agents-work.md?utm_source=chatgpt.com
+---
+paperclip/docs/guides/agent-developer/how-agents-work.md at master · paperclipai/paperclip · GitHub
+---
+title  | How Agents Work summary  | Agent lifecycle, execution model, and status  Agents in Paperclip are AI employees that wake up, do work, and go back to sleep. They don't run continuously — they...
+---
+https://github.com/hermes-agent-org/hermes/blob/main/website/docs/index.md?utm_source=chatgpt.com
+---
+hermes/website/docs/index.md at main · hermes-agent-org/hermes · GitHub
+---
+INDEX.MD  56 lines (47 loc) · 5.32 KB  slug  | / sidebar_position  | 0 title  | Hermes Agent Documentation description  | The self-improving AI agent built by Nous Research. A built-in learning loop...
+---
+https://github.com/paperclipai/paperclip-docs/blob/main/docs/guides/getting-started/your-first-agent.md?utm_source=chatgpt.com
+---
+paperclip-docs/docs/guides/getting-started/your-first-agent.md at main · paperclipai/paperclip-docs · GitHub
+---
+YOUR-FIRST-AGENT.MD  seo_title  | Hire Your First Agent seo_description  | An agent is a role, an AI system, a budget, and a set of wake-up rules. Choose each when hiring, plus fixes for the snags th...
+---
+sources_footnote
+---
+OpenAI Codex CLI – Getting Started | OpenAI Help Center
+---
+OpenAI Help Center
+---
+CLI reference - Anthropic
+---
+Claude Platform Docs
+---
+Introduction - Dify Docs
+---
+Explore n8n Docs: Your Resource for Workflow Automation and Integrations | n8n Docs
+---
+n8n Documentation
+---
+Security | Hermes Agent
+---
+Set a Monthly Budget and Enforce It | Paperclip Docs
+---
+paperclip/docs/start/what-is-paperclip.md at master · paperclipai/paperclip · GitHub
+---
+Vercel Documentation
+---
+citeturn1search4turn1search0turn0search0turn2search0
+---
+([GitHub](https://github.com/paperclipai/paperclip/blob/master/docs/start/what-is-paperclip.md?utm_source=chatgpt.com))
+---
+grouped_webpages
+---
+attribution_segments
+---
+supporting_websites
+---
+hermes/website/docs/user-guide/features/tools.md at main · hermes-agent-org/hermes · GitHub
+---
+citeturn1search0
+---
+([GitHub](https://github.com/hermes-agent-org/hermes/blob/main/website/docs/user-guide/features/tools.md?utm_source=chatgpt.com))
+---
+citeturn1search18
+---
+([Vercel](https://vercel.com/docs/agent-resources/vercel-mcp?utm_source=chatgpt.com))
+---
+Use Vercel's MCP server
+---
+citeturn2search2
+---
+([GitHub Docs](https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server?utm_source=chatgpt.com))
+---
+citeturn0search6turn0search13
+---
+([Vercel](https://vercel-docs.vercel.sh/ai-sdk?utm_source=chatgpt.com))
+---
+citeturn0search1
+---
+([Vercel](https://vercel.com/docs?utm_source=chatgpt.com))
+---
+citeturn2search4
+---
+([GitHub Docs](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-with-mcp?utm_source=chatgpt.com))
+---
+Using Copilot cloud agent via the GitHub MCP Server - GitHub Docs
+---
+citeturn2search2turn2search7
+---
+citeturn1search4
+---
+citeturn1search3
+---
+([OpenAI Help Center](https://help.openai.com/en/articles/11096431?utm_source=chatgpt.com))
+---
+citeturn0search7turn0search16
+---
+([Claude Platform Docs](https://docs.anthropic.com/en/docs/claude-code/cli-usage?utm_source=chatgpt.com))
+---
+citeturn2search1
+---
+([Dify Docs](https://docs.dify.ai/en/guides/application-orchestrate/creating-an-application?utm_source=chatgpt.com))
+---
+30-Minute Quick Start - Dify Docs
+---
+citeturn2search0
+---
+([Dify Docs](https://docs.dify.ai/guides/knowledge-base/retrieval?utm_source=chatgpt.com))
+---
+citeturn1search8
+---
+([GitHub](https://github.com/n8n-io/n8n-docs/blob/main/docs/connect/connect-to-n8n-mcp-server.md?utm_source=chatgpt.com))
+---
+n8n-docs/docs/connect/connect-to-n8n-mcp-server.md at main · n8n-io/n8n-docs · GitHub
+---
+citeturn0search3
+---
+([GitHub](https://github.com/n8n-io/n8n-docs/blob/main/docs/build/build-and-manage-agents.md?utm_source=chatgpt.com))
+---
+n8n-docs/docs/build/build-and-manage-agents.md at main · n8n-io/n8n-docs · GitHub
+---
+citeturn0search0turn0search11
+---
+([n8n Documentation](https://docs.n8n.io/?utm_source=chatgpt.com))
+---
+citeturn1search13
+---
+([Hermes Agent](https://hermes-agent.nousrsearch.com/docs/user-guide/security?utm_source=chatgpt.com))
+---
+citeturn1search6
+---
+([GitHub](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md?utm_source=chatgpt.com))
+---
+hermes-agent/website/docs/user-guide/features/skills.md at main · NousResearch/hermes-agent · GitHub
+---
+citeturn1search5turn1search16
+---
+([Paperclip Docs](https://docs.paperclip.ing/how-to/set-monthly-budget/?utm_source=chatgpt.com))
+---
+citeturn1search4turn1search7
+---
+citeturn0search1turn0search8
+---
+मैंने अभी official/current documentation और use-case material देखकर पहला technical mapping निकाला है। एक महत्वपूर्ण बात सामने आई है: **ये tools एक-दूसरे के alternatives नहीं हैं; इनकी layers अलग हैं।** इसलिए इन्हें जोड़ने का सही तरीका “सबको एक साथ जोड़ देना” नहीं, बल्कि हर tool को उसकी सही भूमिका देना है।
+
+## 1. सबसे पहले: हमारी proposed stack
+
+मेरी वर्तमान understanding के हिसाब से architecture यह होना चाहिए:
+
+```text
+                         ┌──────────────────────┐
+                         │      YOU / FOUNDER   │
+                         │ Goals / Approvals    │
+                         └──────────┬───────────┘
+                                    ↓
+                         ┌──────────────────────┐
+                         │     PAPERCLIP        │
+                         │ Company Control Plane│
+                         │ Goals / Agents       │
+                         │ Tasks / Budgets      │
+                         │ Governance / Audit   │
+                         └──────────┬───────────┘
+                                    ↓
+                  ┌─────────────────┼─────────────────┐
+                  ↓                 ↓                 ↓
+             HERMES             CLAUDE CODE         CODEX
+           General Agent       Coding Agent       Coding Agent
+                  │                 │                 │
+                  └─────────────────┼─────────────────┘
+                                    ↓
+                         ┌──────────────────────┐
+                         │       n8n            │
+                         │ Automation / APIs     │
+                         │ Triggers / Workflows  │
+                         └──────────┬───────────┘
+                                    ↓
+          ┌───────────────┬────────┼────────┬──────────────┐
+          ↓               ↓        ↓        ↓              ↓
+       WhatsApp         Email    CRM     GitHub         Vendors
+       APIs             APIs     DB      Vercel         etc.
+                                   
+                         ┌──────────────────────┐
+                         │       DIFY           │
+                         │ Knowledge / RAG       │
+                         │ AI Apps / Workflows   │
+                         └──────────┬───────────┘
+                                    ↓
+                         Business Knowledge
+                         Product Knowledge
+                         SOPs / Documents
+```
+
+और **VPS** इस पूरी machinery के लिए हमारा self-hosted infrastructure हो सकता है।
+
+**Vercel** दूसरी तरफ customer-facing web apps / SaaS / dashboards / APIs के लिए ज्यादा उचित रहेगा। Vercel अब AI apps, agents, MCP, Sandbox और AI SDK के लिए भी dedicated infrastructure देता है। citeturn0search1turn0search8
+
+---
+
+# 2. Paperclip — यह मुझे आपके idea के लिए सबसे महत्वपूर्ण tools में से एक लगा
+
+आपके concept के हिसाब से **Paperclip को “AI company का control plane”** बनाना बहुत logical है।
+
+Paperclip खुद agent नहीं है।
+
+यह महत्वपूर्ण distinction है।
+
+Paperclip:
+
+> **AI employees को manage करता है।**
+
+Official docs के अनुसार इसमें:
+
+- Company
+- Goals
+- Agents
+- Org chart
+- Tasks
+- Delegation
+- Budgets
+- Governance
+- Activity/audit
+- Cost tracking
+- Agent heartbeats
+
+जैसी चीजें हैं। एक Paperclip instance multiple companies भी चला सकता है। citeturn1search4turn1search7
+
+और agents खुद Paperclip के अंदर जरूरी नहीं चलते। Paperclip external execution runtimes जैसे **Claude Code, Codex, shell, HTTP** आदि को adapters के जरिए orchestrate करता है। citeturn1search4
+
+### आपके लिए इसका मतलब
+
+हम बना सकते हैं:
+
+```text
+Company
+ ├── CEO
+ ├── CTO
+ ├── Research Agent
+ ├── Sales Agent
+ ├── Marketing Agent
+ ├── Customer Support
+ ├── Vendor Manager
+ └── Operations
+```
+
+CEO:
+
+> Goal ले → tasks बनाए → agents को delegate करे → result देखे।
+
+यह आपके “AI company” वाले vision से बहुत closely match करता है।
+
+और **budget control** भी built-in concept है। Paperclip agent/company spending पर limits लगाकर threshold पर warning और 100% पर hard stop कर सकता है। citeturn1search5turn1search16
+
+### Verdict
+
+**Paperclip = Company Management / Governance layer**
+
+मैं इसे seriously consider करूँगा।
+
+---
+
+# 3. Hermes Agent — यह अलग चीज है
+
+Hermes मुझे आपके vision में **execution/general-purpose worker** के रूप में ज्यादा interesting लगता है।
+
+Official docs के अनुसार Hermes में:
+
+- web search
+- web extraction
+- terminal
+- file manipulation
+- browser automation
+- code execution
+- delegation
+- memory
+- session search
+- cron
+- messaging
+- MCP
+- skills
+
+जैसे tools/toolsets हैं। citeturn1search0
+
+और सबसे महत्वपूर्ण:
+
+## Hermes का Skills System
+
+Hermes किसी non-trivial workflow को **Skill** में बदल सकता है।
+
+उदाहरण:
+
+पहली बार:
+
+> “Supplier research कैसे करना है?”
+
+Agent research करता है।
+
+फिर workflow को skill के रूप में save किया जा सकता है।
+
+अगली बार:
+
+> `supplier-research`
+
+और procedure दोबारा इस्तेमाल।
+
+Official docs इसे procedural memory/self-improvement loop के रूप में describe करते हैं। citeturn1search6
+
+**यही आपके “एक बार काम सीखो → फिर बार-बार सोचने की जरूरत न पड़े” वाले विचार से बहुत strongly match करता है।**
+
+Hermes में terminal backend भी local, Docker, SSH, Modal, Daytona आदि हो सकता है। citeturn1search0
+
+Security में command approval, container isolation, MCP credential filtering और project-skill scanning जैसे controls भी हैं। citeturn1search13
+
+### Verdict
+
+**Hermes = General autonomous worker + skills + tools + memory**
+
+बहुत उपयोगी।
+
+---
+
+# 4. Paperclip + Hermes साथ में क्यों?
+
+यहाँ आपका original idea interesting हो जाता है।
+
+```text
+Paperclip
+    ↓
+"Research Agent को supplier research करना है"
+    ↓
+Hermes
+    ↓
+Web + Browser + Terminal + Skills
+    ↓
+Supplier research
+    ↓
+Result
+    ↓
+Paperclip
+    ↓
+Task completed
+```
+
+यानि:
+
+**Paperclip = boss/company management**
+
+**Hermes = worker**
+
+यह बहुत clean separation है।
+
+---
+
+# 5. n8n — यह AI employee नहीं, automation machinery है
+
+n8n को मैं Paperclip/Hermes का replacement नहीं बनाऊँगा।
+
+n8n का काम होगा:
+
+> **जब X हो → Y करो → Z करो।**
+
+उदाहरण:
+
+```text
+WhatsApp lead आया
+       ↓
+n8n
+       ↓
+CRM में customer create
+       ↓
+AI qualification
+       ↓
+Lead score
+       ↓
+Sales Agent
+       ↓
+Follow-up schedule
+```
+
+n8n 500+ integrations, custom nodes, AI agents और traditional deterministic workflows को combine कर सकता है। citeturn0search0turn0search11
+
+और इसका नया agent system भी tools, knowledge base और workflows के साथ काम कर सकता है। citeturn0search3
+
+एक और बहुत useful चीज:
+
+### n8n MCP Server
+
+AI client n8n से connect होकर:
+
+- workflows search
+- exposed workflows trigger/test
+- workflows create/edit
+- data tables interact
+
+कर सकता है। citeturn1search8
+
+यह आपके future vision में काफी powerful हो सकता है।
+
+### Verdict
+
+**n8n = deterministic automation + integrations + event/action engine**
+
+---
+
+# 6. Dify — यहाँ इसका सही स्थान समझना बहुत जरूरी है
+
+Dify को मैं **Company Brain का पूरा database नहीं बनाऊँगा।**
+
+Dify मुख्यतः:
+
+- Knowledge/RAG
+- AI applications
+- Agent framework
+- Visual workflows
+- LLM orchestration
+- APIs
+
+के लिए है। citeturn2search0
+
+उदाहरण:
+
+```text
+Product PDF
+Product specifications
+Pricing
+FAQ
+Manual
+Sales information
+       ↓
+Dify Knowledge
+       ↓
+RAG
+       ↓
+Sales Agent
+```
+
+Dify में visual workflow में inputs, files, conditional logic, templates आदि जोड़ सकते हैं; workflow publish करके API/app के रूप में इस्तेमाल किया जा सकता है। citeturn2search1
+
+### इसलिए
+
+**Dify = AI Knowledge/RAG/Application layer**
+
+लेकिन:
+
+**Dify ≠ हमारा complete company database**
+
+हमारा canonical business data बाद में अपने database में रखना ज्यादा सही होगा।
+
+---
+
+# 7. Claude Code — यह हमारी Software Factory हो सकती है
+
+Claude Code terminal में codebase को समझकर:
+
+- files read
+- code modify
+- commands execute
+- git workflows
+- MCP
+
+के साथ काम कर सकता है। citeturn0search7turn0search16
+
+इसका मतलब:
+
+आप कहें:
+
+> “Industrial website में नया product category जोड़ो।”
+
+Coding agent:
+
+```text
+GitHub repo
+ ↓
+Code inspect
+ ↓
+Implement
+ ↓
+Test
+ ↓
+Git commit
+ ↓
+PR
+ ↓
+Deploy
+```
+
+यह आपके **AI development department** का हिस्सा बन सकता है।
+
+---
+
+# 8. Codex — Claude Code का duplicate नहीं, दूसरा execution option
+
+OpenAI Codex CLI भी terminal-based coding agent है जो code पढ़, बदल और चला सकता है तथा approval modes देता है। citeturn1search3
+
+Paperclip के architecture में Claude और Codex दोनों adapters के रूप में इस्तेमाल किए जा सकते हैं। citeturn1search4
+
+इसलिए हमें शुरुआत में:
+
+> “Claude + Codex दोनों हर जगह”
+
+नहीं करना चाहिए।
+
+बल्कि:
+
+```text
+Coding Task
+    ↓
+Preferred Agent
+    ↓
+Claude Code / Codex
+```
+
+और बाद में benchmark करेंगे:
+
+- कौन बेहतर code करता है?
+- कौन सस्ता है?
+- कौन कम errors करता है?
+- कौन हमारे stack में बेहतर है?
+
+---
+
+# 9. GitHub — सिर्फ code storage नहीं
+
+GitHub को company के **software source of truth** की तरह रखना चाहिए।
+
+और MCP बहुत महत्वपूर्ण है।
+
+GitHub का official MCP server agents को repositories, issues, PRs आदि के साथ interact करने देता है। citeturn2search2turn2search7
+
+उदाहरण:
+
+```text
+AI CTO
+ ↓
+GitHub MCP
+ ↓
+Repo inspect
+ ↓
+Issue create
+ ↓
+Branch
+ ↓
+Code changes
+ ↓
+PR
+ ↓
+Review
+ ↓
+Merge
+```
+
+GitHub Copilot cloud agent भी MCP के माध्यम से background में काम कर सकता है और PR बना सकता है। citeturn2search4
+
+### Verdict
+
+**GitHub = software memory + version control + collaboration + deployment source**
+
+---
+
+# 10. Vercel — हमारा production web layer
+
+Vercel को मैं mainly इस्तेमाल करूँगा:
+
+- customer websites
+- SaaS frontend
+- dashboards
+- APIs/functions
+- AI interfaces
+- deployments
+- domains
+- preview environments
+
+के लिए।
+
+Git push के साथ preview deployments और production deployment workflow बहुत useful है। citeturn0search1
+
+Vercel AI SDK provider-agnostic AI apps/agents बनाने के लिए भी useful है और MCP/Workflow/Sandbox capabilities ecosystem में हैं। citeturn0search6turn0search13
+
+### Verdict
+
+**Vercel = Customer-facing application/website cloud**
+
+---
+
+# 11. VPS — इसका काम अलग है
+
+VPS को हम “AI brain” नहीं बनाएँगे।
+
+VPS infrastructure रहेगा जहाँ हम self-host कर सकते हैं:
+
+```text
+Paperclip
+n8n
+Dify
+Databases
+Custom APIs
+Background workers
+Internal services
+```
+
+इससे recurring SaaS infrastructure cost control में रह सकती है।
+
+लेकिन हर चीज VPS पर डालना भी सही नहीं है।
+
+उदाहरण:
+
+**Vercel → web app**
+
+**VPS → persistent/self-hosted services**
+
+**Cloud/Sandbox → risky/untrusted code execution**
+
+यह separation बेहतर होगा।
+
+---
+
+# 12. MCP — यह पूरी architecture का connector बन सकता है
+
+यह शायद सबसे महत्वपूर्ण concept है जिसे आपको अच्छे से समझना चाहिए।
+
+MCP को:
+
+> **AI और tools के बीच standardized connector**
+
+समझिए।
+
+```text
+                 AI
+                  │
+                 MCP
+       ┌──────────┼──────────┐
+       ↓          ↓          ↓
+    GitHub       n8n       Vercel
+       ↓          ↓          ↓
+     Code      Workflow   Deploy
+```
+
+GitHub MCP external actions/data expose कर सकता है। citeturn2search2
+
+Vercel का official MCP server projects/deployments/logs के साथ interaction देता है। citeturn1search18
+
+Hermes भी MCP tools/toolsets support करता है। citeturn1search0
+
+इसलिए भविष्य में हमारे AI agents के पास एक standardized **Tool Layer** हो सकता है।
+
+---
+
+# अब सबसे महत्वपूर्ण: कौन किसका काम करेगा?
+
+| Layer | Tool | हमारी कंपनी में भूमिका |
+|---|---|---|
+| 🧠 Company Control | **Paperclip** | AI employees, goals, tasks, budgets, governance |
+| 🤖 General Worker | **Hermes** | research, browser, terminal, memory, skills |
+| ⚙️ Automation | **n8n** | APIs, triggers, deterministic workflows |
+| 📚 Knowledge/RAG | **Dify** | product knowledge, documents, AI apps |
+| 💻 Coding | **Claude Code** | software development |
+| 💻 Coding alternative | **Codex** | software development/automation |
+| 🗂️ Code source | **GitHub** | repos, issues, PRs, versioning |
+| 🌐 Web production | **Vercel** | websites, SaaS, APIs, deployment |
+| 🖥️ Infrastructure | **VPS** | self-hosted persistent services |
+| 🔌 Tool protocol | **MCP** | AI ↔ external tools |
+
+---
+
+# और अब मुझे एक बहुत महत्वपूर्ण architecture दिख रहा है
+
+आपने पहले कहा था:
+
+> “सारा business data एक जगह।”
+
+मैं इसे इस तरह बनाऊँगा:
+
+```text
+                    BUSINESS CORE
+                         │
+        ┌────────────────┼────────────────┐
+        ↓                ↓                ↓
+    MASTER DATA      KNOWLEDGE        EXECUTION
+        │                │                │
+ Products            PDFs            Tasks
+ Customers           SOPs            Runs
+ Vendors             FAQs            Results
+ Pricing             Scripts         Costs
+ Orders              Policies        Decisions
+        │                │                │
+        └────────────────┼────────────────┘
+                         ↓
+                  COMPANY API
+                         ↓
+              ┌──────────┼──────────┐
+              ↓          ↓          ↓
+          Paperclip    Dify       n8n
+              ↓          ↓          ↓
+           Agents      RAG       Automation
+              ↓          ↓          ↓
+           Hermes / Claude / Codex
+                         ↓
+                    MCP Tools
+                         ↓
+       GitHub / Vercel / WhatsApp / Web / Vendors
+```
+
+### इसका फायदा
+
+कल अगर Hermes हट गया और कोई नया agent आ गया:
+
+**Brain नहीं बदलेगा।**
+
+अगर Paperclip हटाना पड़ा:
+
+**Business data नहीं बदलेगा।**
+
+अगर Claude Code की जगह Codex आया:
+
+**Company architecture नहीं टूटेगा।**
+
+यही शुरुआत से हमारा लक्ष्य होना चाहिए।
+
+---
+
+# लेकिन अभी एक बड़ा red flag भी है
+
+**Paperclip + Hermes + Dify + n8n + Claude Code + Codex + VPS + Vercel को day-1 में जोड़ना नहीं है।**
+
+वरना हम **AI company बनाने के बजाय tools की company बना देंगे।**
+
+मेरी current recommendation:
+
+### Phase 1
+
+**VPS + Paperclip + Hermes + n8n + GitHub + Vercel**
+
+और business data के लिए अपना clean database/schema।
+
+### Phase 2
+
+**Dify** जहाँ actual RAG/knowledge workflow की जरूरत साबित हो।
+
+### Phase 3
+
+**Claude Code/Codex** को Paperclip के software agents की तरह जोड़ना।
+
+### Phase 4
+
+MCP से tool ecosystem expand करना।
+
+### Phase 5
+
+Skills + successful workflows को reusable autonomous capabilities में बदलना।
+
+---
+
+## सबसे interesting discovery
+
+आपके idea का **Hermes + Paperclip combination** मुझे सबसे ज्यादा relevant लग रहा है:
+
+**Paperclip कहेगा:**  
+> “कंपनी में क्या काम होना चाहिए?”
+
+**Hermes कहेगा:**  
+> “यह काम practically कैसे करना है?”
+
+**n8n कहेगा:**  
+> “जो काम repeat होता है, उसे automatically कैसे चलाना है?”
+
+**Dify कहेगा:**  
+> “Business knowledge से सही answer/action कैसे निकालना है?”
+
+**Claude/Codex कहेंगे:**  
+> “Software कैसे बनाया/बदला जाए?”
+
+**GitHub/Vercel कहेंगे:**  
+> “Software को store, test और deploy कहाँ करें?”
+
+और **आप Founder/Board** रहेंगे।
+
+यह separation मुझे आपके original vision के लिए काफी मजबूत foundation लगता है। citeturn1search4turn1search0turn0search0turn2search0
+
+### अगला step
+
+अब मैं अगली stage में **इन tools को सिर्फ पढ़ने के बजाय एक वास्तविक workflow में जोड़कर** देखना चाहूँगा:
+
+> **“एक product दिया → AI ने product knowledge बनाया → supplier research किया → vendor shortlist बनाया → website बनाई → GitHub में code रखा → Vercel पर deploy किया → n8n automation बनाई → Paperclip में task/report किया → Hermes ने reusable Skill बनाई।”**
+
+यही हमारा **पहला end-to-end lab experiment** होना चाहिए। तभी पता चलेगा कि architecture वास्तव में काम करता है या सिर्फ diagram अच्छा दिखता है।
+---
+f58be83e-8921-4c1f-a39c-c61bd706889b
+---
+reasoning_status
+---
+finished_duration_sec
+---
+reasoning_start_time
+---
+reasoning_end_time
+---
+reasoning_recap_type
+---
+hide_inline_actions
+---
+207a80a1-5e69-4305-a600-f434669e648d
+---
+inline_cot_expandable_content
+---
+tool_summary_type
+---
+https://www.google.com/s2/favicons?domain=docs.n8n.io&sz=128
+---
+https://www.google.com/s2/favicons?domain=vercel.com&sz=128
+---
+https://www.google.com/s2/favicons?domain=github.com&sz=128
+---
+https://www.google.com/s2/favicons?domain=help.openai.com&sz=128
+---
+https://www.google.com/s2/favicons?domain=vercel-docs.vercel.sh&sz=128
+---
+https://www.google.com/s2/favicons?domain=docs.anthropic.com&sz=128
+---
+https://www.google.com/s2/favicons?domain=n8n.io&sz=128
+---
+source_message_ids
+---
+3213c2b5-7a9e-4d17-8c5a-906ddb926702
+---
+2132eb33-1c39-4e90-9a30-c7bb3d148ada
+---
+3d79b2e0-7816-4a61-b7bd-1d4ba3f82a38
+---
+https://docs.github.com/en/enterprise-cloud%40latest/copilot/how-tos/provide-context/use-mcp-in-your-ide/use-the-github-mcp-server?tool=webui
+---
+https://docs.github.com/en/copilot/how-tos/provide-context/use-mcp-in-your-ide/set-up-the-github-mcp-server?tool=vscode
+---
+https://docs.github.com/en/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent
+---
+https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/mcp
+---
+https://docs.github.com/en/copilot/how-tos/copilot-on-github/copilot-for-github-tasks/using-the-github-mcp-server-from-copilot-chat
+---
+https://docs.dify.ai/api-reference/%E6%96%87%E6%A1%A3/%E8%8E%B7%E5%8F%96%E7%9F%A5%E8%AF%86%E5%BA%93%E7%9A%84%E6%96%87%E6%A1%A3%E5%88%97%E8%A1%A8
+---
+https://docs.dify.ai/versions/3-3-x/zh/user-guide/introduction
+---
+https://docs.dify.ai/versions/3-5-x/zh/user-guide/introduction
+---
+https://docs.dify.ai/versions/3-4-x/ja/user-guide/introduction
+---
+https://paperclip.community/docs/quickstart/your-first-agent
+---
+hermes-agent.nousrsearch.com
+---
+https://paperclip.homes/docs
+---
+https://paperclip.inc/docs/guides/board-operator/costs-and-budgets
+---
+docs.paperclip.ing
+---
+https://docs.paperclip.ing/reference/skills/
+---
+https://docs.paperclip.ing/guides/welcome/what-is-paperclip/
+---
+https://docs.paperclip.ing/
+---
+docs.anthropic.com
+---
+vercel-docs.vercel.sh
+---
+https://github.com/n8n-io/n8n-docs/blob/main/docs/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/README.md
+---
+https://github.com/NousResearch/hermes-agent/blob/main/website/docs/getting-started/quickstart.md
+---
+https://github.com/hermes-agent-org/hermes
+---
+https://github.com/PaperclipAI/paperclip
+---
+https://github.com/vercel/ai/blob/main/content/docs/07-reference/index.mdx
+---
+https://github.com/paperclipai/paperclip/blob/master/docs/guides/agent-developer/how-agents-work.md
+---
+https://github.com/hermes-agent-org/hermes/blob/main/website/docs/index.md
+---
+https://github.com/paperclipai/paperclip-docs/blob/main/docs/guides/getting-started/your-first-agent.md
+---
+https://vercel.com/kb/guide/how-to-build-ai-app
+---
+https://vercel.com/docs/functions
+---
+source_analysis_msg_id
+---
+eea28942-b570-41e7-a1b2-dc9e2108a710
+---
+Searched 14 websites
+---
+ba68c22e-1c16-4f43-9d06-6a7f7f98f87e
+---
+is_visually_hidden_from_conversation
+---
+debug_sonic_thread_id
+---
+thread_6ac601ac8f38832b8079675f2541b9b2
+---
+69faebc7-39c0-455b-bebb-a6ab9ffd7bd9
+---
+934890af-5f40-402d-892d-c3623a341828
+---
+6af835fb-fb1b-4626-9677-56638e851d19
+---
+reasoning_title_content_transition
+---
+The output of this plugin was redacted.
+---
+24e2d0fb-372b-4992-95a9-2ae0cd116deb
+---
+disable_turn_actions
+---
+85b52b1c-baaa-48c2-a6ae-215436078256
+---
+2ad8df7e-b03f-43f3-8908-f8c797989e21
+---
+0efa270b-7802-48a9-b666-f624952b43e1
+---
+a28ce9ba-1ccb-48a0-ad42-8b696143df3c
+---
+9a484da5-a3f0-4ef1-b2a4-59de1260f7f0
+---
+25e93c88-45bf-4767-83f6-60ab62fd3634
+---
+d3bb445d-1622-4921-9f17-0184e97942ad
+---
+2215cdc5-5c0c-4146-ae65-8f98ef579917
+---
+d903395f-9806-4d34-bf3e-40266652aedc
+---
+reasoning_titles
+---
+Searching 7 websites
+---
+Searching Hermes Agent AI official documentation GitHub Hermes Agent
+---
+Searching Paperclip AI agent official documentation GitHub
+---
+Searching Dify official documentation agent workflow knowledge base self hosted
+---
+Searching n8n official documentation AI agents workflows self hosted
+---
+Searching Vercel official documentation AI SDK deployments functions
+---
+Searching GitHub official documentation GitHub Actions MCP Copilot coding agent
+---
+Searching OpenAI Codex CLI official documentation GitHub MCP
+---
+Searching Anthropic Claude Code official documentation GitHub terminal MCP
+---
+Searching VPS self hosted AI agents Docker official documentation
+---
+0b0c0077-622b-4991-b301-189d5e66c1ca
+---
+215a833a-c1bd-4e7d-a52c-4d3144ad2a26
+---
+Searching the web
+---
+dd086116-2006-4d7d-9316-b0a955fda78c
+---
+is_thinking_preamble_message
+---
+6ac76846-979e-4cdd-a94b-3936d81e6967
+---
+01fcb013-b16d-4622-9e04-ce2bfa0266a6
+---
+5e749770-79c2-4734-943d-769171a7d278
+---
+120fff54-9a92-4ed3-b9ef-525e64591e09
+---
+dee363cc-b572-4227-9d4c-7d0d6a2b3592
+---
+b02de9a9-2810-4122-974e-2b7186bc4d41
+---
+ab phele isme on tool kese jude kis kam aayega un tool ke bare me acche se documentation pad le use cases pad lo jaise hermes agent paprclip diffy n8n vps terminal vercel github open claud on git hub etc phele documentation pad lo inko sikha lo samjh lo use cases search karke process di sb sa,mjh lo
+---
+12d28ae6-3e9e-4a0a-b31d-e05692164e99
+---
+9a80dbfe-b9cf-4234-9fc7-eb86324f599f
+---
+6643b511-6825-4e82-a207-3428584258ba
+---
+हाँ। अब मुझे आपके vision में **एक बड़ा business model** दिख रहा है। आप सिर्फ “AI-powered MPOnline” नहीं बनाना चाहते; आप अपनी मौजूदा दुकान को **पहली AI-operated business unit** बनाकर उसी infrastructure से कई verticals चलाना चाहते हैं।
+
+### मैं आपके vision को अभी ऐसे जोड़ रहा हूँ
+
+```text
+                    AI BUSINESS BRAIN
+                           │
+                    CEO / ORCHESTRATOR
+                           │
+        ┌──────────────────┼──────────────────┐
+        ↓                  ↓                  ↓
+   MPOnline Unit      Industrial Unit     Digital Agency
+        │                  │                  │
+ Aadhaar/PAN/ITR       Factory Products    Website
+ GST/Loans/etc.        Sourcing            Marketing
+ Insurance             Enquiry             Content
+ Property              Quotation            Automation
+        │                  │                  │
+        └──────────────────┼──────────────────┘
+                           ↓
+                 ONE CUSTOMER PLATFORM
+                           ↓
+             "Aapka kaam, ek jagah"
+```
+
+और पीछे:
+
+**AI Agents → vendors → experts → partners → freelancers → suppliers → service providers**
+
+इन सबको जरूरत के हिसाब से काम assign होगा।
+
+---
+
+## सबसे महत्वपूर्ण बदलाव
+
+आपका असली product शायद **AI नहीं है।**
+
+AI तो engine है।
+
+आपका product हो सकता है:
+
+> **एक ऐसा platform जहाँ व्यक्ति या business अपनी जरूरत बताए और पीछे AI पूरी execution chain संभाले।**
+
+उदाहरण:
+
+### Factory owner आया:
+
+> “मुझे bearing चाहिए।”
+
+AI:
+
+1. requirement समझेगा
+2. सही product identify करेगा
+3. specification पूछेगा
+4. suitable suppliers खोजेगा
+5. quotation निकालेगा
+6. price compare करेगा
+7. customer को options देगा
+8. follow-up करेगा
+9. order तक ले जाएगा
+10. जहाँ human/vendor चाहिए वहाँ task assign करेगा
+
+Customer को पीछे की complexity दिखाई ही नहीं देगी।
+
+---
+
+# फिर आपका MPOnline center क्या बनेगा?
+
+यह बहुत interesting है।
+
+आज:
+
+> **MPOnline दुकान**
+
+कल:
+
+> **AI-powered Service Center**
+
+और आगे:
+
+> **Local AI Business Hub**
+
+जहाँ customer बोल सकता है:
+
+> “मुझे GST करना है।”
+
+या:
+
+> “मुझे business loan चाहिए।”
+
+या:
+
+> “मुझे website चाहिए।”
+
+या:
+
+> “मुझे factory के लिए material चाहिए।”
+
+या:
+
+> “मुझे solar लगवाना है।”
+
+Customer को यह नहीं सोचना पड़ेगा कि कौन-सा vendor, कौन-सा portal, कौन-सा expert।
+
+**AI requirement समझेगा और पीछे execution network को चला देगा।**
+
+---
+
+# “Partner बनकर घर से काम करो” वाला हिस्सा भी महत्वपूर्ण है
+
+इसे मैं employee model नहीं बनाऊँगा।
+
+### Partner Network
+
+```text
+Customer
+   ↓
+AI
+   ↓
+काम की जरूरत
+   ↓
+Best Partner / Expert / Vendor
+   ↓
+Execution
+   ↓
+Quality Check
+   ↓
+Customer
+```
+
+उदाहरण:
+
+किसी customer को website चाहिए।
+
+AI:
+
+- requirement लेता है
+- website structure बनाता है
+- designer/developer partner को काम देता है
+- AI quality check करता है
+- customer communication संभालता है
+- delivery करता है
+
+आपको हर काम खुद करने की जरूरत नहीं।
+
+आप **network + AI + brand + customer relationship** own करेंगे।
+
+---
+
+# और आपने जो कहा:
+
+> **“Client आने के बाद trust building और sell करना AI का काम।”**
+
+यह आपके model का बहुत बड़ा हिस्सा हो सकता है।
+
+लेकिन मैं इसे सिर्फ chatbot नहीं बनाऊँगा।
+
+### AI Sales Agent को पूरा customer journey देना होगा:
+
+```text
+Lead
+ ↓
+Identify Need
+ ↓
+Understand Situation
+ ↓
+Educate
+ ↓
+Build Trust
+ ↓
+Recommend
+ ↓
+Handle Objection
+ ↓
+Quote
+ ↓
+Follow-up
+ ↓
+Close
+ ↓
+Payment
+ ↓
+Delivery
+ ↓
+Feedback
+ ↓
+Repeat / Cross-sell
+```
+
+यानी:
+
+**AI receptionist नहीं → AI salesperson.**
+
+---
+
+# लेकिन यहाँ एक strategic decision अभी लेना होगा
+
+आपने कई businesses एक साथ गिना दिए:
+
+- MPOnline
+- Industrial sourcing
+- Online services
+- Products
+- Digital agency
+- Website
+- Marketing
+- Partner network
+- One-stop platform
+
+**Vision के लिए यह ठीक है। MVP के लिए बिल्कुल नहीं।**
+
+मैं इन्हें एक साथ launch नहीं करूँगा।
+
+### पहले:
+
+**MPOnline को AI-powered बनाओ।**
+
+क्यों?
+
+क्योंकि वहाँ आपके पास पहले से:
+
+- customer interaction
+- services
+- local market understanding
+- existing infrastructure
+- वास्तविक transactions
+- real-world problems
+
+हैं।
+
+वहीं से हम अपना **AI Operating System** test कर सकते हैं।
+
+फिर उसी architecture को:
+
+**Industrial → Digital Services → अन्य verticals**
+
+में replicate करेंगे।
+
+---
+
+## और एक चीज़ मैं शुरुआत से रखूँगा
+
+हर काम के साथ यह record होगा:
+
+> **यह काम पहली बार कैसे किया गया?**
+
+फिर:
+
+> **क्या इसे repeatable बनाया जा सकता है?**
+
+अगर हाँ:
+
+**Workflow → SOP → Skill → Automation**
+
+यही आपकी company को समय के साथ ज्यादा autonomous बनाएगा।
+
+इससे 2 साल बाद आपकी कंपनी का सबसे बड़ा asset सिर्फ customer database नहीं होगा।
+
+**आपके पास हजारों validated business skills/workflows का proprietary execution library हो सकती है।**
+
+यहीं मुझे आपके original idea की सबसे बड़ी potential दिखाई दे रही है।
+
+**अभी product बनाने की तरफ नहीं जाते।** पहले आपके दिमाग में जो बाकी vision है, वह पूरा निकालते हैं। उसके बाद मैं इसे एक साथ जोड़कर बताऊँगा कि **असल company क्या होगी, पहला ₹1 कैसे आएगा, MVP क्या होगा और कौन-सी चीजें अभी बिल्कुल नहीं बनानी हैं।**
+---
+4ef9e31e-d97f-4289-a964-fe89e141cb43
+---
+e5c2ff6c-bb8a-4598-b745-35cab33d46ab
+---
+8bb5c2a4-fcf5-49a4-bbe5-587a6d6a5842
+---
+92815b37-f9fc-452c-82e3-3df0b57f4cb1
+---
+Isme ideas dekho meri mp.online ki dukan ko ai powered bna de
+ Industry factory ko target ek plotform multiple solution
+ Pichhe ai agent sb kam kre connection banaye
+ Online service product agency
+ Ek site jaha log sb kam ho eknjagah sb mile
+ Log as a partner aadi se work from kre jude bas share kre
+ 
+Client aane ke bad
+ Trust building karna aur sell karna ai ka kam
+---
+3194d96c-e65e-4235-90f9-a13f61f4365d
+---
+5f092ff9-55cb-4395-9921-78353931d864
+---
+1a0c1a7e-a416-4ce3-8b03-14a24bc2fcbe
+---
+हाँ। अब जो आपने जोड़ा है, उससे vision और साफ हो गया है।
+
+लेकिन मैं एक बात **अभी challenge करूँगा**: इसे शुरुआत से “Company Brain + 20 agents + VPS + WhatsApp + GitHub + MCP + autonomous vendor discovery + self-learning” बनाना गलत होगा। Vision बड़ा रखेंगे, **पहला product बहुत छोटा रखेंगे।**
+
+मेरे हिसाब से इसका core loop यह होना चाहिए:
+
+> **Business Data → Goal → AI Plan → Tools/Agents → Human/Vendor → Result → Memory → Reusable Skill → Automation**
+
+और आपकी सबसे valuable asset धीरे-धीरे **डेटा नहीं, Skills Library + Execution History** बनेगी।
+
+### अभी अगला सवाल product का नहीं है
+
+पहले यह तय करना ज्यादा जरूरी है कि **यह AI company खुद क्या बेचेगी।**
+
+क्योंकि दो बिल्कुल अलग रास्ते हैं:
+
+**A. Internal AI Company**  
+हम खुद कोई business शुरू करेंगे और AI से उसे चलाएँगे।  
+उदाहरण: industrial products, websites, digital services, lead generation आदि।
+
+**B. AI Company Platform**  
+हम ऐसा system बनाएँगे जिसे दूसरी कंपनियाँ इस्तेमाल करके अपनी AI-operated company चला सकें।
+
+मेरे हिसाब से **A से शुरुआत करके B तक जाना ज्यादा practical हो सकता है**:
+
+```text
+हम खुद AI-operated business चलाते हैं
+             ↓
+जो workflows बार-बार काम करते हैं
+             ↓
+उन्हें standardized Skills बनाते हैं
+             ↓
+अपना internal AI Operating System मजबूत होता है
+             ↓
+फिर वही system दूसरे businesses को देते हैं
+             ↓
+AI Company Platform / SaaS
+```
+
+इससे हम पहले **theory नहीं, वास्तविक business में system को prove** करेंगे।
+
+आप अपना बाकी vision बताइए। उसके बाद मैं पूरा concept जोड़कर **एक Founder-level blueprint** बनाऊँगा—लेकिन MVP और revenue को सबसे पहले रखकर।
+---
+a3e5869f-9e6e-4400-8f07-4a8a4540e51f
+---
+b388be3a-202a-410d-a711-5f55ab4e53e3
+---
+c294e8c7-919a-4276-8754-7f4124f85fce
+---
+serialization_metadata
+---
+&#x20;						&#x9;
+
+Ye idea kaafi strong hai. Isse **"Company Brain"** kehte hain: poore business ka single source of truth, jisse har agent padhe aur usme likhe. Agents badal sakte hain, lekin brain wahi rehta hai, isliye baad mein rebuild nahi karna padega.
+
+&#x20;
+
+**Architecture (4 layers):**
+
+&#x20;
+
+1. **Brain (data centre):** har product ka alag folder. Usme product info, pricing, vendors, customers, FAQ, brand voice, sales/support scripts, SOPs, aur ek decision log (kya kiya aur kyun) rahega. Shuru mein simple files (Markdown/Notion/Google Drive) aur ek database kaafi hai.
+2. **Agents:** Hermes agent aur Paperclip jaise orchestrator upar baithenge. Ek CEO/manager agent kaam baantega, aur research, sales, support, content aur dev ke agents kaam karenge. Mujhe in dono tools ke latest features ki pakki jaankari nahi hai, isliye pehle unki docs dekh lenge ki wo humare use ke liye kitne fit hain.
+3. **Tools:** VPS, domain, GitHub, WhatsApp, Canva, Higgsfield, website builder. Har tool ko alag permission milegi.
+4. **Learning loop (aapka sabse acha point):** agent koi naya kaam seekhe, to pehle uski SOP likhe, phir script ya automation bana de, aur wo brain ki "skill library" mein save ho. Agle baar wahi kaam bina sochे ho jaye.
+
+&#x20;
+
+**Ek zaroori cheez: autonomy ek baar mein nahi, level se dena.**
+
+&#x20;
+
+- **Level 1:** agent sirf research aur suggest kare.
+- **Level 2:** agent kaam kare, lekin aapki approval ke baad.
+- **Level 3:** agent khud kare aur report de, par spending limit ke andar.
+- **Level 4:** poori autonomous chalna, sirf tab jab uska track record ban jaye.
+
+&#x20;
+
+Aap jo "mujhse puchke karega, baad mein autonomous" keh rahe ho, ye wahi hai. Ye bilkul sahi tareeka hai.
+
+&#x20;
+
+**Jahan dikkat aayegi (pehle se pata honi chahiye):**
+
+&#x20;
+
+- **WhatsApp:** unsolicited messages ya calls par number ban ho jata hai. Official WhatsApp Business API use karni hogi, aur sirf unko message jaayega jinhone opt-in kiya ho. Calling ke rules alag aur sakht hain, wo bhi verify karenge.
+- **Paisa:** agent ko bank ya card ka seedha access nahi dena. Virtual card ya wallet mein chhota fixed budget dena, aur vendor ko advance payment aap approve karoge.
+- **Fake vendor/supplier:** agent galat ya fake supplier utha sakta hai. Pehle order hamesha sample ya chhota trial order se hoga.
+- **Security:** API keys vault mein rahengi, VPS locked down hoga, aur har agent ke paas sirf utni power hogi jitni uske kaam ko chahiye.
+- **Kharcha:** har agent ka daily token/API budget limit hona chahiye, warna loop mein phans kar bill badh sakta hai.
+- **Legal (India):** GST, business registration aur product ke rules. Ye aap ya CA ke paas rahenge.
+
+&#x20;
+
+**Pehle 4 hafte ka plan:**
+
+&#x20;
+
+- **Hafta 1:** Brain ka structure banao aur ek product ka data daalo. Isi hafte VPS aur domain bhi le lo.
+- **Hafta 2:** Agent ko sirf research ka kaam do (vendors, competitors, pricing) aur uski report check karo.
+- **Hafta 3:** Landing page aur content banwao, approval ke saath.
+- **Hafta 4:** Pehle customers ko manually-assisted tareeke se lo, aur jo kaam repeat ho raha ho use script mein badlo.
+
+&#x20;
+
+Mera ek suggestion hai: pehle product aisa chuno jisme **physical stock aur returns ka jhanjhat na ho**, jaise digital product, service ya lead-generation. Wahan agents ko sabse kam risk mein seekhne ka mauka milega.
+
+&#x20;
+
+**Ab bataiye:** sample ke liye aap kaunsa ek product ya niche sochke baithe ho? Agar abhi pakka nahi hai, to bol do, main 3 options suggest kar dunga.
+---
+a4d5f8b5-6545-4d5f-8555-b3d233ddc0bb
+---
+6fdb4a15-35a0-4366-ae77-e0348628a7f0
+---
+b3c7d535-e3af-4c82-b6e0-01b284d409e4
+---
+अब आपका विचार काफी स्पष्ट हो रहा है। और यहाँ मुझे एक महत्वपूर्ण distinction दिख रहा है: **आप सिर्फ AI agency या AI SaaS नहीं बनाना चाहते।** आप एक ऐसी **AI-native company operating system** बनाना चाहते हैं जो धीरे-धीरे खुद काम करना सीखे और अपने काम को automate करती जाए।
+
+मैं इसे अभी इस तरह समझ रहा हूँ:
+
+## आपका Core Idea
+
+एक **Central Business Brain / Data & Knowledge Hub** होगा।
+
+उसमें कंपनी की हर चीज़ structured रूप में रहेगी:
+
+```text
+                    ┌──────────────────────┐
+                    │   CENTRAL BUSINESS   │
+                    │        BRAIN         │
+                    └──────────┬───────────┘
+                               │
+       ┌───────────────────────┼───────────────────────┐
+       ↓                       ↓                       ↓
+   PRODUCTS                CUSTOMERS                VENDORS
+   Knowledge               Customer Data             Supplier Data
+   Pricing                 Conversations             Expert Data
+   Specs                   Orders                    Services
+       │                       │                       │
+       └───────────────────────┼───────────────────────┘
+                               ↓
+                         AI ORCHESTRATOR
+                               │
+        ┌──────────────┬───────┼────────┬──────────────┐
+        ↓              ↓       ↓        ↓              ↓
+     SALES          SUPPORT  RESEARCH  MARKETING    OPERATIONS
+      AGENT           AGENT    AGENT     AGENT        AGENT
+```
+
+और फिर agents को **tools की power** दी जाएगी।
+
+जैसे आपने examples दिए:
+
+- WhatsApp
+- WhatsApp Calling
+- VPS
+- Website
+- Custom Domain
+- Social Media
+- Canva
+- GitHub
+- MCP
+- Antigravity
+- Research/Web
+- Vendors
+- Freelancers/Experts
+- APIs
+- Payment systems
+- आदि
+
+यानी **AI के पास सिर्फ intelligence नहीं होगी, execution की power भी होगी।**
+
+---
+
+# लेकिन आपके विचार का सबसे interesting हिस्सा यह है
+
+आपने एक बहुत महत्वपूर्ण बात कही:
+
+> **"AI एक बार काम सीखके फिर automation script बनाता जाए ताकि बार-बार सोचना न पड़े।"**
+
+यही चीज़ इसे सामान्य AI-agent system से अलग कर सकती है।
+
+उदाहरण:
+
+पहली बार AI को बोलना पड़ा:
+
+> "इस product के लिए supplier ढूँढो → quotation लो → compare करो → best supplier चुनो → CRM में डालो।"
+
+AI पूरा process करता है।
+
+फिर system पूछता है:
+
+**क्या यह काम दोबारा होगा?**
+
+अगर हाँ:
+
+```text
+Observed Workflow
+       ↓
+Successful Execution
+       ↓
+Workflow Extraction
+       ↓
+Automation Script
+       ↓
+Reusable Skill
+       ↓
+Future Execution
+```
+
+अगली बार AI को पूरा reasoning दोबारा नहीं करना पड़ेगा।
+
+वह कह सकता है:
+
+> **"Supplier Discovery Skill v1.3 चला रहा हूँ."**
+
+और धीरे-धीरे आपकी कंपनी की **अपनी internal skill library** बनती जाएगी।
+
+---
+
+# मैं इसमें एक और layer जोड़ूँगा
+
+आपने कहा:
+
+> "अपना business launch करेगा। ऐसे करता रहेगा।"
+
+यह बहुत बड़ा concept है।
+
+इसका मतलब आपका system सिर्फ **business चलाने वाला AI** नहीं है।
+
+यह eventually:
+
+### **AI Company Builder + AI Company Operator**
+
+हो सकता है।
+
+मान लीजिए आप सिर्फ कहते हैं:
+
+> **"हम industrial bearings बेचने का business शुरू करना चाहते हैं।"**
+
+System खुद breakdown करे:
+
+```text
+BUSINESS IDEA
+     ↓
+Market Research
+     ↓
+Customer Segment
+     ↓
+Product Research
+     ↓
+Supplier Discovery
+     ↓
+Vendor Verification
+     ↓
+Pricing
+     ↓
+Margin Calculation
+     ↓
+Brand
+     ↓
+Domain
+     ↓
+Website
+     ↓
+Catalog
+     ↓
+WhatsApp
+     ↓
+Sales Agent
+     ↓
+Marketing
+     ↓
+Lead Generation
+     ↓
+CRM
+     ↓
+Order Process
+     ↓
+Human/Vendor Execution
+     ↓
+Revenue
+     ↓
+Learn
+     ↓
+Automate
+```
+
+और जहाँ system अटकता है:
+
+> **"Founder, मुझे यह decision चाहिए."**
+
+आप approve करेंगे।
+
+फिर वह आगे बढ़ेगा।
+
+---
+
+# लेकिन यहाँ एक बहुत बड़ा correction
+
+मैं **"AI को सबकुछ autonomous दे दो"** से शुरुआत नहीं करूँगा।
+
+यह dangerous और unnecessarily complex होगा।
+
+हम इसे **3 autonomy levels** में बनाएँगे:
+
+### Level 1 — Copilot
+
+AI:
+
+> सोचता है → plan बनाता है → आपको दिखाता है → आप approve करते हैं।
+
+### Level 2 — Supervised Agent
+
+AI:
+
+> सोचता है → execute करता है → महत्वपूर्ण actions पर approval लेता है।
+
+### Level 3 — Autonomous Operator
+
+AI:
+
+> goal लेता है → plan → execution → monitoring → optimization → reporting
+
+लेकिन predefined limits के अंदर।
+
+---
+
+# और एक बहुत जरूरी architecture decision
+
+आपने इसे **"Data Centre"** कहा।
+
+Concept सही है, लेकिन technically मैं इसे सिर्फ database नहीं बनाऊँगा।
+
+मैं इसे कुछ ऐसा सोचूँगा:
+
+## **Business Operating Memory**
+
+इसके अंदर अलग-अलग layers होंगी:
+
+### 1. Business Master Data
+
+```text
+Company
+Products
+Services
+Customers
+Vendors
+Employees
+Partners
+Pricing
+Contracts
+Policies
+```
+
+### 2. Knowledge
+
+```text
+PDF
+Website
+Product Manuals
+Catalogues
+Videos
+Training Material
+FAQs
+Scripts
+SOPs
+```
+
+### 3. Operational Memory
+
+```text
+क्या काम हुआ?
+किसने किया?
+कैसे किया?
+कितना खर्च हुआ?
+क्या result आया?
+क्या fail हुआ?
+```
+
+### 4. Skills
+
+यह सबसे महत्वपूर्ण होगा।
+
+```text
+Find Supplier
+Create Product Listing
+Generate Quotation
+Qualify Lead
+Send Follow-up
+Create Website
+Create Social Campaign
+Compare Vendors
+Prepare Proposal
+```
+
+हर successful repeatable process → **Skill**
+
+### 5. Rules & Permissions
+
+यह बहुत जरूरी है।
+
+AI को पता होना चाहिए:
+
+```text
+क्या कर सकता हूँ?
+क्या नहीं कर सकता?
+किस amount तक?
+किस data तक?
+किस action पर human approval चाहिए?
+```
+
+---
+
+# फिर आपका AI Manager वास्तव में क्या करेगा?
+
+मैं इसे सिर्फ "Manager Agent" नहीं बनाऊँगा।
+
+इसे एक **Orchestrator / CEO Agent** की तरह सोचना ज्यादा सही है।
+
+आप कहेंगे:
+
+> "इस महीने ₹5 लाख revenue चाहिए।"
+
+वह goal को tasks में बदलेगा:
+
+```text
+Goal
+ ↓
+Strategy
+ ↓
+Tasks
+ ↓
+Agents
+ ↓
+Tools
+ ↓
+Humans/Vendors
+ ↓
+Execution
+ ↓
+Results
+ ↓
+Learning
+ ↓
+Automation
+```
+
+और हर agent के पास वही central business context होगा जिसकी उसे जरूरत है।
+
+---
+
+# Vendor वाला आपका idea भी बहुत powerful है
+
+आपका AI सिर्फ existing tools नहीं चलाएगा।
+
+वह कह सके:
+
+> "मुझे यह काम खुद नहीं आता।"
+
+फिर:
+
+```text
+Need
+ ↓
+Search Internet / Marketplace / Network
+ ↓
+Find Expert/Vendor
+ ↓
+Compare
+ ↓
+Verify
+ ↓
+Get Quote
+ ↓
+Founder Approval
+ ↓
+Assign Work
+ ↓
+Receive Output
+ ↓
+Evaluate
+ ↓
+Save Vendor
+```
+
+और अगर vendor अच्छा निकला:
+
+**Vendor Knowledge Base में चला गया।**
+
+अगली बार:
+
+> "इस काम के लिए हमारे पास Vendor #17 है।"
+
+यानी company की memory बढ़ती जाएगी।
+
+---
+
+# लेकिन MVP में हम यह सब नहीं बनाएँगे
+
+यहीं founder discipline जरूरी है।
+
+अगर हम अभी पूरा vision बनाने बैठ गए तो यह **6–12 महीने का भारी platform** बन सकता है और revenue शून्य रह सकता है।
+
+मैं पहले इसका एक बहुत छोटा हिस्सा साबित करूँगा:
+
+## V0 — "AI Business Brain"
+
+सिर्फ:
+
+```text
+Company
+   ↓
+Products
+   ↓
+Knowledge
+   ↓
+Customers
+   ↓
+Vendors
+   ↓
+AI Agents
+   ↓
+Tasks
+   ↓
+Execution
+   ↓
+Memory
+```
+
+और सिर्फ **एक वास्तविक business process** end-to-end automate करेंगे।
+
+उदाहरण:
+
+> **Product → Supplier Discovery → Supplier Comparison → Quotation → Customer Lead → Follow-up**
+
+अगर यह वास्तविक customer/business में काम करके पैसा बचाता या कमाता है, तभी अगली skill जोड़ेंगे।
+
+---
+
+## मेरा अभी का निष्कर्ष
+
+आपका idea **"AI से काम करवाने वाली company"** से बड़ा है।
+
+सबसे सही abstraction मुझे अभी यह लग रहा है:
+
+> ### **"ऐसी AI-native company जो काम करती है, काम करवाती है, काम सीखती है और सीखे हुए काम को reusable automation/skill में बदलती जाती है।"**
+
+और इसका ultimate loop होगा:
+
+**Goal → Think → Act → Learn → Remember → Automate → Repeat**
+
+यही loop आपके idea का असली moat बन सकता है।
+
+अभी मैं architecture final नहीं करूँगा। **आपके दिमाग में जो अगला हिस्सा है—वह बताइए।** फिर हम पूरा vision जोड़कर तय करेंगे कि वास्तव में क्या बनाना चाहिए और क्या सिर्फ आकर्षक idea है।
+---
+fe39f482-5427-4a4a-8f98-9dfaacb2413c
+---
+341b8144-ba19-4811-8b35-6f42cd7d177c
+---
+Worked for a couple of seconds
+---
+92665088-7eed-41f1-ba08-2e61b407afc2
+---
+ff45b89f-2611-47af-a8f9-6255e771830d
+---
+Dekho ek data centre bnate hai jisme sb data kam kam krne vale vendor coustomer content knowledge base har product ka alag se ,sale agent support agent aadi ki script aadi sb kuch ek jagh se matlab pure business ka Sara data ek jagah se handel
+ Apan bas ek product ka data dalenge
+ Sample
+ Piche ham Hermes agent paper clip laga denge
+ Unko WhatsApp calling ki power de denge
+ Vps de denge
+ Digital marketing  social media higsfield canva MCP  GitHub use power de denge
+ Apne costom domain se business launch karne ki  power
+ Website design ke liye antigrvity access aadi
+ 
+Ab ye online supplier dhundhega expert vendor dhundhega nye nye kam sikhega layega fir apna business launch krega
+ Ese karta rhega
+ Apne hisab se agent banayega kuch aur chahiye to mujhe batayega sb mujhse puchke krega bad me autonomous me chlega
+ Ai ek baar kam sikhke
+ Fir jyada se jyada automation script bnata jaye taki sochna nhi pde bar bar
+---
+b43b5d0b-a1c3-4780-bc86-783f3953ddbc
+---
+86193351-f2eb-4fe5-a1b3-22224464ae2f
+---
+10fac978-ed3d-4129-8a06-96441fd12f8c
+---
+इसे मैं अभी **आपके vision की confirmation नहीं**, बल्कि एक शुरुआती hypothesis मानूँगा। आपने कहा है कि अभी और बताना है, इसलिए अभी model चुनना जल्दबाज़ी होगी।
+
+आप अपना बाकी विचार बताइए। मैं पूरा सुनने के बाद ही तय करूँगा कि:
+
+- यह **किस तरह की AI company** बन सकती है
+- इसका actual customer कौन होगा
+- AI वास्तव में कौन-कौन से काम करेगा
+- कौन से काम दूसरे AI/tools/freelancers/vendors को outsource होंगे
+- **पहली कमाई कहाँ से आएगी**
+- MVP में क्या होगा और क्या नहीं
+- और शुरुआत से architecture कितना रखना जरूरी है
+
+आप आगे बताइए।
+---
+c89b711b-d348-4d90-8848-9776ae9581ac
+---
+5d972d36-273b-4d61-bf24-6f0823962620
+---
+&#x20;						&#x9;
+
+Bahut accha vision hai, aur sahi time par hai. Pehle ek seedhi baat: "sab kaam AI kare" ek **direction** hai, day-1 ka promise nahi. Aaj AI 70-80% repetitive kaam (content, research, support, sales outreach, coding, reports) bharosemand tareeke se kar leta hai. Baaki 20% (paisa/payments, legal, final quality check, customer ka trust) mein insaan ya koi freelancer chahiye. Smart tareeka ye hai ki hum company aise design karein ki **har kaam ke liye AI pehli choice ho**, aur jahan AI fail ho wahan sasta human backup (freelancer/VA) plug ho jaye.
+
+&#x20;
+
+**Architecture ka base (jo baad mein rebuild nahi karna padega):**
+
+&#x20;
+
+- **Ek "manager" AI** jo kaam leta hai, tod ke chhote tasks banata hai, aur sahi agent ko deta hai.
+- **Alag-alag agents** (sales, support, content, delivery), har ek ka apna chhota kaam.
+- **Human-in-the-loop switch:** koi bhi kaam aasani se AI se insaan ko ya insaan se AI ko diya ja sake.
+- **Sab kuch log ho** (kya hua, kitna kharcha, kitni kamayi), taaki pata chale kahan AI achha hai aur kahan nahi.
+
+&#x20;
+
+**Aise 3 business models jo jaldi MVP ban sakte hain:**
+
+&#x20;
+
+1. **AI Service Agency:** koi ek niche service (jaise small businesses ke liye social media content, product descriptions, lead research) AI se banao aur monthly subscription mein becho. Sabse tez kamayi, kam investment.
+2. **Done-for-you automation:** doctors, shops, coaching classes jaise local businesses ke liye WhatsApp/booking/follow-up ka AI system lagao. Setup fee + monthly charge.
+3. **Micro-SaaS / tool:** ek hi problem solve karne wala chhota AI tool jo subscription par chale. Thoda zyada build time, lekin scale hota hai.
+
+&#x20;
+
+Mera suggestion: **model 1 ya 2 se shuru karo**, kyunki wahan 2-4 hafte mein pehla paying customer mil sakta hai. Jo kaam repeat hota dikhe, usse baad mein product (model 3) bana lenge.
+
+&#x20;
+
+**Ab aap bataiye:** inme se kaunsa direction aapko sabse zyada pasand aaya? Ya agar aapka koi khud ka domain/experience hai (jaise education, retail, healthcare, marketing), wo bata do, kyunki jahan aapko customer ki samajh hai wahin se sabse tez shuruaat hogi.
+---
+e7773a73-2ee3-432b-8d90-7e4afaea4adc
+---
+19051179-a5e5-471c-99fa-b0562c01630c
+---
+20c1cb8a-729d-4cf2-9feb-3bf5c51715ec
+---
+समझ गया। इसे अभी **final business idea नहीं**, बल्कि आपका पहला core thought मान रहा हूँ:
+
+> **AI-powered company जहाँ अधिकतम काम AI करे — और जहाँ AI खुद काम न कर सके, वहाँ किसी दूसरे व्यक्ति/service/vendor से काम करवाए।**
+
+इसमें मुझे अभी solution तय नहीं करना है। पहले आपका पूरा vision समझना जरूरी है।
+
+आप बाकी idea बताइए। मैं बीच में architecture या features थोपूँगा नहीं। जब आप पूरा बता देंगे, तब हम इसे **actual working business model** में बदलेंगे।
+---
+9c2f4999-2f37-4740-b831-6548ab9d8829
+---
+c4195a59-d41f-4b6f-b274-34248c83de12
+---
+model_editable_context
+---
+model_set_context
+---
+88e4e2c7-2f03-4dcc-9d88-6639415b6658
+---
+MUJHE EK AI POWERD COMPANY BNANI HAI JISME SARE KAM AI KRE YA KISI AUR SE KARVA  L E AI HI  ye ek hai aur batata hu
+---
+ce7e0898-c44d-4c21-857b-a36fef7de388
+---
+0b1f5001-c6f2-4fc2-a87b-e9a75ed61f76
+---
+f7cf08af-5e63-452d-9f14-c5d02d5411e3
+---
+ठीक है। अब इस चैट में मैं **Founder + Co-founder/CTO + Product Strategist + Business/Growth Advisor** की तरह काम करूँगा।
+
+आपका काम अभी सिर्फ **idea रखना** है। उसे polished, technically perfect या complete बनाने की जरूरत नहीं है।
+
+### हमारा तरीका
+
+**आप:** Idea / समस्या / कोई observation / अधूरा concept बताएँगे।
+
+**मैं:** पहले उसे समझूँगा, फिर जरूरत के हिसाब से अलग-अलग expert roles activate करके सोचूँगा:
+
+- 🧠 **Product Expert** — असली problem और solution
+- 💰 **Business Expert** — पैसा कहाँ और कैसे बनेगा
+- 🎯 **Market Expert** — customer कौन है और क्यों खरीदेगा
+- 🏗️ **Tech/Architecture Expert** — MVP कैसे बने और आगे scale कैसे हो
+- 🤖 **AI/Automation Expert** — कहाँ AI लगाना चाहिए और कहाँ नहीं
+- 📈 **Growth Expert** — पहला customer कैसे आएगा
+- ⚡ **MVP Expert** — क्या अभी बनाना है और क्या बिल्कुल नहीं बनाना
+- 🔐 **Risk Expert** — legal, technical, operational और business risks
+- 🔄 **Scale Expert** — बाद में इसी foundation पर क्या-क्या जोड़ा जा सकेगा
+
+### सबसे महत्वपूर्ण नियम
+
+हम **पहले बड़ा product नहीं बनाएँगे।**
+
+पहले:
+
+> **Idea → Real Problem → Paying Customer → Working Model → MVP → First Revenue → Feedback → Upgrade → Scale**
+
+Architecture शुरुआत से **clean और extensible** रखेंगे, लेकिन unnecessary complexity नहीं डालेंगे।
+
+और अगर मुझे लगे कि आपका original idea कम ROI वाला है, बहुत complicated है, या उससे बेहतर business model बन सकता है, तो मैं सीधे बताऊँगा—सिर्फ आपके idea से सहमत नहीं होऊँगा।
+
+### अभी कोई architecture, coding या feature list नहीं
+
+पहले आपका raw idea सुनते हैं।
+
+**आप अपने शब्दों में पूरा idea लिख दीजिए—चाहे 2 लाइन हो या 20 मिनट की सोच हो।**  
+मैं पहले उसे समझकर अपनी तरफ से **“मैंने आपके idea को ऐसे समझा…”** बताऊँगा। फिर जहाँ ambiguity होगी वहीं सवाल पूछूँगा।
+---
+97f90bce-33ed-4ec9-9f08-53eddf1b3b89
+---
+cb7751aa-f0cc-477b-ac97-32d1a47e8278
+---
+2cbf1d4b-46c7-4304-8269-f0cb89fbc001
+---
+799943e8-90c7-4e0e-bc91-b99bc5c2baac
+---
+is_user_system_message
+---
+user_context_message_data
+---
+Original custom instructions no longer available
+---
+33148d31-d7ab-44f1-afeb-2994c10a4a50
+---
+1089b4a3-267b-40a2-85aa-a5135e6d312e
+---
+rebase_developer_message
+---
+97eb450f-1c12-4d0b-9cc1-58b00d19e788
+---
+rebase_system_message
+---
+18e5a278-ad70-422c-a58b-8d9becde7617
+---
+&#x20;						&#x9;
+
+I KO ROLE DO ME EK FOUNDER HU MERA EK VICHAR HAI I SE BAAT KARKE BRAIN STROOMING KARENGE AI AS A EXPERT BAT KREGA JO JJO EXPERTISE CHAHIYE VO SB HOGI USKE PAS YA CONTEXT KE HISAB SE PHELE EXPERT BAN JAYEGA FI BOLEGA MERE PAS BAS IDEA HAI PURA SAMJH KE WORKING MODEL PE BAAT KEGNGE FIR BAAD ME UPGRADE KARTE JAYENGE PHELE SE ARCHITRACTURE ESA HOGA KI DIKKAT NHI AAYEGI AGE TARTING AUR BASE SHI HOGA PAR BADA NHI JLDI MVP MARKET ME UTARNE AUR KAMANE KE LIYE BHLE IDEA BHI VO SUGGEST KRE ESA BHI  &#x20;
+
+Samajh gaya, deal pakki. 🤝 Main aapka co-founder + expert advisor banunga, aur idea ke hisaab se jo bhi expertise chahiye (product, tech architecture, market, pricing, growth) wo role le lunga.
+
+**Hum aise chalenge:**
+
+1. **Idea samajhna:** pehle aap idea batao, main sawal poochunga jab tak poori tasveer clear na ho.
+2. **Working model:** kaun customer hai, kya problem solve ho rahi hai, paisa kaise aayega.
+3. **MVP plan:** sabse chhota version jo jaldi market mein utre aur kamayi shuru kare.
+4. **Sahi foundation:** architecture aisa ki baad mein rebuild na karna pade, bas upgrade karte jao.
+5. **Iterate:** feedback aur kamayi ke hisaab se next features aur scale.
+
+Aap chaho to main khud bhi idea suggest karunga ya aapke idea mein better angle dunga.
+
+**Ab aap bataiye:** aapka idea kya hai? Jaisa bhi hai, kachcha ho ya adhoora, Hindi/Hinglish mein bol do. Baaki sawal main poochh lunga.
+---
+client-created-root
+---
+https://www.apple.com/
+---
+https://www.progressive.com
+---
+https://github.com/openclaw/openclaw
+---
+https://www.openai.com
+---
+https://www.statefarm.com
+---
+shouldPrefetchAccount
+---
+shouldPrefetchUser
+---
+shouldPrefetchSystemHints
+---
+manageRootRouteStylesheet
+---
+mobileWebHandoffEnabled
+---
+stripModulepreloadImports
+---
+paidCampaignAppRedirect
+---
+statsigGateEvaluationsPromise
+---
+13021055685003647272
+---
