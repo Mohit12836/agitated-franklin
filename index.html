@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MOHIT JAIN DIGITAL | AI Website Sales & Discovery Engine</title>
   
-  <!-- High-End Google Fonts -->
+  <!-- Modern High-End Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -27,31 +27,20 @@
           },
           colors: {
             brand: {
-              400: '#4ade80',
-              500: '#22c55e',
-              600: '#16a34a',
-              emerald: '#10b981',
+              50: '#ecfdf5',
+              100: '#d1fae5',
+              200: '#a7f3d0',
+              300: '#6ee7b7',
+              400: '#34d399',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065f46',
+              900: '#064e3b',
+              canvas: '#060d1a',
+              surface: '#0b1326',
               cyan: '#06b6d4',
-              gold: '#f59e0b',
-              purple: '#8b5cf6',
-              dark: '#030712',
-              card: '#0c1322',
-              cardHover: '#111c34',
-            }
-          },
-          animation: {
-            'glow-pulse': 'glowPulse 2.5s infinite alternate',
-            'border-beam': 'borderBeam 4s infinite linear',
-            'radar-spin': 'radarSpin 8s infinite linear',
-          },
-          keyframes: {
-            glowPulse: {
-              '0%': { boxShadow: '0 0 25px -5px rgba(34, 197, 94, 0.25)' },
-              '100%': { boxShadow: '0 0 45px 10px rgba(34, 197, 94, 0.6)' }
-            },
-            borderBeam: {
-              '0%': { transform: 'rotate(0deg)' },
-              '100%': { transform: 'rotate(360deg)' }
+              gold: '#f59e0b'
             }
           }
         }
@@ -60,6 +49,22 @@
   </script>
 
   <style>
+    /* =========================================================================
+       COLOR MAGIC 10-LAYER ARCHITECTURE & DESIGN TOKENS
+       ========================================================================= */
+    :root {
+      --bg-canvas: #060d1a;
+      --bg-surface: rgba(11, 19, 38, 0.9);
+      --card-white: #ffffff;
+      --text-dark: #0f172a;
+      --text-muted: #475569;
+      --accent-emerald: #10b981;
+      --accent-cyan: #06b6d4;
+      --accent-gold: #f59e0b;
+      --mouse-x: 50%;
+      --mouse-y: 50%;
+    }
+
     *, *::before, *::after {
       box-sizing: border-box;
       margin: 0;
@@ -70,14 +75,14 @@
       max-width: 100%;
       overflow-x: clip;
       scroll-behavior: smooth;
-      background-color: #030712;
+      background-color: var(--bg-canvas);
       color: #f8fafc;
       font-family: 'Plus Jakarta Sans', sans-serif;
       text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
     }
 
-    /* Cinematic Animated Dark Nexus Canvas */
+    /* Layer 1 & 6: Living Canvas Aurora & Mesh Particles */
     #nexusCanvas {
       position: fixed;
       top: 0;
@@ -96,74 +101,73 @@
       padding-inline: clamp(0.75rem, 3vw, 2rem);
     }
 
-    /* Dynamic Fluid Typography */
+    /* Dynamic Fluid Typography (Rule 19) */
     .hero-heading { font-size: clamp(1.85rem, 4.2vw + 0.4rem, 3.1rem); line-height: 1.18; }
     .step-heading { font-size: clamp(1.35rem, 2.5vw + 0.3rem, 2rem); line-height: 1.25; }
     .card-title { font-size: clamp(0.98rem, 1.2vw + 0.2rem, 1.2rem); }
     .body-desc { font-size: clamp(0.88rem, 0.7vw + 0.25rem, 1.05rem); line-height: 1.6; }
     .badge-label { font-size: clamp(0.7rem, 0.4vw + 0.35rem, 0.82rem); }
 
-    /* Ultra Luxury Dark Obsidian Glassmorphism */
-    .dark-obsidian-panel {
-      background: rgba(10, 16, 30, 0.88);
+    /* Layer 3 & 4: Master Obsidian Surface with 2px Physical Top Rim Highlight (Rule 23) */
+    .color-magic-panel {
+      position: relative;
+      background: linear-gradient(180deg, rgba(14, 23, 44, 0.92) 0%, rgba(8, 14, 28, 0.96) 100%);
       backdrop-filter: blur(28px);
       -webkit-backdrop-filter: blur(28px);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      box-shadow: 0 30px 80px -15px rgba(0, 0, 0, 0.85), 0 0 40px -10px rgba(34, 197, 94, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 30px 80px -15px rgba(0, 0, 0, 0.85), 0 0 50px -10px rgba(16, 185, 129, 0.15);
+      border-radius: 1.75rem;
+    }
+    .color-magic-panel::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 10%;
+      right: 10%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #10b981, #06b6d4, transparent);
+      border-radius: 999px;
     }
 
-    /* Gleaming Pure White Interactive Block (Bich Ke Chamakte White Blocks) */
-    .gleaming-white-block {
+    /* Layer 7 & 10: Pure White Elevation Blocks (Bich Ke Chamakte White Blocks) */
+    .pure-white-card {
       background: #ffffff !important;
       color: #0f172a !important;
       border: 1.5px solid #e2e8f0;
-      box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.35), 0 2px 6px -1px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.4), 0 2px 6px -1px rgba(0, 0, 0, 0.2);
       transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
-    .gleaming-white-block:hover {
+    .pure-white-card:hover {
       border-color: #10b981;
       transform: translateY(-3px) scale(1.015);
       box-shadow: 0 18px 36px -6px rgba(16, 185, 129, 0.35), 0 0 20px -2px rgba(16, 185, 129, 0.3);
     }
-    .gleaming-white-block.is-active {
+    .pure-white-card.is-active {
       border-color: #059669 !important;
       background: #ffffff !important;
-      box-shadow: 0 14px 32px -6px rgba(5, 150, 105, 0.4), 0 0 0 2.5px #059669 !important;
+      box-shadow: 0 14px 32px -6px rgba(5, 150, 105, 0.45), 0 0 0 2.5px #059669 !important;
       transform: translateY(-2px);
     }
 
-    /* Spring Physics Button */
-    .spring-btn {
+    /* Layer 9: 90-7-3 High-Voltage Conversion Focus CTA */
+    .focus-cta-btn {
+      background: linear-gradient(135deg, #10b981 0%, #059669 50%, #047857 100%);
+      color: #ffffff;
+      font-weight: 900;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      box-shadow: 0 12px 35px -5px rgba(16, 185, 129, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3);
       transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease, filter 0.2s ease;
     }
-    .spring-btn:hover {
+    .focus-cta-btn:hover {
       transform: scale(1.03);
       filter: brightness(1.1);
-      box-shadow: 0 12px 32px -4px rgba(34, 197, 94, 0.5);
+      box-shadow: 0 16px 45px -4px rgba(16, 185, 129, 0.75);
     }
-    .spring-btn:active {
+    .focus-cta-btn:active {
       transform: scale(0.97);
     }
 
-    /* Glowing Badge */
-    .neon-badge {
-      background: rgba(34, 197, 94, 0.12);
-      border: 1px solid rgba(34, 197, 94, 0.4);
-      box-shadow: 0 0 20px -3px rgba(34, 197, 94, 0.3);
-    }
-
-    /* Shimmering Border Light */
-    .shimmer-line {
-      background: linear-gradient(90deg, transparent 0%, rgba(34, 197, 94, 0.8) 50%, transparent 100%);
-      background-size: 200% 100%;
-      animation: shimmerAnim 3s infinite linear;
-    }
-    @keyframes shimmerAnim {
-      0% { background-position: -200% 0; }
-      100% { background-position: 200% 0; }
-    }
-
-    /* Sound Visualizer Pulse */
+    /* Sound Bar Pulse */
     .sound-bar {
       animation: soundJump 0.8s infinite ease-in-out alternate;
     }
@@ -173,45 +177,45 @@
     }
   </style>
 </head>
-<body class="min-h-screen flex flex-col justify-between selection:bg-green-400 selection:text-black relative">
+<body class="min-h-screen flex flex-col justify-between selection:bg-emerald-500 selection:text-white relative">
 
-  <!-- CINEMATIC ANIMATED DARK NEXUS & AURORA CANVAS -->
+  <!-- LIVING CANVAS NEXUS PARTICLES & AURORA -->
   <canvas id="nexusCanvas"></canvas>
 
   <!-- ================================================================= -->
-  <!-- 1. TOP NAVBAR / BRAND & DRAMATIC SOUND CONTROLLER                 -->
+  <!-- 1. TOP NAVBAR / FROSTED GLASS & THIN BLUE/EMERALD RIM             -->
   <!-- ================================================================= -->
-  <header class="sticky top-0 z-50 bg-[#060c1c]/85 backdrop-blur-xl border-b border-white/10 px-4 py-3 shadow-2xl">
+  <header class="sticky top-0 z-50 bg-[#060d1a]/85 backdrop-blur-xl border-b border-white/10 px-4 py-3 shadow-2xl">
     <div class="fluid-container flex items-center justify-between">
       
-      <!-- Brand Identity -->
+      <!-- Brand Logo -->
       <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-green-500 via-emerald-400 to-cyan-400 flex items-center justify-center shadow-lg shadow-green-500/30">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 via-emerald-400 to-cyan-400 flex items-center justify-center shadow-lg shadow-emerald-500/30">
           <i data-lucide="zap" class="w-5 h-5 text-black stroke-[2.5]"></i>
         </div>
         <div>
           <span class="font-display font-black text-lg tracking-tight text-white flex items-center gap-1.5">
-            MOHIT JAIN <span class="text-green-400">DIGITAL</span>
+            MOHIT JAIN <span class="text-emerald-400">DIGITAL</span>
           </span>
-          <p class="text-[11px] text-gray-400 font-semibold hidden sm:block">AI Website Sales & Discovery Engine</p>
+          <p class="text-[11px] text-slate-400 font-semibold hidden sm:block">AI Website Sales & Growth Advisor</p>
         </div>
       </div>
 
       <!-- Right Audio & Trust Badges -->
       <div class="flex items-center gap-2 sm:gap-3">
         
-        <!-- Excitement Audio Toggle Button (Serial Theme Music) -->
-        <button onclick="toggleAudioEngine()" id="audioToggleBtn" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-green-500/10 hover:bg-green-500/20 border border-green-500/40 text-green-400 text-xs font-bold transition shadow-lg shadow-green-500/10">
+        <!-- Serial Excitement Sound Toggle -->
+        <button onclick="toggleAudioEngine()" id="audioToggleBtn" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 text-xs font-bold transition shadow-lg shadow-emerald-500/10">
           <div class="flex items-end gap-0.5 h-4">
-            <span class="w-1 bg-green-400 rounded-full sound-bar" style="animation-delay: 0.1s"></span>
-            <span class="w-1 bg-green-400 rounded-full sound-bar" style="animation-delay: 0.3s"></span>
-            <span class="w-1 bg-green-400 rounded-full sound-bar" style="animation-delay: 0.5s"></span>
+            <span class="w-1 bg-emerald-400 rounded-full sound-bar" style="animation-delay: 0.1s"></span>
+            <span class="w-1 bg-emerald-400 rounded-full sound-bar" style="animation-delay: 0.3s"></span>
+            <span class="w-1 bg-emerald-400 rounded-full sound-bar" style="animation-delay: 0.5s"></span>
           </div>
           <span id="audioLabel">Dramatic Music: ON</span>
         </button>
 
-        <div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full neon-badge text-green-300 text-xs font-bold">
-          <span class="w-2 h-2 rounded-full bg-green-400 animate-ping"></span>
+        <div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-bold">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
           <span>Live AI Diagnostic</span>
         </div>
 
@@ -221,71 +225,71 @@
   </header>
 
   <!-- ================================================================= -->
-  <!-- 2. MAIN OBSIDIAN DARK STAGE CONTAINER                             -->
+  <!-- 2. MAIN OBSIDIAN DARK STAGE WITH PURE WHITE CARDS INSIDE          -->
   <!-- ================================================================= -->
   <main class="flex-grow py-6 sm:py-10 z-10 relative">
     <div class="fluid-container max-w-2xl">
 
-      <!-- PROGRESS TRACKER (Neon Dark Minimal Pill) -->
+      <!-- PROGRESS TRACKER (Level 3 Focus Indicator) -->
       <div id="progressSection" class="mb-5 space-y-1.5">
         <div class="flex justify-between items-center text-xs font-bold">
-          <span id="screenIndicator" class="text-green-400 uppercase tracking-wider font-mono">चरण 1 • शुरुआत</span>
-          <span id="percentIndicator" class="text-gray-400 font-mono">15% Complete</span>
+          <span id="screenIndicator" class="text-emerald-400 uppercase tracking-wider font-mono">चरण 1 • शुरुआत</span>
+          <span id="percentIndicator" class="text-slate-400 font-mono">15% Complete</span>
         </div>
         <div class="w-full h-2 bg-slate-900 rounded-full overflow-hidden p-0.5 border border-white/10 shadow-inner">
-          <div id="progressBar" class="h-full bg-gradient-to-r from-emerald-500 via-green-400 to-cyan-400 rounded-full transition-all duration-400 ease-out shadow-lg shadow-green-500/50" style="width: 15%"></div>
+          <div id="progressBar" class="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-cyan-400 rounded-full transition-all duration-400 ease-out shadow-lg shadow-emerald-500/50" style="width: 15%"></div>
         </div>
       </div>
 
-      <!-- MAIN DARK OBSIDIAN GLEAMING CARD -->
-      <div id="mainDarkBox" class="dark-obsidian-panel rounded-3xl p-6 sm:p-9 md:p-11 relative overflow-hidden">
+      <!-- MAIN DARK OBSIDIAN PANEL (Atmosphere + 2px Top Rim) -->
+      <div id="mainDarkBox" class="color-magic-panel p-6 sm:p-9 md:p-11 relative overflow-hidden">
         
-        <!-- Ambient Glowing Halos Inside Card -->
-        <div class="absolute -top-32 -right-32 w-64 h-64 bg-green-500/15 rounded-full blur-3xl pointer-events-none"></div>
+        <!-- Ambient Radial Light Sources (Rule 6 & 18) -->
+        <div class="absolute -top-32 -right-32 w-64 h-64 bg-emerald-500/15 rounded-full blur-3xl pointer-events-none"></div>
         <div class="absolute -bottom-32 -left-32 w-64 h-64 bg-cyan-500/15 rounded-full blur-3xl pointer-events-none"></div>
 
         <!-- =========================================================== -->
-        <!-- SCREEN 0: DRAMATIC OPENING (NAME & WHATSAPP PHONE ONLY)     -->
+        <!-- SCREEN 0: MINIMAL EFFORT (NAME & WHATSAPP PHONE ONLY)       -->
         <!-- =========================================================== -->
         <div id="screen-0" class="screen-view space-y-6">
           <div class="space-y-3 text-center sm:text-left">
-            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full neon-badge text-green-300 text-xs font-extrabold uppercase tracking-wide">
-              <i data-lucide="zap" class="w-3.5 h-3.5 text-green-400"></i>
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/40 text-emerald-300 text-xs font-extrabold uppercase tracking-wide">
+              <i data-lucide="zap" class="w-3.5 h-3.5 text-emerald-400"></i>
               20-Second Instant Discovery
             </div>
             <h1 class="hero-heading font-display font-black text-white tracking-tight">
-              नमस्ते! अपने बिजनेस के लिए <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-emerald-300 to-cyan-400">लाइव ग्रोथ प्लान & कोटेशन</span> देखें
+              नमस्ते! अपने बिजनेस के लिए <span class="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">लाइव ग्रोथ प्लान & कोटेशन</span> देखें
             </h1>
-            <p class="body-desc text-gray-300 font-medium">
+            <p class="body-desc text-slate-300 font-medium">
               सिर्फ "Hi-Hello" नहीं, जानिए आपकी वेबसाइट कैसे <strong>मार्केट में 10 लोगों में आपको सबसे भरोसेमंद</strong> बनाएगी और सीधे लाखों का काम लाएगी।
             </p>
           </div>
 
-          <!-- The 2 Quick Fields (Gleaming Pure White Blocks) -->
+          <!-- The 2 Quick Fields (Pure White Blocks on Dark Obsidian) -->
           <div class="space-y-4 pt-1">
-            <div class="p-4 rounded-2xl gleaming-white-block shadow-xl">
+            <div class="p-4 rounded-2xl pure-white-card shadow-xl">
               <label class="block text-xs font-bold text-slate-900 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                 <i data-lucide="user" class="w-3.5 h-3.5 text-emerald-600"></i>
                 आपका शुभ नाम (Your Name)
               </label>
-              <input type="text" id="inputClientName" placeholder="उदा. Mohit Sharma" class="w-full px-4 py-3 rounded-xl bg-slate-50 border-2 border-slate-200 text-slate-900 placeholder-slate-400 font-semibold focus:border-green-500 focus:bg-white focus:outline-none transition text-sm">
+              <input type="text" id="inputClientName" placeholder="उदा. Mohit Sharma" class="w-full px-4 py-3 rounded-xl bg-slate-50 border-2 border-slate-200 text-slate-900 placeholder-slate-400 font-semibold focus:border-emerald-500 focus:bg-white focus:outline-none transition text-sm">
             </div>
 
-            <div class="p-4 rounded-2xl gleaming-white-block shadow-xl">
+            <div class="p-4 rounded-2xl pure-white-card shadow-xl">
               <label class="block text-xs font-bold text-slate-900 uppercase tracking-wider mb-2 flex items-center gap-1.5">
                 <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-600"></i>
                 WhatsApp नंबर (Proposal प्राप्त करने के लिए)
               </label>
-              <input type="tel" id="inputClientPhone" placeholder="उदा. 9876543210" class="w-full px-4 py-3 rounded-xl bg-slate-50 border-2 border-slate-200 text-slate-900 placeholder-slate-400 font-semibold focus:border-green-500 focus:bg-white focus:outline-none transition text-sm">
+              <input type="tel" id="inputClientPhone" placeholder="उदा. 9876543210" class="w-full px-4 py-3 rounded-xl bg-slate-50 border-2 border-slate-200 text-slate-900 placeholder-slate-400 font-semibold focus:border-emerald-500 focus:bg-white focus:outline-none transition text-sm">
             </div>
           </div>
 
           <div class="pt-4 flex flex-col sm:flex-row items-center justify-between gap-3 border-t border-white/10">
-            <span class="text-xs text-gray-400 font-medium flex items-center gap-1.5">
-              <i data-lucide="shield-check" class="w-4 h-4 text-green-400"></i>
+            <span class="text-xs text-slate-400 font-medium flex items-center gap-1.5">
+              <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
               100% सुरक्षित • कोई लंबा फॉर्म नहीं
             </span>
-            <button onclick="startInstantDiscovery()" class="spring-btn w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-gradient-to-r from-green-500 via-emerald-500 to-teal-400 hover:from-green-400 hover:to-emerald-400 text-black font-black text-sm shadow-xl shadow-green-500/30 flex items-center justify-center gap-2">
+            <button onclick="startInstantDiscovery()" class="focus-cta-btn w-full sm:w-auto px-8 py-3.5 rounded-2xl text-sm flex items-center justify-center gap-2">
               <span>आगे बढ़ें (Next)</span>
               <i data-lucide="arrow-right" class="w-4 h-4"></i>
             </button>
@@ -297,16 +301,16 @@
         <!-- =========================================================== -->
         <div id="screen-1" class="screen-view hidden space-y-5">
           <div class="space-y-1.5">
-            <span class="badge-label text-green-400 font-extrabold uppercase tracking-wider font-mono">सवाल 1 / 4</span>
+            <span class="badge-label text-emerald-400 font-extrabold uppercase tracking-wider font-mono">सवाल 1 / 4</span>
             <h2 class="step-heading font-display font-black text-white">
-              <span id="dispClientName" class="text-green-400">आपका</span> बिजनेस किस Category में आता है?
+              <span id="dispClientName" class="text-emerald-400">आपका</span> बिजनेस किस Category में आता है?
             </h2>
-            <p class="text-xs text-gray-400 font-medium">सिर्फ 1-क्लिक करें, आगे का सवाल अपने आप लोड होगा:</p>
+            <p class="text-xs text-slate-400 font-medium">सिर्फ 1-क्लिक करें, आगे का सवाल अपने आप लोड होगा:</p>
           </div>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="industryGrid">
             
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Industrial / Manufacturing B2B', this, 2)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Industrial / Manufacturing B2B', this, 2)">
               <div class="flex items-center gap-3">
                 <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0 border border-blue-100">
                   <i data-lucide="factory" class="w-5 h-5"></i>
@@ -319,7 +323,7 @@
               <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Trading & Wholesale', this, 2)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Trading & Wholesale', this, 2)">
               <div class="flex items-center gap-3">
                 <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0 border border-amber-100">
                   <i data-lucide="boxes" class="w-5 h-5"></i>
@@ -332,7 +336,7 @@
               <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Local Retail & Services', this, 2)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Local Retail & Services', this, 2)">
               <div class="flex items-center gap-3">
                 <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0 border border-emerald-100">
                   <i data-lucide="store" class="w-5 h-5"></i>
@@ -345,7 +349,7 @@
               <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'E-commerce & D2C Brand', this, 2)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'E-commerce & D2C Brand', this, 2)">
               <div class="flex items-center gap-3">
                 <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center shrink-0 border border-purple-100">
                   <i data-lucide="shopping-bag" class="w-5 h-5"></i>
@@ -358,7 +362,7 @@
               <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Coach / Consultant / Agency', this, 2)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'Coach / Consultant / Agency', this, 2)">
               <div class="flex items-center gap-3">
                 <div class="w-10 h-10 rounded-xl bg-cyan-50 text-cyan-600 flex items-center justify-center shrink-0 border border-cyan-100">
                   <i data-lucide="graduation-cap" class="w-5 h-5"></i>
@@ -371,7 +375,7 @@
               <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'General Business / Other', this, 2)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('industry', 'General Business / Other', this, 2)">
               <div class="flex items-center gap-3">
                 <div class="w-10 h-10 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center shrink-0 border border-slate-200">
                   <i data-lucide="layers" class="w-5 h-5"></i>
@@ -387,7 +391,7 @@
           </div>
 
           <div class="pt-2 flex justify-between">
-            <button onclick="gotoScreen(0)" class="text-xs text-gray-400 hover:text-white font-bold flex items-center gap-1">
+            <button onclick="gotoScreen(0)" class="text-xs text-slate-400 hover:text-white font-bold flex items-center gap-1">
               <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i> Back
             </button>
           </div>
@@ -398,15 +402,15 @@
         <!-- =========================================================== -->
         <div id="screen-2" class="screen-view hidden space-y-5">
           <div class="space-y-1.5">
-            <span class="badge-label text-green-400 font-extrabold uppercase tracking-wider font-mono">सवाल 2 / 4</span>
+            <span class="badge-label text-emerald-400 font-extrabold uppercase tracking-wider font-mono">सवाल 2 / 4</span>
             <h2 class="step-heading font-display font-black text-white">
-              अभी नए ग्राहक आपको सबसे ज्यादा <span class="text-green-400">कहाँ से मिलते हैं?</span>
+              अभी नए ग्राहक आपको सबसे ज्यादा <span class="text-emerald-400">कहाँ से मिलते हैं?</span>
             </h2>
-            <p class="text-xs text-gray-400 font-medium">इससे AI आपके कन्वर्जन गैप को पकड़ेगा:</p>
+            <p class="text-xs text-slate-400 font-medium">इससे AI आपके कन्वर्जन गैप को पकड़ेगा:</p>
           </div>
 
           <div class="space-y-2.5">
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'पुराने ग्राहकों के रेफरल / वर्ड ऑफ माउथ', this, 3)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'पुराने ग्राहकों के रेफरल / वर्ड ऑफ माउथ', this, 3)">
               <div class="flex items-center gap-3.5">
                 <div class="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center border border-blue-100">
                   <i data-lucide="users" class="w-4 h-4"></i>
@@ -419,7 +423,7 @@
               <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'WhatsApp और कॉल्स पर मैनुअल बातचीत', this, 3)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'WhatsApp और कॉल्स पर मैनुअल बातचीत', this, 3)">
               <div class="flex items-center gap-3.5">
                 <div class="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center border border-emerald-100">
                   <i data-lucide="phone-forwarded" class="w-4 h-4"></i>
@@ -432,7 +436,7 @@
               <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'Instagram / Ads या ऑफलाइन मार्केट', this, 3)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('acquisitionChannel', 'Instagram / Ads या ऑफलाइन मार्केट', this, 3)">
               <div class="flex items-center gap-3.5">
                 <div class="w-9 h-9 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center border border-purple-100">
                   <i data-lucide="share-2" class="w-4 h-4"></i>
@@ -447,7 +451,7 @@
           </div>
 
           <div class="pt-2 flex justify-between">
-            <button onclick="gotoScreen(1)" class="text-xs text-gray-400 hover:text-white font-bold flex items-center gap-1">
+            <button onclick="gotoScreen(1)" class="text-xs text-slate-400 hover:text-white font-bold flex items-center gap-1">
               <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i> Back
             </button>
           </div>
@@ -458,15 +462,15 @@
         <!-- =========================================================== -->
         <div id="screen-3" class="screen-view hidden space-y-5">
           <div class="space-y-1.5">
-            <span class="badge-label text-green-400 font-extrabold uppercase tracking-wider font-mono">सवाल 3 / 4</span>
+            <span class="badge-label text-emerald-400 font-extrabold uppercase tracking-wider font-mono">सवाल 3 / 4</span>
             <h2 class="step-heading font-display font-black text-white">
-              वेबसाइट से आपकी <span class="text-green-400">सबसे बड़ी प्राथमिकता क्या है?</span>
+              वेबसाइट से आपकी <span class="text-emerald-400">सबसे बड़ी प्राथमिकता क्या है?</span>
             </h2>
-            <p class="text-xs text-gray-400 font-medium">ताकि हम सिर्फ काम की चीज बनाएं, फालतू फीचर नहीं:</p>
+            <p class="text-xs text-slate-400 font-medium">ताकि हम सिर्फ काम की चीज बनाएं, फालतू फीचर नहीं:</p>
           </div>
 
           <div class="space-y-2.5">
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Digital Credibility & Trust: नया ग्राहक बिना बहस के बड़ा ब्रांड समझे', this, 4)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Digital Credibility & Trust: नया ग्राहक बिना बहस के बड़ा ब्रांड समझे', this, 4)">
               <div class="flex items-center gap-3.5">
                 <div class="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center border border-emerald-100 shrink-0">
                   <i data-lucide="shield-check" class="w-4 h-4"></i>
@@ -479,7 +483,7 @@
               <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Instant Product Discovery: 1-क्लिक में पूरा कैटलॉग दिखाना', this, 4)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Instant Product Discovery: 1-क्लिक में पूरा कैटलॉग दिखाना', this, 4)">
               <div class="flex items-center gap-3.5">
                 <div class="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center border border-blue-100 shrink-0">
                   <i data-lucide="book-open" class="w-4 h-4"></i>
@@ -492,7 +496,7 @@
               <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Google Search Visibility & Auto Leads Capture', this, 4)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('primaryPain', 'Google Search Visibility & Auto Leads Capture', this, 4)">
               <div class="flex items-center gap-3.5">
                 <div class="w-9 h-9 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center border border-purple-100 shrink-0">
                   <i data-lucide="search" class="w-4 h-4"></i>
@@ -507,7 +511,7 @@
           </div>
 
           <div class="pt-2 flex justify-between">
-            <button onclick="gotoScreen(2)" class="text-xs text-gray-400 hover:text-white font-bold flex items-center gap-1">
+            <button onclick="gotoScreen(2)" class="text-xs text-slate-400 hover:text-white font-bold flex items-center gap-1">
               <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i> Back
             </button>
           </div>
@@ -518,15 +522,15 @@
         <!-- =========================================================== -->
         <div id="screen-4" class="screen-view hidden space-y-5">
           <div class="space-y-1.5">
-            <span class="badge-label text-green-400 font-extrabold uppercase tracking-wider font-mono">सवाल 4 / 4</span>
+            <span class="badge-label text-emerald-400 font-extrabold uppercase tracking-wider font-mono">सवाल 4 / 4</span>
             <h2 class="step-heading font-display font-black text-white">
-              वेबसाइट बनने के बाद <span class="text-green-400">सपोर्ट कैसे रखना चाहेंगे?</span>
+              वेबसाइट बनने के बाद <span class="text-emerald-400">सपोर्ट कैसे रखना चाहेंगे?</span>
             </h2>
-            <p class="text-xs text-gray-400 font-medium">कोई जबरन चार्ज नहीं है, आप अपनी पसंद चुन सकते हैं:</p>
+            <p class="text-xs text-slate-400 font-medium">कोई जबरन चार्ज नहीं है, आप अपनी पसंद चुन सकते हैं:</p>
           </div>
 
           <div class="space-y-2.5">
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('maintPref', 'One-Time Ownership (₹0 Monthly Mandate)', this, 5)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('maintPref', 'One-Time Ownership (₹0 Monthly Mandate)', this, 5)">
               <div class="flex items-center gap-3.5">
                 <div class="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center border border-blue-100 shrink-0">
                   <i data-lucide="unlock" class="w-4 h-4"></i>
@@ -542,7 +546,7 @@
               <div class="w-5 h-5 rounded-full border-2 border-slate-300 radio-dot shrink-0"></div>
             </div>
 
-            <div class="gleaming-white-block rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('maintPref', 'VIP Care & Security (₹1,499/mo)', this, 5)">
+            <div class="pure-white-card rounded-2xl p-4 cursor-pointer flex items-center justify-between" onclick="setFastAnswer('maintPref', 'VIP Care & Security (₹1,499/mo)', this, 5)">
               <div class="flex items-center gap-3.5">
                 <div class="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center border border-emerald-100 shrink-0">
                   <i data-lucide="shield-check" class="w-4 h-4"></i>
@@ -560,7 +564,7 @@
           </div>
 
           <div class="pt-2 flex justify-between">
-            <button onclick="gotoScreen(3)" class="text-xs text-gray-400 hover:text-white font-bold flex items-center gap-1">
+            <button onclick="gotoScreen(3)" class="text-xs text-slate-400 hover:text-white font-bold flex items-center gap-1">
               <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i> Back
             </button>
           </div>
@@ -568,19 +572,18 @@
 
         <!-- =========================================================== -->
         <!-- SCREEN 5: AI GROWTH STRATEGY & PSYCHOLOGICAL AWAKENING      -->
-        <!-- ("Aapne Kitna Market Kho Diya" + "Sapne & Possibility")     -->
         <!-- =========================================================== -->
         <div id="screen-5" class="screen-view hidden space-y-6">
           
           <div class="text-center space-y-2">
-            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full neon-badge text-green-300 text-xs font-bold uppercase tracking-wider">
-              <i data-lucide="sparkles" class="w-3.5 h-3.5 text-green-400"></i>
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/40 text-emerald-300 text-xs font-bold uppercase tracking-wider">
+              <i data-lucide="sparkles" class="w-3.5 h-3.5 text-emerald-400"></i>
               Autonomous AI Business Growth Diagnosis
             </div>
             <h2 class="step-heading font-display font-black text-white">
-              <span id="reportClientName" class="text-green-400">आपके Business</span> का AI अपॉर्चुनिटी विश्लेषण:
+              <span id="reportClientName" class="text-emerald-400">आपके Business</span> का AI अपॉर्चुनिटी विश्लेषण:
             </h2>
-            <p class="text-xs sm:text-sm text-gray-300 max-w-lg mx-auto font-medium">
+            <p class="text-xs sm:text-sm text-slate-300 max-w-lg mx-auto font-medium">
               हमारी AI टीम ने आपके इनपुट्स को स्कैन करके यह ग्रोथ रिपोर्ट और खोई हुई मार्केट संभावना तैयार की है:
             </p>
           </div>
@@ -589,7 +592,7 @@
           <div class="space-y-3.5">
             
             <!-- Box 1: The Bleeding Gap (Market Jo Aaj Tak Chhoot Gaya) -->
-            <div class="p-4 sm:p-5 rounded-2xl gleaming-white-block border-l-4 border-l-amber-500 space-y-2 relative overflow-hidden shadow-xl">
+            <div class="p-4 sm:p-5 rounded-2xl pure-white-card border-l-4 border-l-amber-500 space-y-2 relative overflow-hidden shadow-xl">
               <div class="flex items-center gap-2 text-amber-700 font-bold text-xs uppercase tracking-wider">
                 <i data-lucide="alert-circle" class="w-4 h-4 text-amber-600 shrink-0"></i>
                 <span>01 — कहाँ आपका मार्केट छूट रहा है (The Hidden Gap)</span>
@@ -600,7 +603,7 @@
             </div>
 
             <!-- Box 2: The Dream Possibility (Next 6 Months Vision) -->
-            <div class="p-4 sm:p-5 rounded-2xl gleaming-white-block border-l-4 border-l-emerald-600 space-y-2 relative overflow-hidden shadow-xl">
+            <div class="p-4 sm:p-5 rounded-2xl pure-white-card border-l-4 border-l-emerald-600 space-y-2 relative overflow-hidden shadow-xl">
               <div class="flex items-center gap-2 text-emerald-800 font-bold text-xs uppercase tracking-wider">
                 <i data-lucide="trending-up" class="w-4 h-4 text-emerald-600 shrink-0"></i>
                 <span>02 — आपकी नई डिजिटल अथॉरिटी (The Dream Growth)</span>
@@ -611,7 +614,7 @@
             </div>
 
             <!-- Box 3: Why Mohit Jain Digital (Rock-Solid Trust & Hybrid Engine) -->
-            <div class="p-4 sm:p-5 rounded-2xl gleaming-white-block border-l-4 border-l-blue-600 space-y-2 relative overflow-hidden shadow-xl">
+            <div class="p-4 sm:p-5 rounded-2xl pure-white-card border-l-4 border-l-blue-600 space-y-2 relative overflow-hidden shadow-xl">
               <div class="flex items-center gap-2 text-blue-800 font-bold text-xs uppercase tracking-wider">
                 <i data-lucide="shield-check" class="w-4 h-4 text-blue-600 shrink-0"></i>
                 <span>03 — Mohit Jain Digital का 'Zero-Revision' वादा</span>
@@ -623,8 +626,8 @@
 
           </div>
 
-          <!-- Serious Client Qualification Tag (Gleaming Pure White Block) -->
-          <div class="p-3 rounded-xl gleaming-white-block shadow-lg flex items-center justify-between">
+          <!-- Serious Client Qualification Tag (Pure White Card) -->
+          <div class="p-3 rounded-xl pure-white-card shadow-lg flex items-center justify-between">
             <div class="flex items-center gap-2">
               <span class="w-2.5 h-2.5 rounded-full bg-emerald-600 animate-pulse"></span>
               <span class="text-xs font-bold text-slate-900">AI Qualification Status:</span>
@@ -634,10 +637,10 @@
           </div>
 
           <div class="pt-3 flex justify-between items-center border-t border-white/10">
-            <button onclick="gotoScreen(4)" class="text-xs text-gray-400 hover:text-white font-bold flex items-center gap-1">
+            <button onclick="gotoScreen(4)" class="text-xs text-slate-400 hover:text-white font-bold flex items-center gap-1">
               <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i> Back
             </button>
-            <button onclick="showTailoredQuotation()" class="spring-btn px-7 py-3.5 rounded-2xl bg-gradient-to-r from-green-500 via-emerald-500 to-teal-400 text-black font-black text-sm shadow-xl shadow-green-500/30 flex items-center gap-2">
+            <button onclick="showTailoredQuotation()" class="focus-cta-btn px-7 py-3.5 rounded-2xl text-sm flex items-center gap-2">
               <span>मेरा Recommended Plan & कोटेशन देखें</span>
               <i data-lucide="arrow-right" class="w-4 h-4"></i>
             </button>
@@ -649,23 +652,23 @@
         <!-- =========================================================== -->
         <div id="screen-6" class="screen-view hidden space-y-6">
           <div class="text-center space-y-2">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full neon-badge text-green-300 text-xs font-bold uppercase tracking-wider">
-              <i data-lucide="badge-check" class="w-3.5 h-3.5 text-green-400"></i>
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/40 text-emerald-300 text-xs font-bold uppercase tracking-wider">
+              <i data-lucide="badge-check" class="w-3.5 h-3.5 text-emerald-400"></i>
               Tailored Quotation & Plan
             </div>
             <h2 class="step-heading font-display font-black text-white">
-              आपके लिए <span class="text-green-400">परफेक्ट प्लान और डिस्काउंटेड कोटेशन</span>
+              आपके लिए <span class="text-emerald-400">परफेक्ट प्लान और डिस्काउंटेड कोटेशन</span>
             </h2>
-            <p class="text-xs text-gray-300 font-medium max-w-lg mx-auto">
+            <p class="text-xs text-slate-300 font-medium max-w-lg mx-auto">
               आपकी ज़रूरत के अनुसार सबसे उपयुक्त प्लान को AI ने हाईलाइट किया है:
             </p>
           </div>
 
-          <!-- 3 Plans Grid (Gleaming Pure White Blocks) -->
+          <!-- 3 Plans Grid (Pure White Cards on Obsidian Surface) -->
           <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5" id="plansDisplay">
             
             <!-- Plan 1: Starter -->
-            <div id="plan-card-starter" class="gleaming-white-block rounded-2xl p-4 flex flex-col justify-between relative shadow-xl">
+            <div id="plan-card-starter" class="pure-white-card rounded-2xl p-4 flex flex-col justify-between relative shadow-xl">
               <div class="space-y-2">
                 <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Level 1: Presence</span>
                 <h3 class="font-extrabold text-slate-900 text-sm">Starter Launch</h3>
@@ -685,7 +688,7 @@
             </div>
 
             <!-- Plan 2: Pro Growth (Hero Highlight) -->
-            <div id="plan-card-growth" class="gleaming-white-block rounded-2xl p-4 flex flex-col justify-between relative border-2 border-emerald-600 bg-emerald-50/20 shadow-2xl shadow-emerald-500/20">
+            <div id="plan-card-growth" class="pure-white-card rounded-2xl p-4 flex flex-col justify-between relative border-2 border-emerald-600 bg-emerald-50/20 shadow-2xl shadow-emerald-500/20">
               <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-600 text-white text-[9px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full shadow-md">
                 AI RECOMMENDED FIT
               </div>
@@ -709,7 +712,7 @@
             </div>
 
             <!-- Plan 3: Enterprise -->
-            <div id="plan-card-enterprise" class="gleaming-white-block rounded-2xl p-4 flex flex-col justify-between relative shadow-xl">
+            <div id="plan-card-enterprise" class="pure-white-card rounded-2xl p-4 flex flex-col justify-between relative shadow-xl">
               <div class="space-y-2">
                 <span class="text-[10px] font-bold text-purple-600 uppercase tracking-wider">Level 4: Custom System</span>
                 <h3 class="font-extrabold text-slate-900 text-sm">Enterprise & Automation</h3>
@@ -730,13 +733,13 @@
 
           </div>
 
-          <!-- Bottom 1-Click WhatsApp Trigger (Gleaming Pure White Block) -->
-          <div class="p-4 rounded-2xl gleaming-white-block border-2 border-emerald-500/40 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-xl">
+          <!-- Bottom 1-Click WhatsApp Trigger -->
+          <div class="p-4 rounded-2xl pure-white-card border-2 border-emerald-500/40 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-xl">
             <span class="text-xs text-slate-800 font-bold flex items-center gap-1.5">
               <i data-lucide="check-circle" class="w-4 h-4 text-emerald-600"></i>
               आपका नाम और नंबर सुरक्षित है। 1-क्लिक में WhatsApp पर प्रपोजल प्राप्त करें।
             </span>
-            <button onclick="triggerWhatsAppProposal()" class="spring-btn w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-black text-xs shadow-xl shadow-emerald-600/30 flex items-center justify-center gap-2">
+            <button onclick="triggerWhatsAppProposal()" class="focus-cta-btn w-full sm:w-auto px-6 py-3 rounded-xl text-xs flex items-center justify-center gap-2">
               <span>WhatsApp पर बात शुरू करें</span>
               <i data-lucide="send" class="w-3.5 h-3.5"></i>
             </button>
@@ -748,36 +751,36 @@
         <!-- =========================================================== -->
         <div id="screen-7" class="screen-view hidden space-y-5">
           <div class="text-center space-y-1.5">
-            <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-green-400 to-emerald-500 text-black flex items-center justify-center mx-auto shadow-xl shadow-green-500/30">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-emerald-500 to-teal-400 text-black flex items-center justify-center mx-auto shadow-xl shadow-emerald-500/30">
               <i data-lucide="badge-check" class="w-6 h-6 stroke-[2.5]"></i>
             </div>
             <h2 class="step-heading font-display font-black text-white">
-              धन्यवाद <span id="vipName" class="text-green-400">Partner</span>! आपका प्रोजेक्ट शुरू हो गया है!
+              धन्यवाद <span id="vipName" class="text-emerald-400">Partner</span>! आपका प्रोजेक्ट शुरू हो गया है!
             </h2>
-            <p class="text-xs text-gray-300 font-medium max-w-md mx-auto">
+            <p class="text-xs text-slate-300 font-medium max-w-md mx-auto">
               नीचे अपनी बेसिक जानकारी दें ताकि हमारी टीम 24 घंटे में पहला ड्राफ्ट तैयार कर सके:
             </p>
           </div>
 
           <div class="space-y-3">
-            <div class="dark-card rounded-2xl p-4 space-y-2">
-              <h4 class="font-bold text-green-400 text-xs uppercase tracking-wider flex items-center gap-2">
+            <div class="pure-white-card rounded-2xl p-4 space-y-2">
+              <h4 class="font-bold text-emerald-700 text-xs uppercase tracking-wider flex items-center gap-2">
                 <i data-lucide="globe" class="w-3.5 h-3.5"></i> 1. डोमेन और बिजनेस लीगल नाम
               </h4>
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                <input type="text" id="obLegal" placeholder="रजिस्टर्ड बिजनेस नाम" class="w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs focus:border-green-400 focus:outline-none">
-                <input type="text" id="obDomain" placeholder="डोमेन (उदा. abc.com या 'नया चाहिए')" class="w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs focus:border-green-400 focus:outline-none">
+                <input type="text" id="obLegal" placeholder="रजिस्टर्ड बिजनेस नाम" class="w-full px-3 py-2 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs focus:border-emerald-500 focus:outline-none">
+                <input type="text" id="obDomain" placeholder="डोमेन (उदा. abc.com या 'नया चाहिए')" class="w-full px-3 py-2 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs focus:border-emerald-500 focus:outline-none">
               </div>
             </div>
 
-            <div class="dark-card rounded-2xl p-4 space-y-2">
-              <h4 class="font-bold text-blue-400 text-xs uppercase tracking-wider flex items-center gap-2">
+            <div class="pure-white-card rounded-2xl p-4 space-y-2">
+              <h4 class="font-bold text-blue-700 text-xs uppercase tracking-wider flex items-center gap-2">
                 <i data-lucide="image" class="w-3.5 h-3.5"></i> 2. लोगो और प्रोडक्ट तस्वीरें (Google Drive Link)
               </h4>
-              <input type="text" id="obDrive" placeholder="https://drive.google.com/... या 'WhatsApp पर भेजूंगा'" class="w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs focus:border-green-400 focus:outline-none">
+              <input type="text" id="obDrive" placeholder="https://drive.google.com/... या 'WhatsApp पर भेजूंगा'" class="w-full px-3 py-2 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs focus:border-emerald-500 focus:outline-none">
             </div>
 
-            <button onclick="finishVIPOnboarding()" class="spring-btn w-full py-3.5 rounded-2xl bg-gradient-to-r from-green-400 via-emerald-500 to-teal-400 text-black font-black text-xs uppercase tracking-wider shadow-xl shadow-green-500/30 flex items-center justify-center gap-2">
+            <button onclick="finishVIPOnboarding()" class="focus-cta-btn w-full py-3.5 rounded-2xl text-xs uppercase tracking-wider flex items-center justify-center gap-2">
               <i data-lucide="rocket" class="w-4 h-4"></i>
               <span>डिटेल्स सबमिट करें (Launch Production)</span>
             </button>
@@ -792,10 +795,10 @@
   <!-- ================================================================= -->
   <!-- 3. FOOTER                                                         -->
   <!-- ================================================================= -->
-  <footer class="bg-[#040814]/80 border-t border-white/10 py-4 text-center text-xs text-gray-500 z-10 relative">
+  <footer class="bg-[#040814]/80 border-t border-white/10 py-4 text-center text-xs text-slate-500 z-10 relative">
     <div class="fluid-container flex flex-col sm:flex-row items-center justify-between gap-2">
       <p>© 2026 Mohit Jain Digital. All rights reserved.</p>
-      <p class="text-gray-400 font-semibold">Autonomous Web Growth & High-Conversion Sales Engine</p>
+      <p class="text-slate-400 font-semibold">Autonomous Web Growth & High-Conversion Sales Engine</p>
     </div>
   </footer>
 
@@ -803,6 +806,12 @@
   <!-- 4. CINEMATIC CANVAS & WEB AUDIO SERIAL DRAMA ENGINE               -->
   <!-- ================================================================= -->
   <script>
+    // Track pointer coordinates for Color Magic Rule 7
+    window.addEventListener('mousemove', (e) => {
+      document.documentElement.style.setProperty('--mouse-x', `${(e.clientX / window.innerWidth) * 100}%`);
+      document.documentElement.style.setProperty('--mouse-y', `${(e.clientY / window.innerHeight) * 100}%`);
+    });
+
     // --- 1. CINEMATIC ANIMATED DARK NEXUS CANVAS ---
     (function initCanvas() {
       const canvas = document.getElementById('nexusCanvas');
@@ -825,7 +834,7 @@
           vx: (Math.random() - 0.5) * 0.9,
           vy: (Math.random() - 0.5) * 0.9,
           radius: Math.random() * 2.5 + 1.2,
-          color: Math.random() > 0.4 ? 'rgba(34, 197, 94, 0.8)' : 'rgba(6, 182, 212, 0.8)'
+          color: Math.random() > 0.4 ? 'rgba(16, 185, 129, 0.85)' : 'rgba(6, 182, 212, 0.85)'
         });
       }
 
@@ -840,7 +849,7 @@
             const dist = Math.sqrt(dx * dx + dy * dy);
 
             if (dist < 130) {
-              ctx.strokeStyle = `rgba(34, 197, 94, ${0.22 * (1 - dist / 130)})`;
+              ctx.strokeStyle = `rgba(16, 185, 129, ${0.22 * (1 - dist / 130)})`;
               ctx.lineWidth = 0.9;
               ctx.beginPath();
               ctx.moveTo(nodes[i].x, nodes[i].y);
@@ -863,8 +872,8 @@
           ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
           ctx.fill();
 
-          // Subtle glow around nodes
-          ctx.fillStyle = 'rgba(34, 197, 94, 0.08)';
+          // Ambient subtle glow around nodes
+          ctx.fillStyle = 'rgba(16, 185, 129, 0.08)';
           ctx.beginPath();
           ctx.arc(p.x, p.y, p.radius * 4, 0, Math.PI * 2);
           ctx.fill();
@@ -1105,7 +1114,7 @@
       soundEngine.playOptionClickSFX();
 
       const parent = element.parentElement;
-      parent.querySelectorAll('.dark-card').forEach(c => {
+      parent.querySelectorAll('.pure-white-card').forEach(c => {
         c.classList.remove('is-active');
         const dot = c.querySelector('.radio-dot');
         if (dot) dot.innerHTML = '';
@@ -1114,7 +1123,7 @@
       element.classList.add('is-active');
       const dot = element.querySelector('.radio-dot');
       if (dot) {
-        dot.innerHTML = '<div class="w-2.5 h-2.5 rounded-full bg-green-400 mx-auto mt-0.5 shadow-md shadow-green-400"></div>';
+        dot.innerHTML = '<div class="w-2.5 h-2.5 rounded-full bg-emerald-600 mx-auto mt-0.5 shadow-md shadow-emerald-600"></div>';
       }
 
       // Smooth auto advance in 240ms with sound effect
@@ -1178,6 +1187,7 @@
         `Mujhe is plan par advance token lock karke kaam start karna hai.`
       );
 
+      // Connects to your agency WhatsApp number
       const waUrl = `https://wa.me/919999999999?text=${msg}`;
 
       document.getElementById('vipName').innerText = session.clientName;
