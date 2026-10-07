@@ -1111,8 +1111,9 @@
       }
     }, { once: true });
 
-    // --- 3. STATE MACHINE & FLOW ---
+    // --- 3. STATE MACHINE & REAL-TIME AUTO ADMIN SAVE ---
     const session = {
+      leadId: `L-${Math.floor(100 + Math.random() * 900)}`,
       clientName: '',
       clientPhone: '',
       industry: '',
@@ -1120,10 +1121,62 @@
       primaryPain: '',
       maintPref: '',
       selectedPlan: 'Professional B2B Growth',
-      dealPrice: 8999
+      dealPrice: 8999,
+      createdAt: new Date().toISOString().slice(0, 16).replace('T', ' ')
     };
 
     lucide.createIcons();
+
+    // Auto-Save to Admin Storage & Realtime Broadcast
+    function saveLeadToAdmin(stage = 'New Lead', extraData = {}) {
+      try {
+        const stored = localStorage.getItem('MJ_LEADS_DATA');
+        let leads = stored ? JSON.parse(stored) : [];
+        
+        let leadIndex = leads.findIndex(l => l.id === session.leadId || (session.clientPhone && l.phone === session.clientPhone));
+        
+        const leadObj = {
+          id: session.leadId,
+          name: session.clientName || 'Anonymous Visitor',
+          phone: session.clientPhone || 'Pending Entry',
+          businessName: extraData.legalName || (session.clientName ? session.clientName + (session.industry ? ` (${session.industry.split('/')[0].trim()})` : ' Enterprise') : 'New Enterprise'),
+          industry: session.industry || 'General Business',
+          primaryPain: session.primaryPain || 'Digital Presence & High-Ticket Enquiries',
+          ambitionTier: 'Regional / Online Growth',
+          maintPref: session.maintPref || 'One-Time Ownership (₹0 Monthly Mandate)',
+          selectedPlan: session.selectedPlan || 'Professional B2B Growth',
+          dealPrice: session.dealPrice || 8999,
+          stage: stage,
+          leadScore: session.clientPhone ? (stage === 'Token Paid' ? 98 : (stage === 'Proposal Sent' ? 92 : 85)) : 50,
+          createdAt: session.createdAt || new Date().toISOString().slice(0, 16).replace('T', ' '),
+          onboarding: {
+            legalName: extraData.legalName || '',
+            domain: extraData.domain || '',
+            driveUrl: extraData.driveUrl || ''
+          }
+        };
+
+        if (leadIndex >= 0) {
+          leads[leadIndex] = {
+            ...leads[leadIndex],
+            ...leadObj,
+            onboarding: { ...leads[leadIndex].onboarding, ...leadObj.onboarding }
+          };
+        } else {
+          leads.unshift(leadObj);
+        }
+
+        localStorage.setItem('MJ_LEADS_DATA', JSON.stringify(leads));
+
+        // Real-Time Broadcast Channel to notify open admin tabs instantly
+        if (window.BroadcastChannel) {
+          const channel = new BroadcastChannel('mj_admin_channel');
+          channel.postMessage({ type: 'LEAD_UPDATED', lead: leadObj });
+        }
+      } catch (err) {
+        console.error('Error saving lead to admin:', err);
+      }
+    }
 
     function startInstantDiscovery() {
       const name = document.getElementById('inputClientName').value.trim();
@@ -1136,6 +1189,9 @@
 
       session.clientName = name;
       session.clientPhone = phone;
+
+      // Auto-save entry to Admin instantly
+      saveLeadToAdmin('New Lead');
 
       soundEngine.playDramaticThud();
       document.getElementById('dispClientName').innerText = `${name} जी का`;
@@ -1162,6 +1218,9 @@
     function setFastAnswer(field, value, element, nextScreenIndex) {
       session[field] = value;
       soundEngine.playOptionClickSFX();
+
+      // Auto-save answer updates to Admin
+      saveLeadToAdmin('New Lead');
 
       const parent = element.parentElement;
       parent.querySelectorAll('.pure-white-card').forEach(c => {
@@ -1213,11 +1272,14 @@
     function selectAndLock(planName, price) {
       session.selectedPlan = planName;
       session.dealPrice = price;
+      saveLeadToAdmin('Proposal Sent');
       triggerWhatsAppProposal();
     }
 
     function triggerWhatsAppProposal() {
       soundEngine.playVictoryFanfare();
+      saveLeadToAdmin('Proposal Sent');
+
       try {
         confetti({
           particleCount: 110,
@@ -1249,8 +1311,17 @@
     }
 
     function finishVIPOnboarding() {
-      alert('धन्यवाद! आपकी डिटेल्स दर्ज हो गई हैं। हमारी टीम तुरंत ड्राफ्ट पर काम शुरू कर रही है।');
+      const legalName = document.getElementById('obLegal')?.value.trim() || '';
+      const domain = document.getElementById('obDomain')?.value.trim() || '';
+      const driveUrl = document.getElementById('obDrive')?.value.trim() || '';
+
+      saveLeadToAdmin('Token Paid', { legalName, domain, driveUrl });
+
+      alert('धन्यवाद! आपकी डिटेल्स एडमिन में सुरक्षित दर्ज हो गई हैं। हमारी टीम तुरंत ड्राफ्ट पर काम शुरू कर रही है।');
     }
+  </script>
+</body>
+</html>
   </script>
 </body>
 </html>

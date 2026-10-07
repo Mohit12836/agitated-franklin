@@ -571,14 +571,54 @@
     let selectedLead = leadsData[0];
     let currentFilter = 'all';
 
-    // Initialize
+    // Initialize & Real-Time Auto Sync
     document.addEventListener('DOMContentLoaded', () => {
       lucide.createIcons();
       loadStoredData();
       renderLeads();
       renderDossier(selectedLead);
       initCharts();
+      updateKPIStats();
+
+      // Listen for Live Updates across browser tabs
+      if (window.BroadcastChannel) {
+        const channel = new BroadcastChannel('mj_admin_channel');
+        channel.onmessage = (event) => {
+          if (event.data && (event.data.type === 'LEAD_UPDATED' || event.data.type === 'NEW_LEAD_SAVED')) {
+            loadStoredData();
+            renderLeads();
+            updateKPIStats();
+            showLiveToast(`🔔 नई लीड प्राप्त: ${event.data.lead.name} (${event.data.lead.phone})`);
+          }
+        };
+      }
+
+      window.addEventListener('storage', (e) => {
+        if (e.key === 'MJ_LEADS_DATA') {
+          loadStoredData();
+          renderLeads();
+          updateKPIStats();
+        }
+      });
     });
+
+    function showLiveToast(text) {
+      const toast = document.createElement('div');
+      toast.className = 'fixed bottom-5 right-5 z-50 bg-emerald-600 text-white px-4 py-3 rounded-2xl shadow-2xl flex items-center gap-2 text-xs font-bold animate-bounce';
+      toast.innerHTML = `<i data-lucide="zap" class="w-4 h-4"></i> <span>${text}</span>`;
+      document.body.appendChild(toast);
+      lucide.createIcons();
+      setTimeout(() => toast.remove(), 4000);
+    }
+
+    function updateKPIStats() {
+      const total = leadsData.length;
+      const proposals = leadsData.filter(l => l.stage === 'Proposal Sent' || l.stage === 'Token Paid' || l.stage === 'In Production' || l.stage === 'Live & Retained').length;
+      const statTotal = document.getElementById('statTotalLeads');
+      const statProp = document.getElementById('statProposals');
+      if (statTotal) statTotal.innerText = total;
+      if (statProp) statProp.innerText = proposals;
+    }
 
     function loadStoredData() {
       const storedLeads = localStorage.getItem('MJ_LEADS_DATA');
@@ -592,6 +632,7 @@
 
     function saveLeadsData() {
       localStorage.setItem('MJ_LEADS_DATA', JSON.stringify(leadsData));
+      updateKPIStats();
     }
 
     function switchTab(tabId) {
