@@ -46,6 +46,34 @@
   </script>
 
   <style>
+    :root {
+      --bg-main: #060911;
+      --bg-sidebar: rgba(10, 15, 29, 0.95);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --card-bg: linear-gradient(145deg, rgba(14, 22, 41, 0.85) 0%, rgba(10, 15, 28, 0.95) 100%);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --input-bg: rgba(0, 0, 0, 0.4);
+      --input-border: rgba(255, 255, 255, 0.1);
+      --input-text: #ffffff;
+      --panel-inner: rgba(0, 0, 0, 0.35);
+      --kpi-bg: linear-gradient(145deg, rgba(14, 22, 41, 0.85) 0%, rgba(10, 15, 28, 0.95) 100%);
+    }
+
+    html.light {
+      --bg-main: #f1f5f9;
+      --bg-sidebar: #ffffff;
+      --border-color: #e2e8f0;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --input-bg: #f8fafc;
+      --input-border: #cbd5e1;
+      --input-text: #0f172a;
+      --panel-inner: #f8fafc;
+      --kpi-bg: #ffffff;
+    }
+
     *, *::before, *::after {
       box-sizing: border-box;
       margin: 0;
@@ -55,30 +83,52 @@
     html, body {
       max-width: 100%;
       overflow-x: clip;
-      background-color: #060911;
-      color: #e2e8f0;
+      background-color: var(--bg-main);
+      color: var(--text-main);
       font-family: 'Plus Jakarta Sans', sans-serif;
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
 
     .glass-sidebar {
-      background: rgba(10, 15, 29, 0.95);
+      background: var(--bg-sidebar);
       backdrop-filter: blur(16px);
-      border-right: 1px solid rgba(255, 255, 255, 0.08);
+      border-right: 1px solid var(--border-color);
+      transition: all 0.3s ease;
     }
 
     .glass-card {
-      background: linear-gradient(145deg, rgba(14, 22, 41, 0.85) 0%, rgba(10, 15, 28, 0.95) 100%);
-      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
       transition: all 0.2s ease;
     }
+    html.light .glass-card {
+      box-shadow: 0 4px 15px -2px rgba(0, 0, 0, 0.05), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
+    }
     .glass-card:hover {
-      border-color: rgba(74, 222, 128, 0.3);
+      border-color: rgba(74, 222, 128, 0.4);
+    }
+
+    html.light .text-white { color: #0f172a !important; }
+    html.light .text-gray-200 { color: #1e293b !important; }
+    html.light .text-gray-300 { color: #334155 !important; }
+    html.light .text-gray-400 { color: #64748b !important; }
+    html.light .bg-black\/40 { background-color: #f8fafc !important; border-color: #e2e8f0 !important; }
+    html.light .bg-white\/5 { background-color: #f1f5f9 !important; }
+    html.light .border-white\/5, html.light .border-white\/10 { border-color: #e2e8f0 !important; }
+    html.light input, html.light textarea, html.light select {
+      background-color: #f8fafc !important;
+      border-color: #cbd5e1 !important;
+      color: #0f172a !important;
     }
 
     .nav-btn.active {
       background: linear-gradient(90deg, rgba(34, 197, 94, 0.15) 0%, rgba(34, 197, 94, 0.02) 100%);
       border-left: 3px solid #22c55e;
-      color: #4ade80;
+      color: #16a34a !important;
+    }
+    html.light .nav-btn.active {
+      background: #ecfdf5 !important;
+      color: #059669 !important;
     }
 
     .stage-badge {
@@ -92,12 +142,12 @@
 
     /* Custom scrollbars */
     ::-webkit-scrollbar { width: 5px; height: 5px; }
-    ::-webkit-scrollbar-track { background: #060911; }
-    ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 999px; }
-    ::-webkit-scrollbar-thumb:hover { background: #334155; }
+    ::-webkit-scrollbar-track { background: var(--bg-main); }
+    ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 999px; }
+    ::-webkit-scrollbar-thumb:hover { background: #64748b; }
   </style>
 </head>
-<body class="min-h-screen flex flex-col md:flex-row bg-[#060911]">
+<body class="min-h-screen flex flex-col md:flex-row">
 
   <!-- ================================================================= -->
   <!-- 1. LEFT SIDEBAR NAVIGATION                                        -->
@@ -173,6 +223,13 @@
 
       <!-- Global Controls -->
       <div class="flex items-center gap-2.5">
+        
+        <!-- Dark / Light Theme Toggle -->
+        <button onclick="toggleTheme()" id="themeToggleBtn" class="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs text-gray-200 transition">
+          <i data-lucide="sun" id="themeIcon" class="w-3.5 h-3.5 text-amber-400"></i>
+          <span id="themeLabel">Light Mode</span>
+        </button>
+
         <button onclick="syncAllData()" class="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs text-gray-200 transition">
           <i data-lucide="refresh-cw" class="w-3.5 h-3.5 text-green-400"></i>
           <span>Sync All (Sheet & Drive)</span>
@@ -571,8 +628,48 @@
     let selectedLead = leadsData[0];
     let currentFilter = 'all';
 
+    // Theme Management (Dark / Light Mode)
+    function initTheme() {
+      const savedTheme = localStorage.getItem('MJ_ADMIN_THEME') || 'dark';
+      applyTheme(savedTheme);
+    }
+
+    function toggleTheme() {
+      const isLight = document.documentElement.classList.contains('light');
+      const nextTheme = isLight ? 'dark' : 'light';
+      applyTheme(nextTheme);
+      localStorage.setItem('MJ_ADMIN_THEME', nextTheme);
+    }
+
+    function applyTheme(theme) {
+      const icon = document.getElementById('themeIcon');
+      const label = document.getElementById('themeLabel');
+      
+      if (theme === 'light') {
+        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.add('light');
+        if (label) label.innerText = 'Dark Mode';
+        if (icon) {
+          icon.setAttribute('data-lucide', 'moon');
+          icon.classList.remove('text-amber-400');
+          icon.classList.add('text-indigo-400');
+        }
+      } else {
+        document.documentElement.classList.remove('light');
+        document.documentElement.classList.add('dark');
+        if (label) label.innerText = 'Light Mode';
+        if (icon) {
+          icon.setAttribute('data-lucide', 'sun');
+          icon.classList.remove('text-indigo-400');
+          icon.classList.add('text-amber-400');
+        }
+      }
+      lucide.createIcons();
+    }
+
     // Initialize & Real-Time Auto Sync
     document.addEventListener('DOMContentLoaded', () => {
+      initTheme();
       lucide.createIcons();
       loadStoredData();
       renderLeads();
